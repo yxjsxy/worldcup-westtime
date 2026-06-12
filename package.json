@@ -1,0 +1,17 @@
+{
+  "name": "worldcup-westtime",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "update:schedule": "node scripts/update_schedule.mjs"
+  },
+  "dependencies": {
+    "vite": "^7.3.1",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {}
+}
