@@ -16,14 +16,7 @@ import {
 const app = document.querySelector<HTMLDivElement>("#app");
 const deployLabel = `Deployed in ${
   import.meta.env.VITE_DEPLOYED_AT ||
-  new Intl.DateTimeFormat("en-US", {
-    timeZone: "America/Los_Angeles",
-    hour: "2-digit",
-    minute: "2-digit",
-    month: "short",
-    day: "numeric",
-    hour12: false,
-  }).format(new Date())
+  "pending Vercel deploy"
 }`;
 
 function escapeHtml(value: string | number | null | undefined): string {
@@ -160,6 +153,37 @@ function renderResults(matches: Match[]): string {
   `;
 }
 
+function renderFreshness(payload: SchedulePayload): string {
+  const generatedAt = new Date(payload.generatedAt);
+  const ageHours = (Date.now() - generatedAt.getTime()) / (1000 * 60 * 60);
+  const updated = generatedAt.toLocaleString("en-US", { timeZone: "America/Los_Angeles" });
+
+  if (Number.isNaN(ageHours)) {
+    return `
+      <section class="freshness warning">
+        <strong>Schedule freshness</strong>
+        <span>数据更新时间无法解析，请检查 schedule.json。</span>
+      </section>
+    `;
+  }
+
+  if (ageHours > 30) {
+    return `
+      <section class="freshness warning">
+        <strong>Schedule freshness</strong>
+        <span>数据可能已过期，上次更新 ${escapeHtml(updated)} PT。请检查 08:00 自动刷新。</span>
+      </section>
+    `;
+  }
+
+  return `
+    <section class="freshness">
+      <strong>Schedule freshness</strong>
+      <span>Updated ${escapeHtml(updated)} PT</span>
+    </section>
+  `;
+}
+
 function render(payload: SchedulePayload): void {
   if (!app) return;
   const today = getPacificDate();
@@ -201,6 +225,7 @@ function render(payload: SchedulePayload): void {
       <div><strong>${knockoutMatches.length}</strong><span>Knockout</span></div>
     </section>
 
+    ${renderFreshness(payload)}
     ${renderToday(todayMatches, today)}
     ${renderResults(recentResults)}
     ${renderKnockout(knockoutMatches)}
@@ -210,7 +235,6 @@ function render(payload: SchedulePayload): void {
       <span>Source: <a href="${escapeHtml(payload.sourceUrl)}" target="_blank" rel="noreferrer">${escapeHtml(
         payload.source,
       )}</a></span>
-      <span>Updated ${escapeHtml(new Date(payload.generatedAt).toLocaleString("en-US", { timeZone: "America/Los_Angeles" }))} PT</span>
       <span>${escapeHtml(deployLabel)}</span>
     </footer>
   `;

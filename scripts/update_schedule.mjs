@@ -1,11 +1,12 @@
 #!/usr/bin/env node
-import { mkdir, writeFile } from "node:fs/promises";
+import { copyFile, mkdir, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
 const outFile = path.join(root, "public", "schedule.json");
+const backupFile = path.join(root, "public", "schedule.previous.json");
 const sourceUrl = "https://www.matchesio.com/competition/world-cup/export/json/";
 const timezone = "America/Los_Angeles";
 const dryRun = process.argv.includes("--dry-run");
@@ -123,13 +124,22 @@ function normalize(rawMatches) {
   };
 }
 
+function validatePayload(payload) {
+  if (payload.matches.length !== 104) {
+    throw new Error(`expected exactly 104 matches, got ${payload.matches.length}`);
+  }
+
+  for (const stage of ["Round of 32", "Round of 16", "Quarter-finals", "Semi-finals", "Final"]) {
+    if (!payload.matches.some((match) => match.stage.includes(stage))) {
+      throw new Error(`missing knockout stage: ${stage}`);
+    }
+  }
+}
+
 async function main() {
   const raw = await fetchSource();
   const payload = normalize(raw);
-
-  if (payload.matches.length < 100) {
-    throw new Error(`expected 104 matches, got ${payload.matches.length}`);
-  }
+  validatePayload(payload);
 
   if (dryRun) {
     const today = payload.matches.filter((match) => match.localDate === "2026-06-12");
@@ -138,6 +148,12 @@ async function main() {
   }
 
   await mkdir(path.dirname(outFile), { recursive: true });
+  try {
+    await stat(outFile);
+    await copyFile(outFile, backupFile);
+  } catch {
+    // First run has no previous snapshot to preserve.
+  }
   await writeFile(outFile, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
   console.log(`wrote ${payload.matches.length} matches to ${outFile}`);
 }

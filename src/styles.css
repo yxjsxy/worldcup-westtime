@@ -104,7 +104,8 @@ h1 {
 
 .next-card,
 .panel,
-.stats {
+.stats,
+.freshness {
   border: 1px solid rgba(15, 23, 42, 0.1);
   background: rgba(255, 255, 255, 0.84);
   box-shadow: 0 18px 60px rgba(15, 23, 42, 0.08);
@@ -145,6 +146,36 @@ h1 {
 .stats span {
   color: #64748b;
   font-size: 13px;
+}
+
+.freshness {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 18px;
+  padding: 14px 18px;
+  border-radius: 8px;
+  color: #334155;
+}
+
+.freshness strong {
+  white-space: nowrap;
+}
+
+.freshness span {
+  color: #64748b;
+  text-align: right;
+}
+
+.freshness.warning {
+  border-color: rgba(185, 28, 28, 0.24);
+  background: #fef2f2;
+  color: #7f1d1d;
+}
+
+.freshness.warning span {
+  color: #991b1b;
 }
 
 .panel {
@@ -359,6 +390,15 @@ footer {
   .stats {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .freshness {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .freshness span {
+    text-align: left;
   }
 
   .match {
