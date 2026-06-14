@@ -28,8 +28,11 @@ function escapeHtml(value: string | number | null | undefined): string {
     .replaceAll("'", "&#039;");
 }
 
+function getMatchLocation(match: Match): string {
+  return [match.city, match.stadium].filter(Boolean).join(" · ") || "Venue TBD";
+}
+
 function renderMatch(match: Match, tone: "today" | "future" | "result" = "future"): string {
-  const location = [match.city, match.stadium].filter(Boolean).join(" · ") || "Venue TBD";
   const statusLabel = match.result ? match.result : match.status;
   const statusClass = match.status === "Played" ? "played" : match.isPlaceholder ? "placeholder" : "scheduled";
   return `
@@ -44,7 +47,7 @@ function renderMatch(match: Match, tone: "today" | "future" | "result" = "future
           <span>${escapeHtml(match.localDay)}</span>
         </div>
         <h3>${escapeHtml(getMatchTitle(match))}</h3>
-        <p>${escapeHtml(location)}</p>
+        <p><span>City / venue</span>${escapeHtml(getMatchLocation(match))}</p>
       </div>
       <div class="status ${statusClass}">${escapeHtml(statusLabel)}</div>
     </article>
@@ -129,6 +132,7 @@ function renderKnockout(matches: Match[]): string {
             <span>${escapeHtml(match.stage)}</span>
             <strong>${escapeHtml(match.localDate)} ${escapeHtml(match.localTime)} PT</strong>
             <p>${escapeHtml(getMatchTitle(match))}</p>
+            <small class="knockout-location">City / venue · ${escapeHtml(getMatchLocation(match))}</small>
           </article>
         `,
           )
@@ -211,7 +215,7 @@ function render(payload: SchedulePayload): void {
             nextMatch
               ? `<strong>${escapeHtml(nextMatch.localDate)} ${escapeHtml(nextMatch.localTime)} PT</strong><p>${escapeHtml(
                   getMatchTitle(nextMatch),
-                )}</p>`
+                )}</p><small class="next-location">City / venue · ${escapeHtml(getMatchLocation(nextMatch))}</small>`
               : "<strong>All matches complete</strong><p>World Cup 2026 has wrapped.</p>"
           }
         </aside>

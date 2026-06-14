@@ -11,6 +11,41 @@ const sourceUrl = "https://www.matchesio.com/competition/world-cup/export/json/"
 const timezone = "America/Los_Angeles";
 const dryRun = process.argv.includes("--dry-run");
 
+const knockoutVenueFallbacks = [
+  ["Los Angeles", "SoFi Stadium"],
+  ["Boston", "Gillette Stadium"],
+  ["Monterrey", "Estadio BBVA"],
+  ["Houston", "NRG Stadium"],
+  ["New York New Jersey", "MetLife Stadium"],
+  ["Dallas", "AT&T Stadium"],
+  ["Mexico City", "Estadio Azteca"],
+  ["Atlanta", "Mercedes-Benz Stadium"],
+  ["San Francisco Bay Area", "Levi's Stadium"],
+  ["Seattle", "Lumen Field"],
+  ["Toronto", "BMO Field"],
+  ["Los Angeles", "SoFi Stadium"],
+  ["Vancouver", "BC Place"],
+  ["Miami", "Hard Rock Stadium"],
+  ["Kansas City", "Arrowhead Stadium"],
+  ["Dallas", "AT&T Stadium"],
+  ["Philadelphia", "Lincoln Financial Field"],
+  ["Houston", "NRG Stadium"],
+  ["New York New Jersey", "MetLife Stadium"],
+  ["Mexico City", "Estadio Azteca"],
+  ["Dallas", "AT&T Stadium"],
+  ["Seattle", "Lumen Field"],
+  ["Atlanta", "Mercedes-Benz Stadium"],
+  ["Vancouver", "BC Place"],
+  ["Boston", "Gillette Stadium"],
+  ["Los Angeles", "SoFi Stadium"],
+  ["Miami", "Hard Rock Stadium"],
+  ["Kansas City", "Arrowhead Stadium"],
+  ["Dallas", "AT&T Stadium"],
+  ["Atlanta", "Mercedes-Benz Stadium"],
+  ["Miami", "Hard Rock Stadium"],
+  ["New York New Jersey", "MetLife Stadium"],
+];
+
 const nameMap = new Map([
   ["USA", "United States"],
   ["Congo DR", "DR Congo"],
@@ -114,6 +149,15 @@ function normalize(rawMatches) {
   });
 
   matches.sort((a, b) => Date.parse(a.utcStart) - Date.parse(b.utcStart));
+  let knockoutVenueIndex = 0;
+  for (const match of matches) {
+    if (!match.isKnockout) continue;
+    const fallback = knockoutVenueFallbacks[knockoutVenueIndex];
+    if (fallback && (!match.city || !match.stadium)) {
+      [match.city, match.stadium] = fallback;
+    }
+    knockoutVenueIndex += 1;
+  }
 
   return {
     generatedAt: new Date().toISOString(),
@@ -133,6 +177,11 @@ function validatePayload(payload) {
     if (!payload.matches.some((match) => match.stage.includes(stage))) {
       throw new Error(`missing knockout stage: ${stage}`);
     }
+  }
+
+  const missingVenue = payload.matches.filter((match) => !match.city || !match.stadium);
+  if (missingVenue.length > 0) {
+    throw new Error(`matches missing venue: ${missingVenue.map((match) => match.id).join(", ")}`);
   }
 }
 
