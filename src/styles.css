@@ -350,12 +350,6 @@ h1 {
   background: #f8fafc;
 }
 
-.goal-side {
-  font-size: 10px;
-  font-weight: 900;
-  letter-spacing: 0;
-}
-
 .goal-events strong {
   color: currentColor;
 }

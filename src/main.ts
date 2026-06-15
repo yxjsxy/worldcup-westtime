@@ -50,10 +50,8 @@ function renderGoalEvents(match: Match): string {
       ${goals
         .map((goal) => {
           const side = getGoalSide(match, goal.team);
-          const sideLabel = side === "home" ? "左队" : side === "away" ? "右队" : "进球";
           return `
         <span class="goal ${side}">
-          <b class="goal-side ${side}">${sideLabel}</b>
           <strong>${escapeHtml(goal.minute)}</strong>
           ${escapeHtml(goal.playerZh)}
           ${goal.note ? `<em>${escapeHtml(goal.note)}</em>` : ""}

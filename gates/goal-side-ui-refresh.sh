@@ -8,9 +8,10 @@ cd "$(dirname "$0")/.."
 npm run build
 
 grep -q 'getGoalSide' src/main.ts
-grep -q 'goal-side' src/main.ts
-grep -q '左队' src/main.ts
-grep -q '右队' src/main.ts
+if rg -q 'goal-side|左队|右队' src/main.ts; then
+  echo "FAIL: goal side labels should not render" >&2
+  exit 1
+fi
 grep -q 'goal.home' src/styles.css
 grep -q 'goal.away' src/styles.css
 grep -q 'World Cup pulse' src/main.ts
