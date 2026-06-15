@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T15:00:11.576Z",
+  "generatedAt": "2026-06-15T15:00:10.607Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -170,8 +170,8 @@
       "awayTeam": "Curaçao",
       "city": "Houston",
       "stadium": "NRG Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Played",
+      "result": "7–1",
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -187,10 +187,10 @@
       "localDay": "Sun, Jun 14",
       "homeTeam": "Netherlands",
       "awayTeam": "Japan",
-      "city": "Dallas",
+      "city": "Arlington",
       "stadium": "AT&T Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Played",
+      "result": "2–2",
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -208,8 +208,8 @@
       "awayTeam": "Ecuador",
       "city": "Philadelphia",
       "stadium": "Lincoln Financial Field",
-      "status": "To be played",
-      "result": null,
+      "status": "Played",
+      "result": "1–0",
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -227,8 +227,8 @@
       "awayTeam": "Tunisia",
       "city": "Monterrey",
       "stadium": "Estadio BBVA",
-      "status": "To be played",
-      "result": null,
+      "status": "Played",
+      "result": "5–1",
       "isKnockout": false,
       "isPlaceholder": false
     },
