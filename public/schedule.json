@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T21:31:38.535Z",
+  "generatedAt": "2026-06-15T22:30:12.162Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -556,8 +556,8 @@
       "awayTeam": "Uruguay",
       "city": "Miami Gardens",
       "stadium": "Hard Rock Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–0",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
