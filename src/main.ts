@@ -32,6 +32,12 @@ function getMatchLocation(match: Match): string {
   return [match.city, match.stadium].filter(Boolean).join(" · ") || "Venue TBD";
 }
 
+function getGoalSide(match: Match, goalTeam: string): "home" | "away" | "neutral" {
+  if (goalTeam === match.homeTeam) return "home";
+  if (goalTeam === match.awayTeam) return "away";
+  return "neutral";
+}
+
 function renderGoalEvents(match: Match): string {
   if (match.status !== "Played") return "";
   const goals = match.goalEvents || [];
@@ -42,15 +48,18 @@ function renderGoalEvents(match: Match): string {
   return `
     <div class="goal-events">
       ${goals
-        .map(
-          (goal) => `
-        <span>
+        .map((goal) => {
+          const side = getGoalSide(match, goal.team);
+          const sideLabel = side === "home" ? "左队" : side === "away" ? "右队" : "进球";
+          return `
+        <span class="goal ${side}">
+          <b class="goal-side ${side}">${sideLabel}</b>
           <strong>${escapeHtml(goal.minute)}</strong>
           ${escapeHtml(goal.playerZh)}
           ${goal.note ? `<em>${escapeHtml(goal.note)}</em>` : ""}
         </span>
-      `,
-        )
+      `;
+        })
         .join("")}
     </div>
   `;
@@ -230,9 +239,9 @@ function render(payload: SchedulePayload): void {
       </nav>
       <div class="hero-grid">
         <section>
-          <p class="eyebrow">America/Los_Angeles schedule</p>
+          <p class="eyebrow">World Cup pulse · America/Los_Angeles</p>
           <h1>世界杯消息同步</h1>
-          <p class="subtitle">今日赛程、未来赛程、赛果与淘汰赛占位统一按美西时间展示。</p>
+          <p class="subtitle">今日赛程、赛果、进球时间与淘汰赛进度按美西时间同步，打开就是比赛现场感。</p>
         </section>
         <aside class="next-card">
           <span>Next kickoff</span>

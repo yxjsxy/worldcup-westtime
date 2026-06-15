@@ -296,7 +296,7 @@ function matchEspnEvent(match, events) {
   });
 }
 
-function parseGoalEvent(event) {
+function parseGoalEvent(match, event) {
   const type = event.type?.text || "";
   if (!/Goal|Penalty - Scored|Own Goal/i.test(type)) return null;
   const minute = event.clock?.displayValue || "";
@@ -307,7 +307,10 @@ function parseGoalEvent(event) {
 
   const ownGoal = text.match(/^Own Goal by ([^,]+), ([^.]+)\./);
   if (ownGoal) {
-    [, player, team] = ownGoal;
+    let playerTeam;
+    [, player, playerTeam] = ownGoal;
+    const normalizedPlayerTeam = normalizeTeam(playerTeam.trim());
+    team = normalizedPlayerTeam === match.homeTeam ? match.awayTeam : match.homeTeam;
     note = "乌龙";
   } else {
     const scorer = text.match(/\. ([^(]+) \(([^)]+)\)/);
@@ -340,7 +343,7 @@ async function enrichGoalEvents(matches) {
     }
 
     const summary = await fetchEspnSummary(espnEvent.id);
-    const parsed = (summary?.keyEvents || []).map(parseGoalEvent).filter(Boolean);
+    const parsed = (summary?.keyEvents || []).map((event) => parseGoalEvent(match, event)).filter(Boolean);
     match.goalEvents = parsed.length > 0 ? parsed : knownGoalEvents.get(match.id) || [];
   }
 }
