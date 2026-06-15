@@ -3,3 +3,4 @@ dist/
 .harness/
 .DS_Store
 .vercel/
+.vercel
