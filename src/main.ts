@@ -38,10 +38,15 @@ function getGoalSide(match: Match, goalTeam: string): "home" | "away" | "neutral
   return "neutral";
 }
 
+function isScorelessDraw(match: Match): boolean {
+  return /^0[–-]0$/.test((match.result || "").trim());
+}
+
 function renderGoalEvents(match: Match): string {
   if (match.status !== "Played") return "";
   const goals = match.goalEvents || [];
   if (goals.length === 0) {
+    if (isScorelessDraw(match)) return "";
     return `<div class="goal-events muted">进球详情待同步</div>`;
   }
 
