@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T21:00:19.289Z",
+  "generatedAt": "2026-06-15T21:31:38.535Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -522,9 +522,23 @@
       "awayTeam": "Egypt",
       "city": "Seattle",
       "stadium": "Lumen Field",
-      "status": "Live",
+      "status": "Played",
       "result": "1–1",
-      "goalEvents": [],
+      "goalEvents": [
+        {
+          "minute": "19'",
+          "team": "Egypt",
+          "player": "Emam Ashour",
+          "playerZh": "埃马姆·阿舒尔"
+        },
+        {
+          "minute": "66'",
+          "team": "Belgium",
+          "player": "Mohamed Hany",
+          "playerZh": "穆罕默德·哈尼",
+          "note": "乌龙"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -540,7 +554,7 @@
       "localDay": "Mon, Jun 15",
       "homeTeam": "Saudi Arabia",
       "awayTeam": "Uruguay",
-      "city": "Miami",
+      "city": "Miami Gardens",
       "stadium": "Hard Rock Stadium",
       "status": "To be played",
       "result": null,

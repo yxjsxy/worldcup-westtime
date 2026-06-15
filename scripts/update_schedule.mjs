@@ -100,6 +100,8 @@ const playerNameZh = new Map([
   ["Keito Nakamura", "中村敬斗"],
   ["Crysencio Summerville", "克里森西奥·萨默维尔"],
   ["Daichi Kamada", "镰田大地"],
+  ["Emam Ashour", "埃马姆·阿舒尔"],
+  ["Mohamed Hany", "穆罕默德·哈尼"],
 ]);
 
 const knownGoalEvents = new Map([
