@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T18:45:18.452Z",
+  "generatedAt": "2026-06-15T19:30:10.856Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -522,8 +522,8 @@
       "awayTeam": "Egypt",
       "city": "Seattle",
       "stadium": "Lumen Field",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–1",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
