@@ -147,7 +147,7 @@ function renderKnockout(matches: Match[]): string {
           <p>淘汰赛进度</p>
           <h2>${resolved}/${matches.length} 对阵已确定</h2>
         </div>
-        <span class="count">Daily 08:00 refresh</span>
+        <span class="count">赛后自动刷新</span>
       </div>
       <div class="knockout-grid">
         ${visible
@@ -200,7 +200,7 @@ function renderFreshness(payload: SchedulePayload): string {
     return `
       <section class="freshness warning">
         <strong>Schedule freshness</strong>
-        <span>数据可能已过期，上次更新 ${escapeHtml(updated)} PT。请检查 08:00 自动刷新。</span>
+        <span>数据可能已过期，上次更新 ${escapeHtml(updated)} PT。请检查赛后自动刷新。</span>
       </section>
     `;
   }

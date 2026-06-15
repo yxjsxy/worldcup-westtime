@@ -13,7 +13,7 @@ World Cup schedules are usually published in venue time, ET, or UTC. Karl mainly
 - Recent results panel.
 - Knockout progress panel that starts with TBD placeholders and updates as the data source resolves teams.
 - Static `public/schedule.json` data for fast Vercel hosting.
-- `scripts/update_schedule.mjs` refresh command for the daily 08:00 cron.
+- `scripts/update_schedule.mjs` refresh command for the match-end refresh cron.
 
 ## Data Source
 
@@ -41,13 +41,13 @@ bash gates/worldcup-westtime-mvp.sh
 
 ## Deploy
 
-Target: Vercel static app, then add to KarlHub as `WorldCup WestTime`.
+Target: Vercel static app, linked from KarlHub as `WorldCup WestTime`.
 
-The daily update flow should run:
+The match-end update flow should run after each scheduled kickoff plus match duration buffer:
 
 ```bash
 cd ~/Documents/vibe_coding/worldcup-westtime
 npm run update:schedule
-npm run build
-vercel --prod --yes
+bash ~/.openclaw/workspace/scripts/coding_harness.sh gates/worldcup-westtime-mvp.sh 3
+VITE_DEPLOYED_AT="$(date '+%H:%M %b %d')" vercel --prod --yes --build-env VITE_DEPLOYED_AT="$(date '+%H:%M %b %d')"
 ```

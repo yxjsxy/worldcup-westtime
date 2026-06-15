@@ -48,9 +48,58 @@ const knockoutVenueFallbacks = [
 
 const nameMap = new Map([
   ["USA", "United States"],
+  ["Korea Republic", "South Korea"],
+  ["Bosnia-Herzegovina", "Bosnia & Herzegovina"],
+  ["Côte d'Ivoire", "Ivory Coast"],
   ["Congo DR", "DR Congo"],
   ["Cape Verde Islands", "Cape Verde"],
   ["Czech Republic", "Czechia"],
+]);
+
+const teamAliases = new Map([
+  ["usa", "unitedstates"],
+  ["korearepublic", "southkorea"],
+  ["bosniaherzegovina", "bosniaherzegovina"],
+  ["cotedivoire", "ivorycoast"],
+  ["czechrepublic", "czechia"],
+]);
+
+const playerNameZh = new Map([
+  ["Julián Quiñones", "胡利安·基尼奥内斯"],
+  ["Raúl Jiménez", "劳尔·希门尼斯"],
+  ["Ladislav Krejcí", "拉迪斯拉夫·克雷伊奇"],
+  ["Hwang In-Beom", "黄仁范"],
+  ["Oh Hyeon-Gyu", "吴贤揆"],
+  ["Jovo Lukic", "约沃·卢基奇"],
+  ["Cyle Larin", "塞尔·拉林"],
+  ["Damián Bobadilla", "达米安·博瓦迪利亚"],
+  ["Folarin Balogun", "弗拉林·巴洛贡"],
+  ["Mauricio", "毛里西奥"],
+  ["Giovanni Reyna", "吉奥·雷纳"],
+  ["John McGinn", "约翰·麦金"],
+  ["Ismael Saibari", "伊斯梅尔·赛巴里"],
+  ["Vinícius Júnior", "维尼修斯·儒尼奥尔"],
+  ["Breel Embolo", "布雷尔·恩博洛"],
+  ["Miro Muheim", "米罗·穆海姆"],
+  ["Nestory Irankunda", "内斯托里·伊兰昆达"],
+  ["Connor Metcalfe", "康纳·梅特卡夫"],
+  ["Felix Nmecha", "菲利克斯·恩梅查"],
+  ["Livano Comenencia", "利瓦诺·科梅嫩西亚"],
+  ["Nico Schlotterbeck", "尼科·施洛特贝克"],
+  ["Kai Havertz", "凯·哈弗茨"],
+  ["Jamal Musiala", "贾马尔·穆西亚拉"],
+  ["Nathaniel Brown", "纳撒尼尔·布朗"],
+  ["Deniz Undav", "德尼兹·翁达夫"],
+  ["Amad Diallo", "阿马德·迪亚洛"],
+  ["Yasin Ayari", "亚辛·阿亚里"],
+  ["Alexander Isak", "亚历山大·伊萨克"],
+  ["Omar Rekik", "奥马尔·雷基克"],
+  ["Viktor Gyökeres", "维克托·哲凯赖什"],
+  ["Mattias Svanberg", "马蒂亚斯·斯万贝里"],
+  ["Virgil van Dijk", "维吉尔·范戴克"],
+  ["Keito Nakamura", "中村敬斗"],
+  ["Crysencio Summerville", "克里森西奥·萨默维尔"],
+  ["Daichi Kamada", "镰田大地"],
 ]);
 
 const knownGoalEvents = new Map([
@@ -153,6 +202,16 @@ function normalizeTeam(team) {
   return nameMap.get(team) || team;
 }
 
+function comparableName(name) {
+  const folded = normalizeTeam(name)
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "")
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/[^a-z]/g, "");
+  return teamAliases.get(folded) || folded;
+}
+
 function datePart(date, type) {
   return new Intl.DateTimeFormat("en-CA", {
     timeZone: timezone,
@@ -211,7 +270,82 @@ async function fetchSource() {
   return response.json();
 }
 
-function normalize(rawMatches) {
+async function fetchEspnScoreboard(dateKey) {
+  const response = await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=${dateKey}`);
+  if (!response.ok) return [];
+  const payload = await response.json();
+  return Array.isArray(payload.events) ? payload.events : [];
+}
+
+async function fetchEspnSummary(eventId) {
+  const response = await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=${eventId}`);
+  if (!response.ok) return null;
+  return response.json();
+}
+
+function utcDateKey(isoDate) {
+  return isoDate.slice(0, 10).replaceAll("-", "");
+}
+
+function matchEspnEvent(match, events) {
+  const expected = new Set([comparableName(match.homeTeam), comparableName(match.awayTeam)]);
+  return events.find((event) => {
+    const competitors = event.competitions?.[0]?.competitors || [];
+    const actual = new Set(competitors.map((competitor) => comparableName(competitor.team?.displayName || "")));
+    return [...expected].every((team) => actual.has(team));
+  });
+}
+
+function parseGoalEvent(event) {
+  const type = event.type?.text || "";
+  if (!/Goal|Penalty - Scored|Own Goal/i.test(type)) return null;
+  const minute = event.clock?.displayValue || "";
+  const text = event.text || "";
+  let player = "";
+  let team = "";
+  let note = "";
+
+  const ownGoal = text.match(/^Own Goal by ([^,]+), ([^.]+)\./);
+  if (ownGoal) {
+    [, player, team] = ownGoal;
+    note = "乌龙";
+  } else {
+    const scorer = text.match(/\. ([^(]+) \(([^)]+)\)/);
+    if (!scorer) return null;
+    [, player, team] = scorer;
+    if (/Penalty - Scored/i.test(type)) note = "点球";
+  }
+
+  const normalizedPlayer = player.trim();
+  return goal(minute, normalizeTeam(team.trim()), normalizedPlayer, playerNameZh.get(normalizedPlayer) || normalizedPlayer, note);
+}
+
+async function enrichGoalEvents(matches) {
+  const scoreboardCache = new Map();
+  for (const match of matches) {
+    if (match.status !== "Played" || match.isPlaceholder) {
+      match.goalEvents = [];
+      continue;
+    }
+
+    const dateKey = utcDateKey(match.utcStart);
+    if (!scoreboardCache.has(dateKey)) {
+      scoreboardCache.set(dateKey, await fetchEspnScoreboard(dateKey));
+    }
+
+    const espnEvent = matchEspnEvent(match, scoreboardCache.get(dateKey));
+    if (!espnEvent?.id) {
+      match.goalEvents = knownGoalEvents.get(match.id) || [];
+      continue;
+    }
+
+    const summary = await fetchEspnSummary(espnEvent.id);
+    const parsed = (summary?.keyEvents || []).map(parseGoalEvent).filter(Boolean);
+    match.goalEvents = parsed.length > 0 ? parsed : knownGoalEvents.get(match.id) || [];
+  }
+}
+
+async function normalize(rawMatches) {
   if (!Array.isArray(rawMatches)) {
     throw new Error("matchesio export did not return an array");
   }
@@ -238,7 +372,7 @@ function normalize(rawMatches) {
       stadium: match.stadium || "",
       status: match.status || "To be played",
       result: normalizeResult(match.result),
-      goalEvents: knownGoalEvents.get(Number(match.id)) || [],
+      goalEvents: [],
       isKnockout: stage !== "Group stage · Matchday 1" && stage !== "Group stage · Matchday 2" && stage !== "Group stage · Matchday 3",
       isPlaceholder: isPlaceholder(match),
     };
@@ -254,6 +388,8 @@ function normalize(rawMatches) {
     }
     knockoutVenueIndex += 1;
   }
+
+  await enrichGoalEvents(matches);
 
   return {
     generatedAt: new Date().toISOString(),
@@ -283,7 +419,7 @@ function validatePayload(payload) {
 
 async function main() {
   const raw = await fetchSource();
-  const payload = normalize(raw);
+  const payload = await normalize(raw);
   validatePayload(payload);
 
   if (dryRun) {

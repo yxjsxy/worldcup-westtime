@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T18:16:57.431Z",
+  "generatedAt": "2026-06-15T18:24:10.985Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -95,7 +95,7 @@
       "goalEvents": [
         {
           "minute": "21'",
-          "team": "Bosnia & Herzegovina",
+          "team": "Bosnia and Herzegovina",
           "player": "Jovo Lukic",
           "playerZh": "约沃·卢基奇"
         },
@@ -187,7 +187,7 @@
         },
         {
           "minute": "90'+4'",
-          "team": "Qatar",
+          "team": "Switzerland",
           "player": "Miro Muheim",
           "playerZh": "米罗·穆海姆",
           "note": "乌龙"
