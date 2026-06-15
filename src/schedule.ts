@@ -1,5 +1,13 @@
 export type MatchStatus = "Played" | "To be played" | string;
 
+export interface GoalEvent {
+  minute: string;
+  team: string;
+  player: string;
+  playerZh: string;
+  note?: string;
+}
+
 export interface Match {
   id: number;
   competition: string;
@@ -16,6 +24,7 @@ export interface Match {
   stadium: string;
   status: MatchStatus;
   result: string | null;
+  goalEvents?: GoalEvent[];
   isKnockout: boolean;
   isPlaceholder: boolean;
 }

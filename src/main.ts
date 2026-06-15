@@ -32,6 +32,30 @@ function getMatchLocation(match: Match): string {
   return [match.city, match.stadium].filter(Boolean).join(" · ") || "Venue TBD";
 }
 
+function renderGoalEvents(match: Match): string {
+  if (match.status !== "Played") return "";
+  const goals = match.goalEvents || [];
+  if (goals.length === 0) {
+    return `<div class="goal-events muted">进球详情待同步</div>`;
+  }
+
+  return `
+    <div class="goal-events">
+      ${goals
+        .map(
+          (goal) => `
+        <span>
+          <strong>${escapeHtml(goal.minute)}</strong>
+          ${escapeHtml(goal.playerZh)}
+          ${goal.note ? `<em>${escapeHtml(goal.note)}</em>` : ""}
+        </span>
+      `,
+        )
+        .join("")}
+    </div>
+  `;
+}
+
 function renderMatch(match: Match, tone: "today" | "future" | "result" = "future"): string {
   const statusLabel = match.result ? match.result : match.status;
   const statusClass = match.status === "Played" ? "played" : match.isPlaceholder ? "placeholder" : "scheduled";
@@ -48,6 +72,7 @@ function renderMatch(match: Match, tone: "today" | "future" | "result" = "future
         </div>
         <h3>${escapeHtml(getMatchTitle(match))}</h3>
         <p><span>City / venue</span>${escapeHtml(getMatchLocation(match))}</p>
+        ${renderGoalEvents(match)}
       </div>
       <div class="status ${statusClass}">${escapeHtml(statusLabel)}</div>
     </article>
@@ -206,7 +231,7 @@ function render(payload: SchedulePayload): void {
       <div class="hero-grid">
         <section>
           <p class="eyebrow">America/Los_Angeles schedule</p>
-          <h1>打开就看今天世界杯踢什么</h1>
+          <h1>世界杯消息同步</h1>
           <p class="subtitle">今日赛程、未来赛程、赛果与淘汰赛占位统一按美西时间展示。</p>
         </section>
         <aside class="next-card">

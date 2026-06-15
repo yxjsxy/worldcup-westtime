@@ -299,6 +299,40 @@ h1 {
   text-transform: uppercase;
 }
 
+.goal-events {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.goal-events span,
+.goal-events.muted {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  min-height: 26px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  background: #f1f5f9;
+  color: #334155;
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.goal-events strong {
+  color: #166534;
+}
+
+.goal-events em {
+  font-style: normal;
+  color: #b45309;
+}
+
+.goal-events.muted {
+  color: #64748b;
+}
+
 .status {
   justify-self: end;
   padding: 7px 10px;

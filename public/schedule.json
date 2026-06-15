@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T15:00:10.607Z",
+  "generatedAt": "2026-06-15T18:16:57.431Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -20,6 +20,20 @@
       "stadium": "Estadio Azteca",
       "status": "Played",
       "result": "2–0",
+      "goalEvents": [
+        {
+          "minute": "9'",
+          "team": "Mexico",
+          "player": "Julián Quiñones",
+          "playerZh": "胡利安·基尼奥内斯"
+        },
+        {
+          "minute": "67'",
+          "team": "Mexico",
+          "player": "Raúl Jiménez",
+          "playerZh": "劳尔·希门尼斯"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -39,6 +53,26 @@
       "stadium": "Estadio Akron",
       "status": "Played",
       "result": "2–1",
+      "goalEvents": [
+        {
+          "minute": "59'",
+          "team": "Czechia",
+          "player": "Ladislav Krejcí",
+          "playerZh": "拉迪斯拉夫·克雷伊奇"
+        },
+        {
+          "minute": "67'",
+          "team": "South Korea",
+          "player": "Hwang In-Beom",
+          "playerZh": "黄仁范"
+        },
+        {
+          "minute": "80'",
+          "team": "South Korea",
+          "player": "Oh Hyeon-Gyu",
+          "playerZh": "吴贤揆"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -58,6 +92,20 @@
       "stadium": "BMO Field",
       "status": "Played",
       "result": "1–1",
+      "goalEvents": [
+        {
+          "minute": "21'",
+          "team": "Bosnia & Herzegovina",
+          "player": "Jovo Lukic",
+          "playerZh": "约沃·卢基奇"
+        },
+        {
+          "minute": "78'",
+          "team": "Canada",
+          "player": "Cyle Larin",
+          "playerZh": "塞尔·拉林"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -77,6 +125,39 @@
       "stadium": "SoFi Stadium",
       "status": "Played",
       "result": "4–1",
+      "goalEvents": [
+        {
+          "minute": "7'",
+          "team": "United States",
+          "player": "Damián Bobadilla",
+          "playerZh": "达米安·博瓦迪利亚",
+          "note": "乌龙"
+        },
+        {
+          "minute": "31'",
+          "team": "United States",
+          "player": "Folarin Balogun",
+          "playerZh": "弗拉林·巴洛贡"
+        },
+        {
+          "minute": "45'+5'",
+          "team": "United States",
+          "player": "Folarin Balogun",
+          "playerZh": "弗拉林·巴洛贡"
+        },
+        {
+          "minute": "73'",
+          "team": "Paraguay",
+          "player": "Mauricio",
+          "playerZh": "毛里西奥"
+        },
+        {
+          "minute": "90'+8'",
+          "team": "United States",
+          "player": "Giovanni Reyna",
+          "playerZh": "吉奥·雷纳"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -96,6 +177,22 @@
       "stadium": "Levi's Stadium",
       "status": "Played",
       "result": "1–1",
+      "goalEvents": [
+        {
+          "minute": "17'",
+          "team": "Switzerland",
+          "player": "Breel Embolo",
+          "playerZh": "布雷尔·恩博洛",
+          "note": "点球"
+        },
+        {
+          "minute": "90'+4'",
+          "team": "Qatar",
+          "player": "Miro Muheim",
+          "playerZh": "米罗·穆海姆",
+          "note": "乌龙"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -115,6 +212,20 @@
       "stadium": "MetLife Stadium",
       "status": "Played",
       "result": "1–1",
+      "goalEvents": [
+        {
+          "minute": "21'",
+          "team": "Morocco",
+          "player": "Ismael Saibari",
+          "playerZh": "伊斯梅尔·赛巴里"
+        },
+        {
+          "minute": "32'",
+          "team": "Brazil",
+          "player": "Vinícius Júnior",
+          "playerZh": "维尼修斯·儒尼奥尔"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -134,6 +245,14 @@
       "stadium": "Gillette Stadium",
       "status": "Played",
       "result": "0–1",
+      "goalEvents": [
+        {
+          "minute": "28'",
+          "team": "Scotland",
+          "player": "John McGinn",
+          "playerZh": "约翰·麦金"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -153,6 +272,20 @@
       "stadium": "BC Place",
       "status": "Played",
       "result": "2–0",
+      "goalEvents": [
+        {
+          "minute": "27'",
+          "team": "Australia",
+          "player": "Nestory Irankunda",
+          "playerZh": "内斯托里·伊兰昆达"
+        },
+        {
+          "minute": "75'",
+          "team": "Australia",
+          "player": "Connor Metcalfe",
+          "playerZh": "康纳·梅特卡夫"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -172,6 +305,57 @@
       "stadium": "NRG Stadium",
       "status": "Played",
       "result": "7–1",
+      "goalEvents": [
+        {
+          "minute": "6'",
+          "team": "Germany",
+          "player": "Felix Nmecha",
+          "playerZh": "菲利克斯·恩梅查"
+        },
+        {
+          "minute": "21'",
+          "team": "Curaçao",
+          "player": "Livano Comenencia",
+          "playerZh": "利瓦诺·科梅嫩西亚"
+        },
+        {
+          "minute": "38'",
+          "team": "Germany",
+          "player": "Nico Schlotterbeck",
+          "playerZh": "尼科·施洛特贝克"
+        },
+        {
+          "minute": "45'+5'",
+          "team": "Germany",
+          "player": "Kai Havertz",
+          "playerZh": "凯·哈弗茨",
+          "note": "点球"
+        },
+        {
+          "minute": "47'",
+          "team": "Germany",
+          "player": "Jamal Musiala",
+          "playerZh": "贾马尔·穆西亚拉"
+        },
+        {
+          "minute": "68'",
+          "team": "Germany",
+          "player": "Nathaniel Brown",
+          "playerZh": "纳撒尼尔·布朗"
+        },
+        {
+          "minute": "78'",
+          "team": "Germany",
+          "player": "Deniz Undav",
+          "playerZh": "德尼兹·翁达夫"
+        },
+        {
+          "minute": "88'",
+          "team": "Germany",
+          "player": "Kai Havertz",
+          "playerZh": "凯·哈弗茨"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -191,6 +375,32 @@
       "stadium": "AT&T Stadium",
       "status": "Played",
       "result": "2–2",
+      "goalEvents": [
+        {
+          "minute": "51'",
+          "team": "Netherlands",
+          "player": "Virgil van Dijk",
+          "playerZh": "维吉尔·范戴克"
+        },
+        {
+          "minute": "57'",
+          "team": "Japan",
+          "player": "Keito Nakamura",
+          "playerZh": "中村敬斗"
+        },
+        {
+          "minute": "64'",
+          "team": "Netherlands",
+          "player": "Crysencio Summerville",
+          "playerZh": "克里森西奥·萨默维尔"
+        },
+        {
+          "minute": "89'",
+          "team": "Japan",
+          "player": "Daichi Kamada",
+          "playerZh": "镰田大地"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -210,6 +420,14 @@
       "stadium": "Lincoln Financial Field",
       "status": "Played",
       "result": "1–0",
+      "goalEvents": [
+        {
+          "minute": "90'",
+          "team": "Ivory Coast",
+          "player": "Amad Diallo",
+          "playerZh": "阿马德·迪亚洛"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -229,6 +447,44 @@
       "stadium": "Estadio BBVA",
       "status": "Played",
       "result": "5–1",
+      "goalEvents": [
+        {
+          "minute": "7'",
+          "team": "Sweden",
+          "player": "Yasin Ayari",
+          "playerZh": "亚辛·阿亚里"
+        },
+        {
+          "minute": "30'",
+          "team": "Sweden",
+          "player": "Alexander Isak",
+          "playerZh": "亚历山大·伊萨克"
+        },
+        {
+          "minute": "43'",
+          "team": "Tunisia",
+          "player": "Omar Rekik",
+          "playerZh": "奥马尔·雷基克"
+        },
+        {
+          "minute": "59'",
+          "team": "Sweden",
+          "player": "Viktor Gyökeres",
+          "playerZh": "维克托·哲凯赖什"
+        },
+        {
+          "minute": "84'",
+          "team": "Sweden",
+          "player": "Mattias Svanberg",
+          "playerZh": "马蒂亚斯·斯万贝里"
+        },
+        {
+          "minute": "90'+6'",
+          "team": "Sweden",
+          "player": "Yasin Ayari",
+          "playerZh": "亚辛·阿亚里"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -246,8 +502,9 @@
       "awayTeam": "Cape Verde",
       "city": "Atlanta",
       "stadium": "Mercedes-Benz Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Played",
+      "result": "0–0",
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -267,6 +524,7 @@
       "stadium": "Lumen Field",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -286,6 +544,7 @@
       "stadium": "Hard Rock Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -305,6 +564,7 @@
       "stadium": "SoFi Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -324,6 +584,7 @@
       "stadium": "MetLife Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -343,6 +604,7 @@
       "stadium": "Gillette Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -362,6 +624,7 @@
       "stadium": "Arrowhead Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -381,6 +644,7 @@
       "stadium": "Levi's Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -400,6 +664,7 @@
       "stadium": "NRG Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -419,6 +684,7 @@
       "stadium": "AT&T Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -438,6 +704,7 @@
       "stadium": "BMO Field",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -457,6 +724,7 @@
       "stadium": "Estadio Azteca",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -476,6 +744,7 @@
       "stadium": "Mercedes-Benz Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -495,6 +764,7 @@
       "stadium": "SoFi Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -514,6 +784,7 @@
       "stadium": "BC Place",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -533,6 +804,7 @@
       "stadium": "Estadio Akron",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -552,6 +824,7 @@
       "stadium": "Lumen Field",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -571,6 +844,7 @@
       "stadium": "Gillette Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -590,6 +864,7 @@
       "stadium": "Lincoln Financial Field",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -609,6 +884,7 @@
       "stadium": "Levi's Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -628,6 +904,7 @@
       "stadium": "NRG Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -647,6 +924,7 @@
       "stadium": "BMO Field",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -666,6 +944,7 @@
       "stadium": "Arrowhead Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -685,6 +964,7 @@
       "stadium": "Estadio BBVA",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -704,6 +984,7 @@
       "stadium": "Mercedes-Benz Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -723,6 +1004,7 @@
       "stadium": "SoFi Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -742,6 +1024,7 @@
       "stadium": "Hard Rock Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -761,6 +1044,7 @@
       "stadium": "BC Place",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -780,6 +1064,7 @@
       "stadium": "AT&T Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -799,6 +1084,7 @@
       "stadium": "Lincoln Financial Field",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -818,6 +1104,7 @@
       "stadium": "MetLife Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -837,6 +1124,7 @@
       "stadium": "Levi's Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -856,6 +1144,7 @@
       "stadium": "NRG Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -875,6 +1164,7 @@
       "stadium": "Gillette Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -894,6 +1184,7 @@
       "stadium": "BMO Field",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -913,6 +1204,7 @@
       "stadium": "Estadio Akron",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -932,6 +1224,7 @@
       "stadium": "BC Place",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -951,6 +1244,7 @@
       "stadium": "Lumen Field",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -970,6 +1264,7 @@
       "stadium": "Mercedes-Benz Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -989,6 +1284,7 @@
       "stadium": "Hard Rock Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -1008,6 +1304,7 @@
       "stadium": "Estadio BBVA",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -1027,6 +1324,7 @@
       "stadium": "Estadio Azteca",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -1046,6 +1344,7 @@
       "stadium": "Lincoln Financial Field",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -1065,6 +1364,7 @@
       "stadium": "MetLife Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -1084,6 +1384,7 @@
       "stadium": "Arrowhead Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -1103,6 +1404,7 @@
       "stadium": "AT&T Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -1122,6 +1424,7 @@
       "stadium": "Levi's Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -1141,6 +1444,7 @@
       "stadium": "SoFi Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -1160,6 +1464,7 @@
       "stadium": "Gillette Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -1179,6 +1484,7 @@
       "stadium": "BMO Field",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -1198,6 +1504,7 @@
       "stadium": "NRG Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -1217,6 +1524,7 @@
       "stadium": "Estadio Akron",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -1236,6 +1544,7 @@
       "stadium": "Lumen Field",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -1255,6 +1564,7 @@
       "stadium": "BC Place",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -1274,6 +1584,7 @@
       "stadium": "Lincoln Financial Field",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -1293,6 +1604,7 @@
       "stadium": "MetLife Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -1312,6 +1624,7 @@
       "stadium": "Hard Rock Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -1331,6 +1644,7 @@
       "stadium": "Mercedes-Benz Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -1350,6 +1664,7 @@
       "stadium": "Arrowhead Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -1369,6 +1684,7 @@
       "stadium": "AT&T Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -1388,6 +1704,7 @@
       "stadium": "SoFi Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1407,6 +1724,7 @@
       "stadium": "Gillette Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1426,6 +1744,7 @@
       "stadium": "Estadio BBVA",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1445,6 +1764,7 @@
       "stadium": "NRG Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1464,6 +1784,7 @@
       "stadium": "MetLife Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1483,6 +1804,7 @@
       "stadium": "AT&T Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1502,6 +1824,7 @@
       "stadium": "Estadio Azteca",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1521,6 +1844,7 @@
       "stadium": "Mercedes-Benz Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1540,6 +1864,7 @@
       "stadium": "Levi's Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1559,6 +1884,7 @@
       "stadium": "Lumen Field",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1578,6 +1904,7 @@
       "stadium": "BMO Field",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1597,6 +1924,7 @@
       "stadium": "SoFi Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1616,6 +1944,7 @@
       "stadium": "BC Place",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1635,6 +1964,7 @@
       "stadium": "Hard Rock Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1654,6 +1984,7 @@
       "stadium": "Arrowhead Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1673,6 +2004,7 @@
       "stadium": "AT&T Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1692,6 +2024,7 @@
       "stadium": "Lincoln Financial Field",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1711,6 +2044,7 @@
       "stadium": "NRG Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1730,6 +2064,7 @@
       "stadium": "MetLife Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1749,6 +2084,7 @@
       "stadium": "Estadio Azteca",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1768,6 +2104,7 @@
       "stadium": "AT&T Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1787,6 +2124,7 @@
       "stadium": "Lumen Field",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1806,6 +2144,7 @@
       "stadium": "Mercedes-Benz Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1825,6 +2164,7 @@
       "stadium": "BC Place",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1844,6 +2184,7 @@
       "stadium": "Gillette Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1863,6 +2204,7 @@
       "stadium": "SoFi Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1882,6 +2224,7 @@
       "stadium": "Hard Rock Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1901,6 +2244,7 @@
       "stadium": "Arrowhead Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1920,6 +2264,7 @@
       "stadium": "AT&T Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1939,6 +2284,7 @@
       "stadium": "Mercedes-Benz Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1958,6 +2304,7 @@
       "stadium": "Hard Rock Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     },
@@ -1977,6 +2324,7 @@
       "stadium": "MetLife Stadium",
       "status": "To be played",
       "result": null,
+      "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": true
     }

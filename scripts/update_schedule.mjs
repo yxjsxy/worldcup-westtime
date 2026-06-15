@@ -53,6 +53,101 @@ const nameMap = new Map([
   ["Czech Republic", "Czechia"],
 ]);
 
+const knownGoalEvents = new Map([
+  [
+    104456,
+    [
+      goal("9'", "Mexico", "Julián Quiñones", "胡利安·基尼奥内斯"),
+      goal("67'", "Mexico", "Raúl Jiménez", "劳尔·希门尼斯"),
+    ],
+  ],
+  [
+    165651,
+    [
+      goal("59'", "Czechia", "Ladislav Krejcí", "拉迪斯拉夫·克雷伊奇"),
+      goal("67'", "South Korea", "Hwang In-Beom", "黄仁范"),
+      goal("80'", "South Korea", "Oh Hyeon-Gyu", "吴贤揆"),
+    ],
+  ],
+  [
+    165652,
+    [
+      goal("21'", "Bosnia & Herzegovina", "Jovo Lukic", "约沃·卢基奇"),
+      goal("78'", "Canada", "Cyle Larin", "塞尔·拉林"),
+    ],
+  ],
+  [
+    104457,
+    [
+      goal("7'", "United States", "Damián Bobadilla", "达米安·博瓦迪利亚", "乌龙"),
+      goal("31'", "United States", "Folarin Balogun", "弗拉林·巴洛贡"),
+      goal("45'+5'", "United States", "Folarin Balogun", "弗拉林·巴洛贡"),
+      goal("73'", "Paraguay", "Mauricio", "毛里西奥"),
+      goal("90'+8'", "United States", "Giovanni Reyna", "吉奥·雷纳"),
+    ],
+  ],
+  [104459, [goal("28'", "Scotland", "John McGinn", "约翰·麦金")]],
+  [
+    104458,
+    [
+      goal("21'", "Morocco", "Ismael Saibari", "伊斯梅尔·赛巴里"),
+      goal("32'", "Brazil", "Vinícius Júnior", "维尼修斯·儒尼奥尔"),
+    ],
+  ],
+  [
+    104460,
+    [
+      goal("17'", "Switzerland", "Breel Embolo", "布雷尔·恩博洛", "点球"),
+      goal("90'+4'", "Qatar", "Miro Muheim", "米罗·穆海姆", "乌龙"),
+    ],
+  ],
+  [
+    165653,
+    [
+      goal("27'", "Australia", "Nestory Irankunda", "内斯托里·伊兰昆达"),
+      goal("75'", "Australia", "Connor Metcalfe", "康纳·梅特卡夫"),
+    ],
+  ],
+  [
+    104461,
+    [
+      goal("6'", "Germany", "Felix Nmecha", "菲利克斯·恩梅查"),
+      goal("21'", "Curaçao", "Livano Comenencia", "利瓦诺·科梅嫩西亚"),
+      goal("38'", "Germany", "Nico Schlotterbeck", "尼科·施洛特贝克"),
+      goal("45'+5'", "Germany", "Kai Havertz", "凯·哈弗茨", "点球"),
+      goal("47'", "Germany", "Jamal Musiala", "贾马尔·穆西亚拉"),
+      goal("68'", "Germany", "Nathaniel Brown", "纳撒尼尔·布朗"),
+      goal("78'", "Germany", "Deniz Undav", "德尼兹·翁达夫"),
+      goal("88'", "Germany", "Kai Havertz", "凯·哈弗茨"),
+    ],
+  ],
+  [104462, [goal("90'", "Ivory Coast", "Amad Diallo", "阿马德·迪亚洛")]],
+  [
+    165654,
+    [
+      goal("7'", "Sweden", "Yasin Ayari", "亚辛·阿亚里"),
+      goal("30'", "Sweden", "Alexander Isak", "亚历山大·伊萨克"),
+      goal("43'", "Tunisia", "Omar Rekik", "奥马尔·雷基克"),
+      goal("59'", "Sweden", "Viktor Gyökeres", "维克托·哲凯赖什"),
+      goal("84'", "Sweden", "Mattias Svanberg", "马蒂亚斯·斯万贝里"),
+      goal("90'+6'", "Sweden", "Yasin Ayari", "亚辛·阿亚里"),
+    ],
+  ],
+  [
+    104463,
+    [
+      goal("51'", "Netherlands", "Virgil van Dijk", "维吉尔·范戴克"),
+      goal("57'", "Japan", "Keito Nakamura", "中村敬斗"),
+      goal("64'", "Netherlands", "Crysencio Summerville", "克里森西奥·萨默维尔"),
+      goal("89'", "Japan", "Daichi Kamada", "镰田大地"),
+    ],
+  ],
+]);
+
+function goal(minute, team, player, playerZh, note) {
+  return { minute, team, player, playerZh, ...(note ? { note } : {}) };
+}
+
 function normalizeTeam(team) {
   if (!team) return "TBD";
   return nameMap.get(team) || team;
@@ -143,6 +238,7 @@ function normalize(rawMatches) {
       stadium: match.stadium || "",
       status: match.status || "To be played",
       result: normalizeResult(match.result),
+      goalEvents: knownGoalEvents.get(Number(match.id)) || [],
       isKnockout: stage !== "Group stage · Matchday 1" && stage !== "Group stage · Matchday 2" && stage !== "Group stage · Matchday 3",
       isPlaceholder: isPlaceholder(match),
     };
