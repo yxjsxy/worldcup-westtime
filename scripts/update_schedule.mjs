@@ -102,6 +102,8 @@ const playerNameZh = new Map([
   ["Daichi Kamada", "镰田大地"],
   ["Emam Ashour", "埃马姆·阿舒尔"],
   ["Mohamed Hany", "穆罕默德·哈尼"],
+  ["Abdulelah Al Amri", "阿卜杜勒拉赫·阿姆里"],
+  ["Maxi Araújo", "马克西·阿劳霍"],
 ]);
 
 const knownGoalEvents = new Map([

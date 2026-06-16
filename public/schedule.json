@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T23:30:18.623Z",
+  "generatedAt": "2026-06-16T00:30:58.284Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -556,9 +556,22 @@
       "awayTeam": "Uruguay",
       "city": "Miami Gardens",
       "stadium": "Hard Rock Stadium",
-      "status": "Live",
-      "result": "1–0",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "1–1",
+      "goalEvents": [
+        {
+          "minute": "41'",
+          "team": "Saudi Arabia",
+          "player": "Abdulelah Al Amri",
+          "playerZh": "阿卜杜勒拉赫·阿姆里"
+        },
+        {
+          "minute": "80'",
+          "team": "Uruguay",
+          "player": "Maxi Araújo",
+          "playerZh": "马克西·阿劳霍"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
