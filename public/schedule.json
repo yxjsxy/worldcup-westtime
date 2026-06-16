@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T19:30:19.603Z",
+  "generatedAt": "2026-06-16T19:35:18.712Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -591,7 +591,32 @@
       "stadium": "SoFi Stadium",
       "status": "Played",
       "result": "2–2",
-      "goalEvents": [],
+      "goalEvents": [
+        {
+          "minute": "7'",
+          "team": "New Zealand",
+          "player": "Elijah Just",
+          "playerZh": "伊莱贾·贾斯特"
+        },
+        {
+          "minute": "32'",
+          "team": "Iran",
+          "player": "Ramin Rezaeian",
+          "playerZh": "拉明·雷扎伊安"
+        },
+        {
+          "minute": "54'",
+          "team": "New Zealand",
+          "player": "Elijah Just",
+          "playerZh": "伊莱贾·贾斯特"
+        },
+        {
+          "minute": "64'",
+          "team": "Iran",
+          "player": "Mohammad Mohebbi",
+          "playerZh": "穆罕默德·穆赫比"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },

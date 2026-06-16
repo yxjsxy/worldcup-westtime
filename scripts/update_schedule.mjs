@@ -48,6 +48,7 @@ const knockoutVenueFallbacks = [
 
 const nameMap = new Map([
   ["USA", "United States"],
+  ["IR Iran", "Iran"],
   ["Korea Republic", "South Korea"],
   ["Bosnia-Herzegovina", "Bosnia & Herzegovina"],
   ["Côte d'Ivoire", "Ivory Coast"],
@@ -104,6 +105,9 @@ const playerNameZh = new Map([
   ["Mohamed Hany", "穆罕默德·哈尼"],
   ["Abdulelah Al Amri", "阿卜杜勒拉赫·阿姆里"],
   ["Maxi Araújo", "马克西·阿劳霍"],
+  ["Elijah Just", "伊莱贾·贾斯特"],
+  ["Ramin Rezaeian", "拉明·雷扎伊安"],
+  ["Mohammad Mohebbi", "穆罕默德·穆赫比"],
 ]);
 
 const knownGoalEvents = new Map([
@@ -291,6 +295,14 @@ function utcDateKey(isoDate) {
   return isoDate.slice(0, 10).replaceAll("-", "");
 }
 
+function localDateKey(match) {
+  return match.localDate.replaceAll("-", "");
+}
+
+function espnDateKeys(match) {
+  return [...new Set([utcDateKey(match.utcStart), localDateKey(match)])];
+}
+
 function matchEspnEvent(match, events) {
   const expected = new Set([comparableName(match.homeTeam), comparableName(match.awayTeam)]);
   return events.find((event) => {
@@ -335,12 +347,15 @@ async function enrichGoalEvents(matches) {
       continue;
     }
 
-    const dateKey = utcDateKey(match.utcStart);
-    if (!scoreboardCache.has(dateKey)) {
-      scoreboardCache.set(dateKey, await fetchEspnScoreboard(dateKey));
+    let espnEvent = null;
+    for (const dateKey of espnDateKeys(match)) {
+      if (!scoreboardCache.has(dateKey)) {
+        scoreboardCache.set(dateKey, await fetchEspnScoreboard(dateKey));
+      }
+      espnEvent = matchEspnEvent(match, scoreboardCache.get(dateKey));
+      if (espnEvent) break;
     }
 
-    const espnEvent = matchEspnEvent(match, scoreboardCache.get(dateKey));
     if (!espnEvent?.id) {
       match.goalEvents = knownGoalEvents.get(match.id) || [];
       continue;
