@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T03:30:22.321Z",
+  "generatedAt": "2026-06-16T19:30:19.603Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -607,10 +607,10 @@
       "localDay": "Tue, Jun 16",
       "homeTeam": "France",
       "awayTeam": "Senegal",
-      "city": "New York New Jersey",
+      "city": "East Rutherford",
       "stadium": "MetLife Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–0",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
