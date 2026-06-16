@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T21:00:16.158Z",
+  "generatedAt": "2026-06-16T21:31:04.804Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -634,9 +634,34 @@
       "awayTeam": "Senegal",
       "city": "East Rutherford",
       "stadium": "MetLife Stadium",
-      "status": "Live",
-      "result": "1–0",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "3–1",
+      "goalEvents": [
+        {
+          "minute": "66'",
+          "team": "France",
+          "player": "Kylian Mbappé",
+          "playerZh": "基利安·姆巴佩"
+        },
+        {
+          "minute": "82'",
+          "team": "France",
+          "player": "Bradley Barcola",
+          "playerZh": "布拉德利·巴尔科拉"
+        },
+        {
+          "minute": "90'+5'",
+          "team": "Senegal",
+          "player": "Ibrahim Mbaye",
+          "playerZh": "易卜拉欣·姆巴耶"
+        },
+        {
+          "minute": "90'+6'",
+          "team": "France",
+          "player": "Kylian Mbappé",
+          "playerZh": "基利安·姆巴佩"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },

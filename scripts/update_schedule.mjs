@@ -108,6 +108,9 @@ const playerNameZh = new Map([
   ["Elijah Just", "伊莱贾·贾斯特"],
   ["Ramin Rezaeian", "拉明·雷扎伊安"],
   ["Mohammad Mohebbi", "穆罕默德·穆赫比"],
+  ["Kylian Mbappé", "基利安·姆巴佩"],
+  ["Bradley Barcola", "布拉德利·巴尔科拉"],
+  ["Ibrahim Mbaye", "易卜拉欣·姆巴耶"],
 ]);
 
 const knownGoalEvents = new Map([
