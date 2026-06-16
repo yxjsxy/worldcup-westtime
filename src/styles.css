@@ -109,6 +109,7 @@ h1 {
 .panel,
 .stats,
 .calendar-cta,
+.score-notice,
 .freshness {
   border: 1px solid rgba(15, 23, 42, 0.08);
   background: rgba(255, 255, 255, 0.92);
@@ -235,6 +236,49 @@ h1 {
   font-size: 14px;
   font-weight: 800;
   text-decoration: none;
+}
+
+.score-notice {
+  margin: 14px 0;
+  padding: 18px;
+  border-radius: 8px;
+  background: linear-gradient(90deg, rgba(239, 246, 255, 0.96), #fff 74%);
+}
+
+.score-strip {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.score-strip article {
+  min-height: 130px;
+  padding: 13px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.score-strip span {
+  display: block;
+  color: #64748b;
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.score-strip strong {
+  display: block;
+  margin: 8px 0;
+  color: #111827;
+  line-height: 1.3;
+}
+
+.score-strip p {
+  margin: 0;
+  color: #1e3a8a;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.4;
 }
 
 .panel {
@@ -502,6 +546,7 @@ footer {
   }
 
   .hero-grid,
+  .score-strip,
   .knockout-grid {
     grid-template-columns: 1fr;
   }

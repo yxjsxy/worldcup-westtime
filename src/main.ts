@@ -194,6 +194,38 @@ function renderResults(matches: Match[]): string {
   `;
 }
 
+function renderScoreStatusNotice(matches: Match[]): string {
+  const latestFinals = matches
+    .filter((match) => match.status === "Played" && match.result)
+    .slice(0, 4);
+
+  if (latestFinals.length === 0) return "";
+
+  return `
+    <section class="score-notice">
+      <div class="section-title">
+        <p>赛后更新</p>
+        <h2>Final score & status changes</h2>
+      </div>
+      <div class="score-strip">
+        ${latestFinals
+          .map((match) => {
+            const goalCount = match.goalEvents?.length || 0;
+            const syncLabel = goalCount > 0 ? `${goalCount} goals synced` : "goal details pending";
+            return `
+              <article>
+                <span>${escapeHtml(match.localDay)} · ${escapeHtml(match.stage)}</span>
+                <strong>${escapeHtml(getMatchTitle(match))}</strong>
+                <p>Final score ${escapeHtml(match.result)} · ${escapeHtml(syncLabel)}</p>
+              </article>
+            `;
+          })
+          .join("")}
+      </div>
+    </section>
+  `;
+}
+
 function renderFreshness(payload: SchedulePayload): string {
   const generatedAt = new Date(payload.generatedAt);
   const ageHours = (Date.now() - generatedAt.getTime()) / (1000 * 60 * 60);
@@ -281,6 +313,7 @@ function render(payload: SchedulePayload): void {
     ${renderFreshness(payload)}
     ${renderCalendarCta()}
     ${renderToday(todayMatches, today)}
+    ${renderScoreStatusNotice(recentResults)}
     ${renderResults(recentResults)}
     ${renderKnockout(knockoutMatches)}
     ${renderFuture(futureMatches, today)}
