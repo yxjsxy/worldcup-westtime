@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T00:30:58.284Z",
+  "generatedAt": "2026-06-16T01:00:17.046Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -526,7 +526,7 @@
       "result": "1–1",
       "goalEvents": [
         {
-          "minute": "19'",
+          "minute": "20'",
           "team": "Egypt",
           "player": "Emam Ashour",
           "playerZh": "埃马姆·阿舒尔"
