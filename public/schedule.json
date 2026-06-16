@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T03:00:13.869Z",
+  "generatedAt": "2026-06-16T03:30:22.321Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -589,7 +589,7 @@
       "awayTeam": "New Zealand",
       "city": "Inglewood",
       "stadium": "SoFi Stadium",
-      "status": "Live",
+      "status": "Played",
       "result": "2–2",
       "goalEvents": [],
       "isKnockout": false,
