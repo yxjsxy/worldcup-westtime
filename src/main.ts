@@ -225,6 +225,18 @@ function renderFreshness(payload: SchedulePayload): string {
   `;
 }
 
+function renderCalendarCta(): string {
+  return `
+    <section class="calendar-cta">
+      <div>
+        <strong>日历订阅</strong>
+        <span>把全部比赛一键加入日历，赛程刷新后重新生成 ICS 文件。</span>
+      </div>
+      <a href="/worldcup-westtime.ics" download="worldcup-westtime.ics">加入日历</a>
+    </section>
+  `;
+}
+
 function render(payload: SchedulePayload): void {
   if (!app) return;
   const today = getPacificDate();
@@ -267,6 +279,7 @@ function render(payload: SchedulePayload): void {
     </section>
 
     ${renderFreshness(payload)}
+    ${renderCalendarCta()}
     ${renderToday(todayMatches, today)}
     ${renderResults(recentResults)}
     ${renderKnockout(knockoutMatches)}

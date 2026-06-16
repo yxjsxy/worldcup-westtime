@@ -108,6 +108,7 @@ h1 {
 .next-card,
 .panel,
 .stats,
+.calendar-cta,
 .freshness {
   border: 1px solid rgba(15, 23, 42, 0.08);
   background: rgba(255, 255, 255, 0.92);
@@ -197,6 +198,43 @@ h1 {
 
 .freshness.warning span {
   color: #991b1b;
+}
+
+.calendar-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 18px;
+  padding: 16px 18px;
+  border-radius: 8px;
+  color: #334155;
+}
+
+.calendar-cta div {
+  min-width: 0;
+}
+
+.calendar-cta strong,
+.calendar-cta span {
+  display: block;
+}
+
+.calendar-cta span {
+  margin-top: 4px;
+  color: #64748b;
+  line-height: 1.45;
+}
+
+.calendar-cta a {
+  flex: 0 0 auto;
+  padding: 10px 14px;
+  border-radius: 8px;
+  background: #064e3b;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+  text-decoration: none;
 }
 
 .panel {
@@ -473,7 +511,8 @@ footer {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .freshness {
+  .freshness,
+  .calendar-cta {
     align-items: flex-start;
     flex-direction: column;
   }

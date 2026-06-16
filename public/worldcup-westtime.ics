@@ -1,0 +1,1215 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//WorldCup WestTime//FIFA 2026 PT Schedule//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:WorldCup WestTime
+X-WR-TIMEZONE:America/Los_Angeles
+BEGIN:VEVENT
+UID:worldcup-westtime-104456@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260611T190000Z
+DTEND:20260611T210000Z
+SUMMARY:Mexico vs South Africa
+DESCRIPTION:Group stage · Matchday 1\\nScore: 2–0\\nCity / venue: Mexico 
+ City · Estadio Azteca\\nGoals: 9' 胡利安·基尼奥内斯\; 67' 劳尔·希门尼斯\\nOpen: https:
+ //worldcup-westtime.vercel.app
+LOCATION:Mexico City · Estadio Azteca
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-165651@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260612T020000Z
+DTEND:20260612T040000Z
+SUMMARY:South Korea vs Czechia
+DESCRIPTION:Group stage · Matchday 1\\nScore: 2–1\\nCity / venue: Guadala
+ jara · Estadio Akron\\nGoals: 59' 拉迪斯拉夫·克雷伊奇\; 67' 黄仁范\; 80' 吴贤揆\\nOpen:
+  https://worldcup-westtime.vercel.app
+LOCATION:Guadalajara · Estadio Akron
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-165652@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260612T190000Z
+DTEND:20260612T210000Z
+SUMMARY:Canada vs Bosnia & Herzegovina
+DESCRIPTION:Group stage · Matchday 1\\nScore: 1–1\\nCity / venue: Toronto
+  · BMO Field\\nGoals: 21' 约沃·卢基奇\; 78' 塞尔·拉林\\nOpen: https://worldcup-we
+ sttime.vercel.app
+LOCATION:Toronto · BMO Field
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104457@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260613T010000Z
+DTEND:20260613T030000Z
+SUMMARY:United States vs Paraguay
+DESCRIPTION:Group stage · Matchday 1\\nScore: 4–1\\nCity / venue: Inglewo
+ od · SoFi Stadium\\nGoals: 7' 达米安·博瓦迪利亚 (乌龙)\; 31' 弗拉林·巴洛贡\; 45'+5' 弗拉林·
+ 巴洛贡\; 73' 毛里西奥\; 90'+8' 吉奥·雷纳\\nOpen: https://worldcup-westtime.vercel.a
+ pp
+LOCATION:Inglewood · SoFi Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104460@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260613T190000Z
+DTEND:20260613T210000Z
+SUMMARY:Qatar vs Switzerland
+DESCRIPTION:Group stage · Matchday 1\\nScore: 1–1\\nCity / venue: Santa C
+ lara · Levi's Stadium\\nGoals: 17' 布雷尔·恩博洛 (点球)\; 90'+4' 米罗·穆海姆 (乌龙)\\nO
+ pen: https://worldcup-westtime.vercel.app
+LOCATION:Santa Clara · Levi's Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104458@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260613T220000Z
+DTEND:20260614T000000Z
+SUMMARY:Brazil vs Morocco
+DESCRIPTION:Group stage · Matchday 1\\nScore: 1–1\\nCity / venue: East Ru
+ therford · MetLife Stadium\\nGoals: 21' 伊斯梅尔·赛巴里\; 32' 维尼修斯·儒尼奥尔\\nOpen:
+  https://worldcup-westtime.vercel.app
+LOCATION:East Rutherford · MetLife Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104459@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260614T010000Z
+DTEND:20260614T030000Z
+SUMMARY:Haiti vs Scotland
+DESCRIPTION:Group stage · Matchday 1\\nScore: 0–1\\nCity / venue: Boston 
+ · Gillette Stadium\\nGoals: 28' 约翰·麦金\\nOpen: https://worldcup-westtime.
+ vercel.app
+LOCATION:Boston · Gillette Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-165653@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260614T040000Z
+DTEND:20260614T060000Z
+SUMMARY:Australia vs Türkiye
+DESCRIPTION:Group stage · Matchday 1\\nScore: 2–0\\nCity / venue: Vancouv
+ er · BC Place\\nGoals: 27' 内斯托里·伊兰昆达\; 75' 康纳·梅特卡夫\\nOpen: https://world
+ cup-westtime.vercel.app
+LOCATION:Vancouver · BC Place
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104461@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260614T170000Z
+DTEND:20260614T190000Z
+SUMMARY:Germany vs Curaçao
+DESCRIPTION:Group stage · Matchday 1\\nScore: 7–1\\nCity / venue: Houston
+  · NRG Stadium\\nGoals: 6' 菲利克斯·恩梅查\; 21' 利瓦诺·科梅嫩西亚\; 38' 尼科·施洛特贝克\; 45'
+ +5' 凯·哈弗茨 (点球)\; 47' 贾马尔·穆西亚拉\; 68' 纳撒尼尔·布朗\; 78' 德尼兹·翁达夫\; 88' 凯·哈弗茨\\n
+ Open: https://worldcup-westtime.vercel.app
+LOCATION:Houston · NRG Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104463@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260614T200000Z
+DTEND:20260614T220000Z
+SUMMARY:Netherlands vs Japan
+DESCRIPTION:Group stage · Matchday 1\\nScore: 2–2\\nCity / venue: Arlingt
+ on · AT&T Stadium\\nGoals: 51' 维吉尔·范戴克\; 57' 中村敬斗\; 64' 克里森西奥·萨默维尔\; 89'
+  镰田大地\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Arlington · AT&T Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104462@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260614T230000Z
+DTEND:20260615T010000Z
+SUMMARY:Ivory Coast vs Ecuador
+DESCRIPTION:Group stage · Matchday 1\\nScore: 1–0\\nCity / venue: Philade
+ lphia · Lincoln Financial Field\\nGoals: 90' 阿马德·迪亚洛\\nOpen: https://wor
+ ldcup-westtime.vercel.app
+LOCATION:Philadelphia · Lincoln Financial Field
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-165654@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260615T020000Z
+DTEND:20260615T040000Z
+SUMMARY:Sweden vs Tunisia
+DESCRIPTION:Group stage · Matchday 1\\nScore: 5–1\\nCity / venue: Monterr
+ ey · Estadio BBVA\\nGoals: 7' 亚辛·阿亚里\; 30' 亚历山大·伊萨克\; 43' 奥马尔·雷基克\; 59' 
+ 维克托·哲凯赖什\; 84' 马蒂亚斯·斯万贝里\; 90'+6' 亚辛·阿亚里\\nOpen: https://worldcup-westti
+ me.vercel.app
+LOCATION:Monterrey · Estadio BBVA
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104467@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260615T160000Z
+DTEND:20260615T180000Z
+SUMMARY:Spain vs Cape Verde
+DESCRIPTION:Group stage · Matchday 1\\nScore: 0–0\\nCity / venue: Atlanta
+  · Mercedes-Benz Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Atlanta · Mercedes-Benz Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104464@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260615T190000Z
+DTEND:20260615T210000Z
+SUMMARY:Belgium vs Egypt
+DESCRIPTION:Group stage · Matchday 1\\nScore: 1–1\\nCity / venue: Seattle
+  · Lumen Field\\nGoals: 20' 埃马姆·阿舒尔\; 66' 穆罕默德·哈尼 (乌龙)\\nOpen: https://w
+ orldcup-westtime.vercel.app
+LOCATION:Seattle · Lumen Field
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104466@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260615T220000Z
+DTEND:20260616T000000Z
+SUMMARY:Saudi Arabia vs Uruguay
+DESCRIPTION:Group stage · Matchday 1\\nScore: 1–1\\nCity / venue: Miami G
+ ardens · Hard Rock Stadium\\nGoals: 41' 阿卜杜勒拉赫·阿姆里\; 80' 马克西·阿劳霍\\nOpen:
+  https://worldcup-westtime.vercel.app
+LOCATION:Miami Gardens · Hard Rock Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104465@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260616T010000Z
+DTEND:20260616T030000Z
+SUMMARY:Iran vs New Zealand
+DESCRIPTION:Group stage · Matchday 1\\nScore: 2–2\\nCity / venue: Inglewo
+ od · SoFi Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Inglewood · SoFi Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104470@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260616T190000Z
+DTEND:20260616T210000Z
+SUMMARY:France vs Senegal
+DESCRIPTION:Group stage · Matchday 1\\nStatus: To be played\\nCity / venu
+ e: New York New Jersey · MetLife Stadium\\nOpen: https://worldcup-westti
+ me.vercel.app
+LOCATION:New York New Jersey · MetLife Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-165655@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260616T220000Z
+DTEND:20260617T000000Z
+SUMMARY:Iraq vs Norway
+DESCRIPTION:Group stage · Matchday 1\\nStatus: To be played\\nCity / venu
+ e: Boston · Gillette Stadium\\nOpen: https://worldcup-westtime.vercel.ap
+ p
+LOCATION:Boston · Gillette Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104468@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260617T010000Z
+DTEND:20260617T030000Z
+SUMMARY:Argentina vs Algeria
+DESCRIPTION:Group stage · Matchday 1\\nStatus: To be played\\nCity / venu
+ e: Kansas City · Arrowhead Stadium\\nOpen: https://worldcup-westtime.ver
+ cel.app
+LOCATION:Kansas City · Arrowhead Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104469@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260617T040000Z
+DTEND:20260617T060000Z
+SUMMARY:Austria vs Jordan
+DESCRIPTION:Group stage · Matchday 1\\nStatus: To be played\\nCity / venu
+ e: San Francisco Bay Area · Levi's Stadium\\nOpen: https://worldcup-west
+ time.vercel.app
+LOCATION:San Francisco Bay Area · Levi's Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-165656@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260617T170000Z
+DTEND:20260617T190000Z
+SUMMARY:Portugal vs DR Congo
+DESCRIPTION:Group stage · Matchday 1\\nStatus: To be played\\nCity / venu
+ e: Houston · NRG Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Houston · NRG Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104471@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260617T200000Z
+DTEND:20260617T220000Z
+SUMMARY:England vs Croatia
+DESCRIPTION:Group stage · Matchday 1\\nStatus: To be played\\nCity / venu
+ e: Dallas · AT&T Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Dallas · AT&T Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104472@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260617T230000Z
+DTEND:20260618T010000Z
+SUMMARY:Ghana vs Panama
+DESCRIPTION:Group stage · Matchday 1\\nStatus: To be played\\nCity / venu
+ e: Toronto · BMO Field\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Toronto · BMO Field
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104473@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260618T020000Z
+DTEND:20260618T040000Z
+SUMMARY:Uzbekistan vs Colombia
+DESCRIPTION:Group stage · Matchday 1\\nStatus: To be played\\nCity / venu
+ e: Mexico City · Estadio Azteca\\nOpen: https://worldcup-westtime.vercel
+ .app
+LOCATION:Mexico City · Estadio Azteca
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-165657@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260618T160000Z
+DTEND:20260618T180000Z
+SUMMARY:Czechia vs South Africa
+DESCRIPTION:Group stage · Matchday 2\\nStatus: To be played\\nCity / venu
+ e: Atlanta · Mercedes-Benz Stadium\\nOpen: https://worldcup-westtime.ver
+ cel.app
+LOCATION:Atlanta · Mercedes-Benz Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-165658@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260618T190000Z
+DTEND:20260618T210000Z
+SUMMARY:Switzerland vs Bosnia & Herzegovina
+DESCRIPTION:Group stage · Matchday 2\\nStatus: To be played\\nCity / venu
+ e: Los Angeles · SoFi Stadium\\nOpen: https://worldcup-westtime.vercel.a
+ pp
+LOCATION:Los Angeles · SoFi Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104474@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260618T220000Z
+DTEND:20260619T000000Z
+SUMMARY:Canada vs Qatar
+DESCRIPTION:Group stage · Matchday 2\\nStatus: To be played\\nCity / venu
+ e: Vancouver · BC Place\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Vancouver · BC Place
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104475@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260619T010000Z
+DTEND:20260619T030000Z
+SUMMARY:Mexico vs South Korea
+DESCRIPTION:Group stage · Matchday 2\\nStatus: To be played\\nCity / venu
+ e: Guadalajara · Estadio Akron\\nOpen: https://worldcup-westtime.vercel.
+ app
+LOCATION:Guadalajara · Estadio Akron
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104478@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260619T190000Z
+DTEND:20260619T210000Z
+SUMMARY:United States vs Australia
+DESCRIPTION:Group stage · Matchday 2\\nStatus: To be played\\nCity / venu
+ e: Seattle · Lumen Field\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Seattle · Lumen Field
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104477@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260619T220000Z
+DTEND:20260620T000000Z
+SUMMARY:Scotland vs Morocco
+DESCRIPTION:Group stage · Matchday 2\\nStatus: To be played\\nCity / venu
+ e: Boston · Gillette Stadium\\nOpen: https://worldcup-westtime.vercel.ap
+ p
+LOCATION:Boston · Gillette Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104476@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260620T003000Z
+DTEND:20260620T023000Z
+SUMMARY:Brazil vs Haiti
+DESCRIPTION:Group stage · Matchday 2\\nStatus: To be played\\nCity / venu
+ e: Philadelphia · Lincoln Financial Field\\nOpen: https://worldcup-westt
+ ime.vercel.app
+LOCATION:Philadelphia · Lincoln Financial Field
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-165659@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260620T030000Z
+DTEND:20260620T050000Z
+SUMMARY:Türkiye vs Paraguay
+DESCRIPTION:Group stage · Matchday 2\\nStatus: To be played\\nCity / venu
+ e: San Francisco Bay Area · Levi's Stadium\\nOpen: https://worldcup-west
+ time.vercel.app
+LOCATION:San Francisco Bay Area · Levi's Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-165660@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260620T170000Z
+DTEND:20260620T190000Z
+SUMMARY:Netherlands vs Sweden
+DESCRIPTION:Group stage · Matchday 2\\nStatus: To be played\\nCity / venu
+ e: Houston · NRG Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Houston · NRG Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104480@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260620T200000Z
+DTEND:20260620T220000Z
+SUMMARY:Germany vs Ivory Coast
+DESCRIPTION:Group stage · Matchday 2\\nStatus: To be played\\nCity / venu
+ e: Toronto · BMO Field\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Toronto · BMO Field
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104479@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260621T000000Z
+DTEND:20260621T020000Z
+SUMMARY:Ecuador vs Curaçao
+DESCRIPTION:Group stage · Matchday 2\\nStatus: To be played\\nCity / venu
+ e: Kansas City · Arrowhead Stadium\\nOpen: https://worldcup-westtime.ver
+ cel.app
+LOCATION:Kansas City · Arrowhead Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104481@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260621T040000Z
+DTEND:20260621T060000Z
+SUMMARY:Tunisia vs Japan
+DESCRIPTION:Group stage · Matchday 2\\nStatus: To be played\\nCity / venu
+ e: Monterrey · Estadio BBVA\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Monterrey · Estadio BBVA
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104484@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260621T160000Z
+DTEND:20260621T180000Z
+SUMMARY:Spain vs Saudi Arabia
+DESCRIPTION:Group stage · Matchday 2\\nStatus: To be played\\nCity / venu
+ e: Atlanta · Mercedes-Benz Stadium\\nOpen: https://worldcup-westtime.ver
+ cel.app
+LOCATION:Atlanta · Mercedes-Benz Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104482@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260621T190000Z
+DTEND:20260621T210000Z
+SUMMARY:Belgium vs Iran
+DESCRIPTION:Group stage · Matchday 2\\nStatus: To be played\\nCity / venu
+ e: Los Angeles · SoFi Stadium\\nOpen: https://worldcup-westtime.vercel.a
+ pp
+LOCATION:Los Angeles · SoFi Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104485@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260621T220000Z
+DTEND:20260622T000000Z
+SUMMARY:Uruguay vs Cape Verde
+DESCRIPTION:Group stage · Matchday 2\\nStatus: To be played\\nCity / venu
+ e: Miami · Hard Rock Stadium\\nOpen: https://worldcup-westtime.vercel.ap
+ p
+LOCATION:Miami · Hard Rock Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104483@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260622T010000Z
+DTEND:20260622T030000Z
+SUMMARY:New Zealand vs Egypt
+DESCRIPTION:Group stage · Matchday 2\\nStatus: To be played\\nCity / venu
+ e: Vancouver · BC Place\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Vancouver · BC Place
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104486@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260622T170000Z
+DTEND:20260622T190000Z
+SUMMARY:Argentina vs Austria
+DESCRIPTION:Group stage · Matchday 2\\nStatus: To be played\\nCity / venu
+ e: Dallas · AT&T Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Dallas · AT&T Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-165661@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260622T210000Z
+DTEND:20260622T230000Z
+SUMMARY:France vs Iraq
+DESCRIPTION:Group stage · Matchday 2\\nStatus: To be played\\nCity / venu
+ e: Philadelphia · Lincoln Financial Field\\nOpen: https://worldcup-westt
+ ime.vercel.app
+LOCATION:Philadelphia · Lincoln Financial Field
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104488@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260623T000000Z
+DTEND:20260623T020000Z
+SUMMARY:Norway vs Senegal
+DESCRIPTION:Group stage · Matchday 2\\nStatus: To be played\\nCity / venu
+ e: New York New Jersey · MetLife Stadium\\nOpen: https://worldcup-westti
+ me.vercel.app
+LOCATION:New York New Jersey · MetLife Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104487@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260623T030000Z
+DTEND:20260623T050000Z
+SUMMARY:Jordan vs Algeria
+DESCRIPTION:Group stage · Matchday 2\\nStatus: To be played\\nCity / venu
+ e: San Francisco Bay Area · Levi's Stadium\\nOpen: https://worldcup-west
+ time.vercel.app
+LOCATION:San Francisco Bay Area · Levi's Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104491@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260623T170000Z
+DTEND:20260623T190000Z
+SUMMARY:Portugal vs Uzbekistan
+DESCRIPTION:Group stage · Matchday 2\\nStatus: To be played\\nCity / venu
+ e: Houston · NRG Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Houston · NRG Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104489@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260623T200000Z
+DTEND:20260623T220000Z
+SUMMARY:England vs Ghana
+DESCRIPTION:Group stage · Matchday 2\\nStatus: To be played\\nCity / venu
+ e: Boston · Gillette Stadium\\nOpen: https://worldcup-westtime.vercel.ap
+ p
+LOCATION:Boston · Gillette Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104490@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260623T230000Z
+DTEND:20260624T010000Z
+SUMMARY:Panama vs Croatia
+DESCRIPTION:Group stage · Matchday 2\\nStatus: To be played\\nCity / venu
+ e: Toronto · BMO Field\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Toronto · BMO Field
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-165662@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260624T020000Z
+DTEND:20260624T040000Z
+SUMMARY:Colombia vs DR Congo
+DESCRIPTION:Group stage · Matchday 2\\nStatus: To be played\\nCity / venu
+ e: Guadalajara · Estadio Akron\\nOpen: https://worldcup-westtime.vercel.
+ app
+LOCATION:Guadalajara · Estadio Akron
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104495@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260624T190000Z
+DTEND:20260624T210000Z
+SUMMARY:Switzerland vs Canada
+DESCRIPTION:Group stage · Matchday 3\\nStatus: To be played\\nCity / venu
+ e: Vancouver · BC Place\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Vancouver · BC Place
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-165663@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260624T190000Z
+DTEND:20260624T210000Z
+SUMMARY:Bosnia & Herzegovina vs Qatar
+DESCRIPTION:Group stage · Matchday 3\\nStatus: To be played\\nCity / venu
+ e: Seattle · Lumen Field\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Seattle · Lumen Field
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104492@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260624T220000Z
+DTEND:20260625T000000Z
+SUMMARY:Morocco vs Haiti
+DESCRIPTION:Group stage · Matchday 3\\nStatus: To be played\\nCity / venu
+ e: Atlanta · Mercedes-Benz Stadium\\nOpen: https://worldcup-westtime.ver
+ cel.app
+LOCATION:Atlanta · Mercedes-Benz Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104493@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260624T220000Z
+DTEND:20260625T000000Z
+SUMMARY:Scotland vs Brazil
+DESCRIPTION:Group stage · Matchday 3\\nStatus: To be played\\nCity / venu
+ e: Miami · Hard Rock Stadium\\nOpen: https://worldcup-westtime.vercel.ap
+ p
+LOCATION:Miami · Hard Rock Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104494@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260625T010000Z
+DTEND:20260625T030000Z
+SUMMARY:South Africa vs South Korea
+DESCRIPTION:Group stage · Matchday 3\\nStatus: To be played\\nCity / venu
+ e: Monterrey · Estadio BBVA\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Monterrey · Estadio BBVA
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-165664@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260625T010000Z
+DTEND:20260625T030000Z
+SUMMARY:Czechia vs Mexico
+DESCRIPTION:Group stage · Matchday 3\\nStatus: To be played\\nCity / venu
+ e: Mexico City · Estadio Azteca\\nOpen: https://worldcup-westtime.vercel
+ .app
+LOCATION:Mexico City · Estadio Azteca
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104496@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260625T200000Z
+DTEND:20260625T220000Z
+SUMMARY:Curaçao vs Ivory Coast
+DESCRIPTION:Group stage · Matchday 3\\nStatus: To be played\\nCity / venu
+ e: Philadelphia · Lincoln Financial Field\\nOpen: https://worldcup-westt
+ ime.vercel.app
+LOCATION:Philadelphia · Lincoln Financial Field
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104497@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260625T200000Z
+DTEND:20260625T220000Z
+SUMMARY:Ecuador vs Germany
+DESCRIPTION:Group stage · Matchday 3\\nStatus: To be played\\nCity / venu
+ e: New York New Jersey · MetLife Stadium\\nOpen: https://worldcup-westti
+ me.vercel.app
+LOCATION:New York New Jersey · MetLife Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104499@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260625T230000Z
+DTEND:20260626T010000Z
+SUMMARY:Tunisia vs Netherlands
+DESCRIPTION:Group stage · Matchday 3\\nStatus: To be played\\nCity / venu
+ e: Kansas City · Arrowhead Stadium\\nOpen: https://worldcup-westtime.ver
+ cel.app
+LOCATION:Kansas City · Arrowhead Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-165665@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260625T230000Z
+DTEND:20260626T010000Z
+SUMMARY:Japan vs Sweden
+DESCRIPTION:Group stage · Matchday 3\\nStatus: To be played\\nCity / venu
+ e: Dallas · AT&T Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Dallas · AT&T Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104498@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260626T020000Z
+DTEND:20260626T040000Z
+SUMMARY:Paraguay vs Australia
+DESCRIPTION:Group stage · Matchday 3\\nStatus: To be played\\nCity / venu
+ e: San Francisco Bay Area · Levi's Stadium\\nOpen: https://worldcup-west
+ time.vercel.app
+LOCATION:San Francisco Bay Area · Levi's Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-165666@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260626T020000Z
+DTEND:20260626T040000Z
+SUMMARY:Türkiye vs United States
+DESCRIPTION:Group stage · Matchday 3\\nStatus: To be played\\nCity / venu
+ e: Los Angeles · SoFi Stadium\\nOpen: https://worldcup-westtime.vercel.a
+ pp
+LOCATION:Los Angeles · SoFi Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104503@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260626T190000Z
+DTEND:20260626T210000Z
+SUMMARY:Norway vs France
+DESCRIPTION:Group stage · Matchday 3\\nStatus: To be played\\nCity / venu
+ e: Boston · Gillette Stadium\\nOpen: https://worldcup-westtime.vercel.ap
+ p
+LOCATION:Boston · Gillette Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-165667@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260626T190000Z
+DTEND:20260626T210000Z
+SUMMARY:Senegal vs Iraq
+DESCRIPTION:Group stage · Matchday 3\\nStatus: To be played\\nCity / venu
+ e: Toronto · BMO Field\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Toronto · BMO Field
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104500@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260627T000000Z
+DTEND:20260627T020000Z
+SUMMARY:Cape Verde vs Saudi Arabia
+DESCRIPTION:Group stage · Matchday 3\\nStatus: To be played\\nCity / venu
+ e: Houston · NRG Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Houston · NRG Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104504@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260627T000000Z
+DTEND:20260627T020000Z
+SUMMARY:Uruguay vs Spain
+DESCRIPTION:Group stage · Matchday 3\\nStatus: To be played\\nCity / venu
+ e: Guadalajara · Estadio Akron\\nOpen: https://worldcup-westtime.vercel.
+ app
+LOCATION:Guadalajara · Estadio Akron
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104501@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260627T030000Z
+DTEND:20260627T050000Z
+SUMMARY:Egypt vs Iran
+DESCRIPTION:Group stage · Matchday 3\\nStatus: To be played\\nCity / venu
+ e: Seattle · Lumen Field\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Seattle · Lumen Field
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104502@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260627T030000Z
+DTEND:20260627T050000Z
+SUMMARY:New Zealand vs Belgium
+DESCRIPTION:Group stage · Matchday 3\\nStatus: To be played\\nCity / venu
+ e: Vancouver · BC Place\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Vancouver · BC Place
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104507@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260627T210000Z
+DTEND:20260627T230000Z
+SUMMARY:Croatia vs Ghana
+DESCRIPTION:Group stage · Matchday 3\\nStatus: To be played\\nCity / venu
+ e: Philadelphia · Lincoln Financial Field\\nOpen: https://worldcup-westt
+ ime.vercel.app
+LOCATION:Philadelphia · Lincoln Financial Field
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104509@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260627T210000Z
+DTEND:20260627T230000Z
+SUMMARY:Panama vs England
+DESCRIPTION:Group stage · Matchday 3\\nStatus: To be played\\nCity / venu
+ e: New York New Jersey · MetLife Stadium\\nOpen: https://worldcup-westti
+ me.vercel.app
+LOCATION:New York New Jersey · MetLife Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104506@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260627T233000Z
+DTEND:20260628T013000Z
+SUMMARY:Colombia vs Portugal
+DESCRIPTION:Group stage · Matchday 3\\nStatus: To be played\\nCity / venu
+ e: Miami · Hard Rock Stadium\\nOpen: https://worldcup-westtime.vercel.ap
+ p
+LOCATION:Miami · Hard Rock Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-165668@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260627T233000Z
+DTEND:20260628T013000Z
+SUMMARY:DR Congo vs Uzbekistan
+DESCRIPTION:Group stage · Matchday 3\\nStatus: To be played\\nCity / venu
+ e: Atlanta · Mercedes-Benz Stadium\\nOpen: https://worldcup-westtime.ver
+ cel.app
+LOCATION:Atlanta · Mercedes-Benz Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104505@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260628T020000Z
+DTEND:20260628T040000Z
+SUMMARY:Algeria vs Austria
+DESCRIPTION:Group stage · Matchday 3\\nStatus: To be played\\nCity / venu
+ e: Kansas City · Arrowhead Stadium\\nOpen: https://worldcup-westtime.ver
+ cel.app
+LOCATION:Kansas City · Arrowhead Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-104508@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260628T020000Z
+DTEND:20260628T040000Z
+SUMMARY:Jordan vs Argentina
+DESCRIPTION:Group stage · Matchday 3\\nStatus: To be played\\nCity / venu
+ e: Dallas · AT&T Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Dallas · AT&T Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160042@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260628T190000Z
+DTEND:20260628T210000Z
+SUMMARY:TBD Home (Round of 32 #1) vs TBD Away (Round of 32 #1)
+DESCRIPTION:Round of 32\\nStatus: To be played\\nCity / venue: Los Angele
+ s · SoFi Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Los Angeles · SoFi Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160043@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260629T170000Z
+DTEND:20260629T190000Z
+SUMMARY:TBD Home (Round of 32 #2) vs TBD Away (Round of 32 #2)
+DESCRIPTION:Round of 32\\nStatus: To be played\\nCity / venue: Boston · G
+ illette Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Boston · Gillette Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160044@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260629T203000Z
+DTEND:20260629T223000Z
+SUMMARY:TBD Home (Round of 32 #3) vs TBD Away (Round of 32 #3)
+DESCRIPTION:Round of 32\\nStatus: To be played\\nCity / venue: Monterrey 
+ · Estadio BBVA\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Monterrey · Estadio BBVA
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160045@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260630T010000Z
+DTEND:20260630T030000Z
+SUMMARY:TBD Home (Round of 32 #4) vs TBD Away (Round of 32 #4)
+DESCRIPTION:Round of 32\\nStatus: To be played\\nCity / venue: Houston · 
+ NRG Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Houston · NRG Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160046@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260630T170000Z
+DTEND:20260630T190000Z
+SUMMARY:TBD Home (Round of 32 #5) vs TBD Away (Round of 32 #5)
+DESCRIPTION:Round of 32\\nStatus: To be played\\nCity / venue: New York N
+ ew Jersey · MetLife Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:New York New Jersey · MetLife Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160047@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260630T210000Z
+DTEND:20260630T230000Z
+SUMMARY:TBD Home (Round of 32 #6) vs TBD Away (Round of 32 #6)
+DESCRIPTION:Round of 32\\nStatus: To be played\\nCity / venue: Dallas · A
+ T&T Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Dallas · AT&T Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160048@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260701T010000Z
+DTEND:20260701T030000Z
+SUMMARY:TBD Home (Round of 32 #7) vs TBD Away (Round of 32 #7)
+DESCRIPTION:Round of 32\\nStatus: To be played\\nCity / venue: Mexico Cit
+ y · Estadio Azteca\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Mexico City · Estadio Azteca
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160049@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260701T160000Z
+DTEND:20260701T180000Z
+SUMMARY:TBD Home (Round of 32 #8) vs TBD Away (Round of 32 #8)
+DESCRIPTION:Round of 32\\nStatus: To be played\\nCity / venue: Atlanta · 
+ Mercedes-Benz Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Atlanta · Mercedes-Benz Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160050@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260701T200000Z
+DTEND:20260701T220000Z
+SUMMARY:TBD Home (Round of 32 #9) vs TBD Away (Round of 32 #9)
+DESCRIPTION:Round of 32\\nStatus: To be played\\nCity / venue: San Franci
+ sco Bay Area · Levi's Stadium\\nOpen: https://worldcup-westtime.vercel.a
+ pp
+LOCATION:San Francisco Bay Area · Levi's Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160051@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260702T000000Z
+DTEND:20260702T020000Z
+SUMMARY:TBD Home (Round of 32 #10) vs TBD Away (Round of 32 #10)
+DESCRIPTION:Round of 32\\nStatus: To be played\\nCity / venue: Seattle · 
+ Lumen Field\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Seattle · Lumen Field
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160052@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260702T190000Z
+DTEND:20260702T210000Z
+SUMMARY:TBD Home (Round of 32 #11) vs TBD Away (Round of 32 #11)
+DESCRIPTION:Round of 32\\nStatus: To be played\\nCity / venue: Toronto · 
+ BMO Field\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Toronto · BMO Field
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160053@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260702T230000Z
+DTEND:20260703T010000Z
+SUMMARY:TBD Home (Round of 32 #12) vs TBD Away (Round of 32 #12)
+DESCRIPTION:Round of 32\\nStatus: To be played\\nCity / venue: Los Angele
+ s · SoFi Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Los Angeles · SoFi Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160054@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260703T030000Z
+DTEND:20260703T050000Z
+SUMMARY:TBD Home (Round of 32 #13) vs TBD Away (Round of 32 #13)
+DESCRIPTION:Round of 32\\nStatus: To be played\\nCity / venue: Vancouver 
+ · BC Place\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Vancouver · BC Place
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160055@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260703T180000Z
+DTEND:20260703T200000Z
+SUMMARY:TBD Home (Round of 32 #14) vs TBD Away (Round of 32 #14)
+DESCRIPTION:Round of 32\\nStatus: To be played\\nCity / venue: Miami · Ha
+ rd Rock Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Miami · Hard Rock Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160056@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260703T220000Z
+DTEND:20260704T000000Z
+SUMMARY:TBD Home (Round of 32 #15) vs TBD Away (Round of 32 #15)
+DESCRIPTION:Round of 32\\nStatus: To be played\\nCity / venue: Kansas Cit
+ y · Arrowhead Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Kansas City · Arrowhead Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160057@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260704T013000Z
+DTEND:20260704T033000Z
+SUMMARY:TBD Home (Round of 32 #16) vs TBD Away (Round of 32 #16)
+DESCRIPTION:Round of 32\\nStatus: To be played\\nCity / venue: Dallas · A
+ T&T Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Dallas · AT&T Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160058@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260704T170000Z
+DTEND:20260704T190000Z
+SUMMARY:TBD Home (Round of 16 #1) vs TBD Away (Round of 16 #1)
+DESCRIPTION:Round of 16\\nStatus: To be played\\nCity / venue: Philadelph
+ ia · Lincoln Financial Field\\nOpen: https://worldcup-westtime.vercel.ap
+ p
+LOCATION:Philadelphia · Lincoln Financial Field
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160059@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260704T210000Z
+DTEND:20260704T230000Z
+SUMMARY:TBD Home (Round of 16 #2) vs TBD Away (Round of 16 #2)
+DESCRIPTION:Round of 16\\nStatus: To be played\\nCity / venue: Houston · 
+ NRG Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Houston · NRG Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160060@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260705T200000Z
+DTEND:20260705T220000Z
+SUMMARY:TBD Home (Round of 16 #3) vs TBD Away (Round of 16 #3)
+DESCRIPTION:Round of 16\\nStatus: To be played\\nCity / venue: New York N
+ ew Jersey · MetLife Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:New York New Jersey · MetLife Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160061@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260706T000000Z
+DTEND:20260706T020000Z
+SUMMARY:TBD Home (Round of 16 #4) vs TBD Away (Round of 16 #4)
+DESCRIPTION:Round of 16\\nStatus: To be played\\nCity / venue: Mexico Cit
+ y · Estadio Azteca\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Mexico City · Estadio Azteca
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160062@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260706T190000Z
+DTEND:20260706T210000Z
+SUMMARY:TBD Home (Round of 16 #5) vs TBD Away (Round of 16 #5)
+DESCRIPTION:Round of 16\\nStatus: To be played\\nCity / venue: Dallas · A
+ T&T Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Dallas · AT&T Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160063@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260707T000000Z
+DTEND:20260707T020000Z
+SUMMARY:TBD Home (Round of 16 #6) vs TBD Away (Round of 16 #6)
+DESCRIPTION:Round of 16\\nStatus: To be played\\nCity / venue: Seattle · 
+ Lumen Field\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Seattle · Lumen Field
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160064@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260707T160000Z
+DTEND:20260707T180000Z
+SUMMARY:TBD Home (Round of 16 #7) vs TBD Away (Round of 16 #7)
+DESCRIPTION:Round of 16\\nStatus: To be played\\nCity / venue: Atlanta · 
+ Mercedes-Benz Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Atlanta · Mercedes-Benz Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160065@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260707T200000Z
+DTEND:20260707T220000Z
+SUMMARY:TBD Home (Round of 16 #8) vs TBD Away (Round of 16 #8)
+DESCRIPTION:Round of 16\\nStatus: To be played\\nCity / venue: Vancouver 
+ · BC Place\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Vancouver · BC Place
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160066@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260709T200000Z
+DTEND:20260709T220000Z
+SUMMARY:TBD Home (Quarter-finals #1) vs TBD Away (Quarter-finals #1)
+DESCRIPTION:Quarter-finals\\nStatus: To be played\\nCity / venue: Boston 
+ · Gillette Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Boston · Gillette Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160067@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260710T190000Z
+DTEND:20260710T210000Z
+SUMMARY:TBD Home (Quarter-finals #2) vs TBD Away (Quarter-finals #2)
+DESCRIPTION:Quarter-finals\\nStatus: To be played\\nCity / venue: Los Ang
+ eles · SoFi Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Los Angeles · SoFi Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160068@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260711T210000Z
+DTEND:20260711T230000Z
+SUMMARY:TBD Home (Quarter-finals #3) vs TBD Away (Quarter-finals #3)
+DESCRIPTION:Quarter-finals\\nStatus: To be played\\nCity / venue: Miami ·
+  Hard Rock Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Miami · Hard Rock Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160069@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260712T010000Z
+DTEND:20260712T030000Z
+SUMMARY:TBD Home (Quarter-finals #4) vs TBD Away (Quarter-finals #4)
+DESCRIPTION:Quarter-finals\\nStatus: To be played\\nCity / venue: Kansas 
+ City · Arrowhead Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Kansas City · Arrowhead Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160070@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260714T190000Z
+DTEND:20260714T210000Z
+SUMMARY:TBD Home (Semi-finals #1) vs TBD Away (Semi-finals #1)
+DESCRIPTION:Semi-finals\\nStatus: To be played\\nCity / venue: Dallas · A
+ T&T Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Dallas · AT&T Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160071@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260715T190000Z
+DTEND:20260715T210000Z
+SUMMARY:TBD Home (Semi-finals #2) vs TBD Away (Semi-finals #2)
+DESCRIPTION:Semi-finals\\nStatus: To be played\\nCity / venue: Atlanta · 
+ Mercedes-Benz Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Atlanta · Mercedes-Benz Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160072@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260718T210000Z
+DTEND:20260718T230000Z
+SUMMARY:TBD Home (3rd Place Final #1) vs TBD Away (3rd Place Final #1)
+DESCRIPTION:3rd Place Final\\nStatus: To be played\\nCity / venue: Miami 
+ · Hard Rock Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:Miami · Hard Rock Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-160073@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART:20260719T190000Z
+DTEND:20260719T210000Z
+SUMMARY:TBD Home (Final #1) vs TBD Away (Final #1)
+DESCRIPTION:Final\\nStatus: To be played\\nCity / venue: New York New Jer
+ sey · MetLife Stadium\\nOpen: https://worldcup-westtime.vercel.app
+LOCATION:New York New Jersey · MetLife Stadium
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+BEGIN:VEVENT
+UID:worldcup-westtime-final-buffer@worldcup-westtime.vercel.app
+DTSTAMP:20260616T033022Z
+DTSTART;VALUE=DATE:20260720
+SUMMARY:WorldCup WestTime tournament wrap
+DESCRIPTION:Tournament calendar completed. Open: https://worldcup-westtim
+ e.vercel.app
+URL:https://worldcup-westtime.vercel.app
+END:VEVENT
+END:VCALENDAR

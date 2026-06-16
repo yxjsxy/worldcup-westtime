@@ -7,6 +7,7 @@
     "dev": "vite --host 0.0.0.0",
     "build": "tsc && vite build",
     "preview": "vite preview --host 0.0.0.0",
+    "calendar": "node scripts/generate_calendar.mjs",
     "update:schedule": "node scripts/update_schedule.mjs"
   },
   "dependencies": {
