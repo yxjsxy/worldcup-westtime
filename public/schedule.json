@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T00:00:19.061Z",
+  "generatedAt": "2026-06-17T00:31:13.567Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -679,9 +679,41 @@
       "awayTeam": "Norway",
       "city": "Boston",
       "stadium": "Gillette Stadium",
-      "status": "Live",
-      "result": "1–3",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "1–4",
+      "goalEvents": [
+        {
+          "minute": "29'",
+          "team": "Norway",
+          "player": "Erling Haaland",
+          "playerZh": "埃尔林·哈兰德"
+        },
+        {
+          "minute": "39'",
+          "team": "Iraq",
+          "player": "Aymen Hussein",
+          "playerZh": "艾曼·侯赛因"
+        },
+        {
+          "minute": "43'",
+          "team": "Norway",
+          "player": "Erling Haaland",
+          "playerZh": "埃尔林·哈兰德"
+        },
+        {
+          "minute": "76'",
+          "team": "Norway",
+          "player": "Leo Østigård",
+          "playerZh": "莱奥·厄斯蒂高"
+        },
+        {
+          "minute": "90'+6'",
+          "team": "Norway",
+          "player": "Aymen Hussein",
+          "playerZh": "艾曼·侯赛因",
+          "note": "乌龙"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
