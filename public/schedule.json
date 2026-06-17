@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T21:00:17.653Z",
+  "generatedAt": "2026-06-17T21:30:12.894Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -851,7 +851,7 @@
       "city": "Arlington",
       "stadium": "AT&T Stadium",
       "status": "Live",
-      "result": "2–1",
+      "result": "3–2",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
