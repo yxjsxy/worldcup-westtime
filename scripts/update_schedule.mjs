@@ -68,6 +68,8 @@ const teamAliases = new Map([
 const playerNameZh = new Map([
   ["Julián Quiñones", "胡利安·基尼奥内斯"],
   ["Raúl Jiménez", "劳尔·希门尼斯"],
+  ["João Neves", "若昂·内维斯"],
+  ["Yoane Wissa", "约安·维萨"],
   ["Ladislav Krejcí", "拉迪斯拉夫·克雷伊奇"],
   ["Hwang In-Beom", "黄仁范"],
   ["Oh Hyeon-Gyu", "吴贤揆"],
