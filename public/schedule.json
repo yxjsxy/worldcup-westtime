@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T21:30:12.894Z",
+  "generatedAt": "2026-06-17T22:30:39.578Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -850,9 +850,47 @@
       "awayTeam": "Croatia",
       "city": "Arlington",
       "stadium": "AT&T Stadium",
-      "status": "Live",
-      "result": "3–2",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "4–2",
+      "goalEvents": [
+        {
+          "minute": "12'",
+          "team": "England",
+          "player": "Harry Kane",
+          "playerZh": "哈里·凯恩",
+          "note": "点球"
+        },
+        {
+          "minute": "36'",
+          "team": "Croatia",
+          "player": "Martin Baturina",
+          "playerZh": "马丁·巴图里纳"
+        },
+        {
+          "minute": "42'",
+          "team": "England",
+          "player": "Harry Kane",
+          "playerZh": "哈里·凯恩"
+        },
+        {
+          "minute": "45'+5'",
+          "team": "Croatia",
+          "player": "Petar Musa",
+          "playerZh": "佩塔尔·穆萨"
+        },
+        {
+          "minute": "47'",
+          "team": "England",
+          "player": "Jude Bellingham",
+          "playerZh": "裘德·贝林厄姆"
+        },
+        {
+          "minute": "85'",
+          "team": "England",
+          "player": "Marcus Rashford",
+          "playerZh": "马库斯·拉什福德"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
