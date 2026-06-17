@@ -238,6 +238,62 @@ h1 {
   text-decoration: none;
 }
 
+.favorite-filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 18px;
+  padding: 16px 18px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 8px;
+  background: linear-gradient(90deg, #fff, rgba(240, 253, 244, 0.78));
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.07);
+  color: #334155;
+}
+
+.favorite-filter div {
+  min-width: 0;
+}
+
+.favorite-filter strong,
+.favorite-filter div span,
+.favorite-filter label span {
+  display: block;
+}
+
+.favorite-filter div span {
+  margin-top: 4px;
+  color: #64748b;
+  line-height: 1.45;
+}
+
+.favorite-filter label {
+  flex: 0 0 min(360px, 44%);
+  min-width: 230px;
+}
+
+.favorite-filter label span {
+  margin-bottom: 6px;
+  color: #64748b;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.favorite-filter select {
+  width: 100%;
+  min-height: 42px;
+  padding: 9px 36px 9px 12px;
+  border: 1px solid rgba(15, 23, 42, 0.16);
+  border-radius: 8px;
+  background: #fff;
+  color: #0f172a;
+  font: inherit;
+  font-weight: 700;
+}
+
 .score-notice {
   margin: 14px 0;
   padding: 18px;
@@ -557,9 +613,16 @@ footer {
   }
 
   .freshness,
-  .calendar-cta {
+  .calendar-cta,
+  .favorite-filter {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .favorite-filter label {
+    flex: 1 1 auto;
+    width: 100%;
+    min-width: 0;
   }
 
   .freshness span {

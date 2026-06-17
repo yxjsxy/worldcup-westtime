@@ -3,6 +3,7 @@ import {
   type Match,
   type SchedulePayload,
   formatPacificDate,
+  formatTeamName,
   getFutureMatches,
   getKnockoutMatches,
   getMatchTitle,
@@ -14,6 +15,7 @@ import {
 } from "./schedule";
 
 const app = document.querySelector<HTMLDivElement>("#app");
+const favoriteTeamStorageKey = "worldcup-westtime.favoriteTeam";
 const deployLabel = `Deployed in ${
   import.meta.env.VITE_DEPLOYED_AT ||
   "pending Vercel deploy"
@@ -30,6 +32,41 @@ function escapeHtml(value: string | number | null | undefined): string {
 
 function getMatchLocation(match: Match): string {
   return [match.city, match.stadium].filter(Boolean).join(" · ") || "Venue TBD";
+}
+
+function getStoredFavoriteTeam(): string {
+  try {
+    return window.localStorage.getItem(favoriteTeamStorageKey) || "";
+  } catch {
+    return "";
+  }
+}
+
+function changeFavoriteTeam(team: string): void {
+  try {
+    if (team) {
+      window.localStorage.setItem(favoriteTeamStorageKey, team);
+    } else {
+      window.localStorage.removeItem(favoriteTeamStorageKey);
+    }
+  } catch {
+    // Ignore storage failures; the in-memory render still updates.
+  }
+}
+
+function getTeamOptions(matches: Match[]): string[] {
+  const teams = new Set<string>();
+  for (const match of matches) {
+    for (const team of [match.homeTeam, match.awayTeam]) {
+      if (team && !team.startsWith("TBD")) teams.add(team);
+    }
+  }
+  return [...teams].sort((a, b) => a.localeCompare(b));
+}
+
+function filterMatchesByTeam(matches: Match[], team: string): Match[] {
+  if (!team) return matches;
+  return matches.filter((match) => match.homeTeam === team || match.awayTeam === team);
 }
 
 function getGoalSide(match: Match, goalTeam: string): "home" | "away" | "neutral" {
@@ -269,13 +306,47 @@ function renderCalendarCta(): string {
   `;
 }
 
+function renderFavoriteFilter(teams: string[], selectedTeam: string, matches: Match[]): string {
+  const filteredCount = filterMatchesByTeam(matches, selectedTeam).length;
+  const helperText = selectedTeam
+    ? `${formatTeamName(selectedTeam)} · ${filteredCount} matches`
+    : "All teams · full schedule";
+
+  return `
+    <section class="favorite-filter" aria-label="收藏球队筛选">
+      <div>
+        <strong>收藏球队</strong>
+        <span>${escapeHtml(helperText)}</span>
+      </div>
+      <label>
+        <span>Favorite team</span>
+        <select id="favorite-team" name="favorite-team">
+          <option value="">All teams</option>
+          ${teams
+            .map(
+              (team) => `
+            <option value="${escapeHtml(team)}" ${team === selectedTeam ? "selected" : ""}>
+              ${escapeHtml(formatTeamName(team))}
+            </option>
+          `,
+            )
+            .join("")}
+        </select>
+      </label>
+    </section>
+  `;
+}
+
 function render(payload: SchedulePayload): void {
   if (!app) return;
   const today = getPacificDate();
-  const todayMatches = getTodayMatches(payload.matches, today);
-  const futureMatches = getFutureMatches(payload.matches, today);
-  const recentResults = getRecentResults(payload.matches, today);
-  const knockoutMatches = getKnockoutMatches(payload.matches);
+  const selectedTeam = getStoredFavoriteTeam();
+  const teamOptions = getTeamOptions(payload.matches);
+  const visibleMatches = filterMatchesByTeam(payload.matches, selectedTeam);
+  const todayMatches = getTodayMatches(visibleMatches, today);
+  const futureMatches = getFutureMatches(visibleMatches, today);
+  const recentResults = getRecentResults(visibleMatches, today);
+  const knockoutMatches = getKnockoutMatches(visibleMatches);
   const nextMatch = futureMatches[0] || todayMatches.find((match) => match.status !== "Played") || null;
 
   app.innerHTML = `
@@ -304,13 +375,14 @@ function render(payload: SchedulePayload): void {
     </header>
 
     <section class="stats">
-      <div><strong>${payload.matches.length}</strong><span>Total matches</span></div>
+      <div><strong>${visibleMatches.length}</strong><span>${selectedTeam ? "Favorite matches" : "Total matches"}</span></div>
       <div><strong>${todayMatches.length}</strong><span>Today</span></div>
       <div><strong>${futureMatches.length}</strong><span>Upcoming</span></div>
       <div><strong>${knockoutMatches.length}</strong><span>Knockout</span></div>
     </section>
 
     ${renderFreshness(payload)}
+    ${renderFavoriteFilter(teamOptions, selectedTeam, payload.matches)}
     ${renderCalendarCta()}
     ${renderToday(todayMatches, today)}
     ${renderScoreStatusNotice(recentResults)}
@@ -325,6 +397,11 @@ function render(payload: SchedulePayload): void {
       <span>${escapeHtml(deployLabel)}</span>
     </footer>
   `;
+
+  app.querySelector<HTMLSelectElement>("#favorite-team")?.addEventListener("change", (event) => {
+    changeFavoriteTeam((event.currentTarget as HTMLSelectElement).value);
+    render(payload);
+  });
 }
 
 function renderError(error: unknown): void {
