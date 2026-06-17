@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T06:00:29.693Z",
+  "generatedAt": "2026-06-17T06:31:47.909Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -770,9 +770,36 @@
       "awayTeam": "Jordan",
       "city": "Santa Clara",
       "stadium": "Levi's Stadium",
-      "status": "Live",
-      "result": "2–1",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "3–1",
+      "goalEvents": [
+        {
+          "minute": "21'",
+          "team": "Austria",
+          "player": "Romano Schmid",
+          "playerZh": "罗马诺·施密德"
+        },
+        {
+          "minute": "50'",
+          "team": "Jordan",
+          "player": "Ali Olwan",
+          "playerZh": "阿里·奥尔万"
+        },
+        {
+          "minute": "76'",
+          "team": "Austria",
+          "player": "Yazan Al Arab",
+          "playerZh": "亚赞·阿拉伯",
+          "note": "乌龙"
+        },
+        {
+          "minute": "90'+12'",
+          "team": "Austria",
+          "player": "Marko Arnautovic",
+          "playerZh": "马尔科·阿瑙托维奇",
+          "note": "点球"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },

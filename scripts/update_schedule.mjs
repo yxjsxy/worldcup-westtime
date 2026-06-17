@@ -115,6 +115,10 @@ const playerNameZh = new Map([
   ["Aymen Hussein", "艾曼·侯赛因"],
   ["Leo Østigård", "莱奥·厄斯蒂高"],
   ["Lionel Messi", "莱昂内尔·梅西"],
+  ["Romano Schmid", "罗马诺·施密德"],
+  ["Ali Olwan", "阿里·奥尔万"],
+  ["Yazan Al Arab", "亚赞·阿拉伯"],
+  ["Marko Arnautovic", "马尔科·阿瑙托维奇"],
 ]);
 
 const knownGoalEvents = new Map([
