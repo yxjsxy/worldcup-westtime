@@ -68,6 +68,30 @@ nav strong {
   font-size: 18px;
 }
 
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.always-on-toggle {
+  min-height: 34px;
+  padding: 7px 12px;
+  border: 1px solid rgba(6, 78, 59, 0.18);
+  border-radius: 8px;
+  background: #fff;
+  color: #064e3b;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.always-on-toggle.active {
+  background: #064e3b;
+  color: #fff;
+}
+
 .hero-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 340px;
@@ -575,6 +599,57 @@ footer {
   text-transform: none;
 }
 
+#app.always-on-active {
+  width: min(1480px, calc(100% - 28px));
+  padding-top: 10px;
+}
+
+#app.always-on-active .hero {
+  min-height: 28vh;
+  padding-bottom: 16px;
+}
+
+#app.always-on-active h1 {
+  font-size: clamp(36px, 5vw, 68px);
+}
+
+#app.always-on-active .subtitle,
+#app.always-on-active .calendar-cta,
+#app.always-on-active .freshness,
+#app.always-on-active .favorite-filter {
+  display: none;
+}
+
+#app.always-on-active .stats {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  margin-bottom: 10px;
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(12px);
+}
+
+#app.always-on-active .panel,
+#app.always-on-active .score-notice {
+  margin: 10px 0;
+  padding: 14px;
+}
+
+#app.always-on-active .future-days,
+#app.always-on-active .compact-list,
+#app.always-on-active .today-list {
+  gap: 8px;
+}
+
+#app.always-on-active .match {
+  min-height: 74px;
+  grid-template-columns: 72px minmax(0, 1fr) minmax(86px, auto);
+}
+
+#app.always-on-active .match.today {
+  min-height: 86px;
+}
+
 @media (max-width: 760px) {
   #app {
     width: min(100% - 20px, 1180px);
@@ -587,6 +662,7 @@ footer {
   nav,
   .hero-grid,
   .stats,
+  .nav-actions,
   .section-title.row,
   .day-head {
     align-items: stretch;
@@ -595,6 +671,7 @@ footer {
   nav,
   .hero-grid,
   .stats,
+  .nav-actions,
   .section-title.row,
   .day-head,
   footer {

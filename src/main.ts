@@ -16,6 +16,7 @@ import {
 
 const app = document.querySelector<HTMLDivElement>("#app");
 const favoriteTeamStorageKey = "worldcup-westtime.favoriteTeam";
+const alwaysOnStorageKey = "worldcup-westtime.alwaysOn";
 const deployLabel = `Deployed in ${
   import.meta.env.VITE_DEPLOYED_AT ||
   "pending Vercel deploy"
@@ -51,6 +52,22 @@ function changeFavoriteTeam(team: string): void {
     }
   } catch {
     // Ignore storage failures; the in-memory render still updates.
+  }
+}
+
+function getAlwaysOnMode(): boolean {
+  try {
+    return window.localStorage.getItem(alwaysOnStorageKey) === "true";
+  } catch {
+    return false;
+  }
+}
+
+function toggleAlwaysOnMode(enabled: boolean): void {
+  try {
+    window.localStorage.setItem(alwaysOnStorageKey, String(enabled));
+  } catch {
+    // Ignore storage failures; the current render still reflects the choice.
   }
 }
 
@@ -341,6 +358,7 @@ function render(payload: SchedulePayload): void {
   if (!app) return;
   const today = getPacificDate();
   const selectedTeam = getStoredFavoriteTeam();
+  const alwaysOnMode = getAlwaysOnMode();
   const teamOptions = getTeamOptions(payload.matches);
   const visibleMatches = filterMatchesByTeam(payload.matches, selectedTeam);
   const todayMatches = getTodayMatches(visibleMatches, today);
@@ -348,12 +366,23 @@ function render(payload: SchedulePayload): void {
   const recentResults = getRecentResults(visibleMatches, today);
   const knockoutMatches = getKnockoutMatches(visibleMatches);
   const nextMatch = futureMatches[0] || todayMatches.find((match) => match.status !== "Played") || null;
+  app.classList.toggle("always-on-active", alwaysOnMode);
 
   app.innerHTML = `
     <header class="hero">
       <nav>
         <strong>WorldCup WestTime</strong>
-        <span>FIFA 2026 · 美西时间</span>
+        <div class="nav-actions">
+          <button
+            class="always-on-toggle ${alwaysOnMode ? "active" : ""}"
+            type="button"
+            aria-pressed="${alwaysOnMode}"
+            title="Toggle TV and desktop always-on view"
+          >
+            Always-on
+          </button>
+          <span>FIFA 2026 · 美西时间</span>
+        </div>
       </nav>
       <div class="hero-grid">
         <section>
@@ -400,6 +429,10 @@ function render(payload: SchedulePayload): void {
 
   app.querySelector<HTMLSelectElement>("#favorite-team")?.addEventListener("change", (event) => {
     changeFavoriteTeam((event.currentTarget as HTMLSelectElement).value);
+    render(payload);
+  });
+  app.querySelector<HTMLButtonElement>(".always-on-toggle")?.addEventListener("click", () => {
+    toggleAlwaysOnMode(!getAlwaysOnMode());
     render(payload);
   });
 }
