@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T21:00:12.912Z",
+  "generatedAt": "2026-06-18T21:31:02.620Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1014,9 +1014,41 @@
       "awayTeam": "Bosnia & Herzegovina",
       "city": "Inglewood",
       "stadium": "SoFi Stadium",
-      "status": "Live",
-      "result": "1–0",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "4–1",
+      "goalEvents": [
+        {
+          "minute": "74'",
+          "team": "Switzerland",
+          "player": "Johan Manzambi",
+          "playerZh": "约翰·曼赞比"
+        },
+        {
+          "minute": "84'",
+          "team": "Switzerland",
+          "player": "Rubén Vargas",
+          "playerZh": "鲁本·巴尔加斯"
+        },
+        {
+          "minute": "90'",
+          "team": "Switzerland",
+          "player": "Johan Manzambi",
+          "playerZh": "约翰·曼赞比"
+        },
+        {
+          "minute": "90'+3'",
+          "team": "Bosnia and Herzegovina",
+          "player": "Ermin Mahmic",
+          "playerZh": "埃尔明·马赫米奇"
+        },
+        {
+          "minute": "90'+7'",
+          "team": "Switzerland",
+          "player": "Granit Xhaka",
+          "playerZh": "格拉尼特·扎卡",
+          "note": "点球"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
