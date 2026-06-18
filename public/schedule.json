@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T19:30:29.390Z",
+  "generatedAt": "2026-06-18T21:00:12.912Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1015,7 +1015,7 @@
       "city": "Inglewood",
       "stadium": "SoFi Stadium",
       "status": "Live",
-      "result": "0–0",
+      "result": "1–0",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
