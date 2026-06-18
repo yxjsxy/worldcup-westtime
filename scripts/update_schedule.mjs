@@ -98,6 +98,7 @@ const playerNameZh = new Map([
   ["Alexander Isak", "亚历山大·伊萨克"],
   ["Omar Rekik", "奥马尔·雷基克"],
   ["Viktor Gyökeres", "维克托·哲凯赖什"],
+  ["Caleb Yirenkyi", "卡莱布·伊伦基"],
   ["Mattias Svanberg", "马蒂亚斯·斯万贝里"],
   ["Virgil van Dijk", "维吉尔·范戴克"],
   ["Keito Nakamura", "中村敬斗"],

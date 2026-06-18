@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T23:30:12.677Z",
+  "generatedAt": "2026-06-18T01:31:18.404Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -908,9 +908,16 @@
       "awayTeam": "Panama",
       "city": "Toronto",
       "stadium": "BMO Field",
-      "status": "Live",
-      "result": "0–0",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "1–0",
+      "goalEvents": [
+        {
+          "minute": "90'+5'",
+          "team": "Ghana",
+          "player": "Caleb Yirenkyi",
+          "playerZh": "卡莱布·伊伦基"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
