@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T18:00:20.108Z",
+  "generatedAt": "2026-06-18T18:31:26.218Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -980,9 +980,23 @@
       "awayTeam": "South Africa",
       "city": "Atlanta",
       "stadium": "Mercedes-Benz Stadium",
-      "status": "Live",
-      "result": "1–0",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "1–1",
+      "goalEvents": [
+        {
+          "minute": "6'",
+          "team": "Czechia",
+          "player": "Michal Sadílek",
+          "playerZh": "米哈尔·萨迪莱克"
+        },
+        {
+          "minute": "83'",
+          "team": "South Africa",
+          "player": "Teboho Mokoena",
+          "playerZh": "特博霍·莫科纳",
+          "note": "点球"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -998,7 +1012,7 @@
       "localDay": "Thu, Jun 18",
       "homeTeam": "Switzerland",
       "awayTeam": "Bosnia & Herzegovina",
-      "city": "Los Angeles",
+      "city": "Inglewood",
       "stadium": "SoFi Stadium",
       "status": "To be played",
       "result": null,
