@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T04:30:54.842Z",
+  "generatedAt": "2026-06-18T18:00:20.108Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -980,8 +980,8 @@
       "awayTeam": "South Africa",
       "city": "Atlanta",
       "stadium": "Mercedes-Benz Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "1–0",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
