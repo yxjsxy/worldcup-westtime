@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T04:00:15.142Z",
+  "generatedAt": "2026-06-18T04:30:54.842Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -935,9 +935,34 @@
       "awayTeam": "Colombia",
       "city": "Mexico City",
       "stadium": "Estadio Azteca",
-      "status": "Live",
-      "result": "1–2",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "1–3",
+      "goalEvents": [
+        {
+          "minute": "40'",
+          "team": "Colombia",
+          "player": "Daniel Muñoz",
+          "playerZh": "丹尼尔·穆尼奥斯"
+        },
+        {
+          "minute": "60'",
+          "team": "Uzbekistan",
+          "player": "Abbosbek Fayzullaev",
+          "playerZh": "阿博斯别克·法伊祖拉耶夫"
+        },
+        {
+          "minute": "65'",
+          "team": "Colombia",
+          "player": "Luis Díaz",
+          "playerZh": "路易斯·迪亚斯"
+        },
+        {
+          "minute": "90'+9'",
+          "team": "Colombia",
+          "player": "Jaminton Campaz",
+          "playerZh": "哈明顿·坎帕斯"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
