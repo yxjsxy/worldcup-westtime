@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T03:00:12.552Z",
+  "generatedAt": "2026-06-18T03:30:25.067Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -936,7 +936,7 @@
       "city": "Mexico City",
       "stadium": "Estadio Azteca",
       "status": "Live",
-      "result": "0–1",
+      "result": "1–1",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
