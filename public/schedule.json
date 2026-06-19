@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T00:31:00.200Z",
+  "generatedAt": "2026-06-19T01:30:16.059Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1124,8 +1124,8 @@
       "awayTeam": "South Korea",
       "city": "Guadalajara",
       "stadium": "Estadio Akron",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–0",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
