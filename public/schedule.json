@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T23:30:13.970Z",
+  "generatedAt": "2026-06-19T00:31:00.200Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1066,9 +1066,47 @@
       "awayTeam": "Qatar",
       "city": "Vancouver",
       "stadium": "BC Place",
-      "status": "Live",
-      "result": "3–0",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "6–0",
+      "goalEvents": [
+        {
+          "minute": "16'",
+          "team": "Canada",
+          "player": "Cyle Larin",
+          "playerZh": "塞尔·拉林"
+        },
+        {
+          "minute": "29'",
+          "team": "Canada",
+          "player": "Jonathan David",
+          "playerZh": "乔纳森·戴维"
+        },
+        {
+          "minute": "45'+3'",
+          "team": "Canada",
+          "player": "Jonathan David",
+          "playerZh": "乔纳森·戴维"
+        },
+        {
+          "minute": "64'",
+          "team": "Canada",
+          "player": "Nathan Saliba",
+          "playerZh": "纳森·萨利巴"
+        },
+        {
+          "minute": "75'",
+          "team": "Canada",
+          "player": "Mohammad Al Manai",
+          "playerZh": "穆罕默德·阿勒马奈",
+          "note": "乌龙"
+        },
+        {
+          "minute": "90'+2'",
+          "team": "Canada",
+          "player": "Jonathan David",
+          "playerZh": "乔纳森·戴维"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
