@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T20:30:17.117Z",
+  "generatedAt": "2026-06-19T21:30:59.338Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1151,9 +1151,23 @@
       "awayTeam": "Australia",
       "city": "Seattle",
       "stadium": "Lumen Field",
-      "status": "Live",
+      "status": "Played",
       "result": "2–0",
-      "goalEvents": [],
+      "goalEvents": [
+        {
+          "minute": "11'",
+          "team": "United States",
+          "player": "Cameron Burgess",
+          "playerZh": "卡梅伦·伯吉斯",
+          "note": "乌龙"
+        },
+        {
+          "minute": "43'",
+          "team": "United States",
+          "player": "Alex Freeman",
+          "playerZh": "亚历克斯·弗里曼"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
