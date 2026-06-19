@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T19:30:24.655Z",
+  "generatedAt": "2026-06-19T20:30:17.117Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1152,7 +1152,7 @@
       "city": "Seattle",
       "stadium": "Lumen Field",
       "status": "Live",
-      "result": "1–0",
+      "result": "2–0",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
