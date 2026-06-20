@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T22:00:17.765Z",
+  "generatedAt": "2026-06-20T22:31:25.511Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1335,9 +1335,28 @@
       "awayTeam": "Ivory Coast",
       "city": "Toronto",
       "stadium": "BMO Field",
-      "status": "Live",
-      "result": "1–1",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "2–1",
+      "goalEvents": [
+        {
+          "minute": "30'",
+          "team": "Ivory Coast",
+          "player": "Franck Kessie",
+          "playerZh": "弗兰克·凯西"
+        },
+        {
+          "minute": "68'",
+          "team": "Germany",
+          "player": "Deniz Undav",
+          "playerZh": "德尼兹·翁达夫"
+        },
+        {
+          "minute": "90'+4'",
+          "team": "Germany",
+          "player": "Deniz Undav",
+          "playerZh": "德尼兹·翁达夫"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
