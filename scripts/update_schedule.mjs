@@ -83,6 +83,7 @@ const playerNameZh = new Map([
   ["Giovanni Reyna", "吉奥·雷纳"],
   ["John McGinn", "约翰·麦金"],
   ["Ismael Saibari", "伊斯梅尔·赛巴里"],
+  ["Matheus Cunha", "马特乌斯·库尼亚"],
   ["Vinícius Júnior", "维尼修斯·儒尼奥尔"],
   ["Breel Embolo", "布雷尔·恩博洛"],
   ["Johan Manzambi", "约翰·曼赞比"],

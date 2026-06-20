@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T01:30:13.310Z",
+  "generatedAt": "2026-06-20T03:01:04.579Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1212,9 +1212,28 @@
       "awayTeam": "Haiti",
       "city": "Philadelphia",
       "stadium": "Lincoln Financial Field",
-      "status": "Live",
+      "status": "Played",
       "result": "3–0",
-      "goalEvents": [],
+      "goalEvents": [
+        {
+          "minute": "23'",
+          "team": "Brazil",
+          "player": "Matheus Cunha",
+          "playerZh": "马特乌斯·库尼亚"
+        },
+        {
+          "minute": "36'",
+          "team": "Brazil",
+          "player": "Matheus Cunha",
+          "playerZh": "马特乌斯·库尼亚"
+        },
+        {
+          "minute": "45'+3'",
+          "team": "Brazil",
+          "player": "Vinícius Júnior",
+          "playerZh": "维尼修斯·儒尼奥尔"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
