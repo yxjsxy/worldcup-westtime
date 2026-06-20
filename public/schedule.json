@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T22:30:21.915Z",
+  "generatedAt": "2026-06-20T00:30:12.692Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1185,9 +1185,16 @@
       "awayTeam": "Morocco",
       "city": "Boston",
       "stadium": "Gillette Stadium",
-      "status": "Live",
+      "status": "Played",
       "result": "0–1",
-      "goalEvents": [],
+      "goalEvents": [
+        {
+          "minute": "2'",
+          "team": "Morocco",
+          "player": "Ismael Saibari",
+          "playerZh": "伊斯梅尔·赛巴里"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
