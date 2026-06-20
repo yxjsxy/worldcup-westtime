@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T01:00:22.481Z",
+  "generatedAt": "2026-06-20T01:30:13.310Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1213,7 +1213,7 @@
       "city": "Philadelphia",
       "stadium": "Lincoln Financial Field",
       "status": "Live",
-      "result": "0–0",
+      "result": "3–0",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
