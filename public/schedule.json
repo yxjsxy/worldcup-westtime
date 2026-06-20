@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T03:01:04.579Z",
+  "generatedAt": "2026-06-20T05:31:07.340Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1249,11 +1249,18 @@
       "localDay": "Fri, Jun 19",
       "homeTeam": "Türkiye",
       "awayTeam": "Paraguay",
-      "city": "San Francisco Bay Area",
+      "city": "Santa Clara",
       "stadium": "Levi's Stadium",
-      "status": "To be played",
-      "result": null,
-      "goalEvents": [],
+      "status": "Played",
+      "result": "0–1",
+      "goalEvents": [
+        {
+          "minute": "2'",
+          "team": "Paraguay",
+          "player": "Matías Galarza",
+          "playerZh": "马蒂亚斯·加拉尔萨"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
