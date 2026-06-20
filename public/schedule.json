@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T18:30:31.556Z",
+  "generatedAt": "2026-06-20T19:30:57.159Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1278,9 +1278,46 @@
       "awayTeam": "Sweden",
       "city": "Houston",
       "stadium": "NRG Stadium",
-      "status": "Live",
-      "result": "4–1",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "5–1",
+      "goalEvents": [
+        {
+          "minute": "5'",
+          "team": "Netherlands",
+          "player": "Brian Brobbey",
+          "playerZh": "布赖恩·布罗贝"
+        },
+        {
+          "minute": "17'",
+          "team": "Netherlands",
+          "player": "Brian Brobbey",
+          "playerZh": "布赖恩·布罗贝"
+        },
+        {
+          "minute": "47'",
+          "team": "Netherlands",
+          "player": "Cody Gakpo",
+          "playerZh": "科迪·加克波"
+        },
+        {
+          "minute": "54'",
+          "team": "Netherlands",
+          "player": "Cody Gakpo",
+          "playerZh": "科迪·加克波"
+        },
+        {
+          "minute": "59'",
+          "team": "Sweden",
+          "player": "Anthony Elanga",
+          "playerZh": "安东尼·埃兰加"
+        },
+        {
+          "minute": "89'",
+          "team": "Netherlands",
+          "player": "Crysencio Summerville",
+          "playerZh": "克里森西奥·萨默维尔"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
