@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T19:30:57.159Z",
+  "generatedAt": "2026-06-20T20:30:25.990Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1335,8 +1335,8 @@
       "awayTeam": "Ivory Coast",
       "city": "Toronto",
       "stadium": "BMO Field",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–0",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
