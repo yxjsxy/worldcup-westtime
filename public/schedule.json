@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T21:00:18.957Z",
+  "generatedAt": "2026-06-20T22:00:17.765Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1336,7 +1336,7 @@
       "city": "Toronto",
       "stadium": "BMO Field",
       "status": "Live",
-      "result": "0–1",
+      "result": "1–1",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
