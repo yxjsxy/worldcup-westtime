@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T05:31:07.340Z",
+  "generatedAt": "2026-06-20T18:00:13.611Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1278,8 +1278,8 @@
       "awayTeam": "Sweden",
       "city": "Houston",
       "stadium": "NRG Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "2–0",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
