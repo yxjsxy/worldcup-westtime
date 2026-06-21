@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T06:30:55.518Z",
+  "generatedAt": "2026-06-21T18:00:14.709Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1439,8 +1439,8 @@
       "awayTeam": "Saudi Arabia",
       "city": "Atlanta",
       "stadium": "Mercedes-Benz Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "4–0",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
