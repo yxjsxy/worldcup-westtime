@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T02:30:15.396Z",
+  "generatedAt": "2026-06-21T04:30:14.849Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1394,8 +1394,8 @@
       "awayTeam": "Japan",
       "city": "Monterrey",
       "stadium": "Estadio BBVA",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–1",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
