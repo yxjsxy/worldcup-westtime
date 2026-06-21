@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T00:30:16.702Z",
+  "generatedAt": "2026-06-21T02:30:15.396Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1374,7 +1374,7 @@
       "awayTeam": "Curaçao",
       "city": "Kansas City",
       "stadium": "Arrowhead Stadium",
-      "status": "Live",
+      "status": "Played",
       "result": "0–0",
       "goalEvents": [],
       "isKnockout": false,
