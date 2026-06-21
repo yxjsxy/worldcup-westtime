@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T21:30:19.610Z",
+  "generatedAt": "2026-06-21T22:30:13.836Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1505,8 +1505,8 @@
       "awayTeam": "Cape Verde",
       "city": "Miami Gardens",
       "stadium": "Hard Rock Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–1",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
