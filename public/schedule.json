@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T18:00:14.709Z",
+  "generatedAt": "2026-06-21T18:31:44.628Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1439,9 +1439,35 @@
       "awayTeam": "Saudi Arabia",
       "city": "Atlanta",
       "stadium": "Mercedes-Benz Stadium",
-      "status": "Live",
+      "status": "Played",
       "result": "4–0",
-      "goalEvents": [],
+      "goalEvents": [
+        {
+          "minute": "10'",
+          "team": "Spain",
+          "player": "Lamine Yamal",
+          "playerZh": "拉明·亚马尔"
+        },
+        {
+          "minute": "21'",
+          "team": "Spain",
+          "player": "Mikel Oyarzabal",
+          "playerZh": "米克尔·奥亚萨瓦尔"
+        },
+        {
+          "minute": "24'",
+          "team": "Spain",
+          "player": "Mikel Oyarzabal",
+          "playerZh": "米克尔·奥亚萨瓦尔"
+        },
+        {
+          "minute": "49'",
+          "team": "Spain",
+          "player": "Hassan Al Tambakti",
+          "playerZh": "哈桑·坦巴克蒂",
+          "note": "乌龙"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -1457,7 +1483,7 @@
       "localDay": "Sun, Jun 21",
       "homeTeam": "Belgium",
       "awayTeam": "Iran",
-      "city": "Los Angeles",
+      "city": "Inglewood",
       "stadium": "SoFi Stadium",
       "status": "To be played",
       "result": null,
