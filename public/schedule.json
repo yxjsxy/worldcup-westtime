@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T06:00:24.672Z",
+  "generatedAt": "2026-06-21T06:30:55.518Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1394,9 +1394,34 @@
       "awayTeam": "Japan",
       "city": "Monterrey",
       "stadium": "Estadio BBVA",
-      "status": "Live",
-      "result": "0–3",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "0–4",
+      "goalEvents": [
+        {
+          "minute": "4'",
+          "team": "Japan",
+          "player": "Daichi Kamada",
+          "playerZh": "镰田大地"
+        },
+        {
+          "minute": "31'",
+          "team": "Japan",
+          "player": "Ayase Ueda",
+          "playerZh": "上田绮世"
+        },
+        {
+          "minute": "69'",
+          "team": "Japan",
+          "player": "Junya Ito",
+          "playerZh": "伊东纯也"
+        },
+        {
+          "minute": "83'",
+          "team": "Japan",
+          "player": "Ayase Ueda",
+          "playerZh": "上田绮世"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
