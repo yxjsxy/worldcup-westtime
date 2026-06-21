@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T04:30:14.849Z",
+  "generatedAt": "2026-06-21T05:00:24.190Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1395,7 +1395,7 @@
       "city": "Monterrey",
       "stadium": "Estadio BBVA",
       "status": "Live",
-      "result": "0–1",
+      "result": "0–2",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
