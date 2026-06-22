@@ -157,6 +157,10 @@ const playerNameZh = new Map([
   ["Jaminton Campaz", "哈明顿·坎帕斯"],
   ["Michal Sadílek", "米哈尔·萨迪莱克"],
   ["Teboho Mokoena", "特博霍·莫科纳"],
+  ["Finn Surman", "芬恩·瑟曼"],
+  ["Mostafa Zico", "穆斯塔法·齐科"],
+  ["Mohamed Salah", "穆罕默德·萨拉赫"],
+  ["Trezeguet", "特雷泽盖"],
 ]);
 
 const knownGoalEvents = new Map([
