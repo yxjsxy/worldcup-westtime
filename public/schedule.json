@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T00:30:58.278Z",
+  "generatedAt": "2026-06-22T01:30:28.780Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1550,8 +1550,8 @@
       "awayTeam": "Egypt",
       "city": "Vancouver",
       "stadium": "BC Place",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "1–0",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
