@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T21:30:16.339Z",
+  "generatedAt": "2026-06-22T22:30:23.564Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1628,7 +1628,7 @@
       "awayTeam": "Iraq",
       "city": "Philadelphia",
       "stadium": "Lincoln Financial Field",
-      "status": "Live",
+      "status": "To be played",
       "result": "1–0",
       "goalEvents": [],
       "isKnockout": false,
