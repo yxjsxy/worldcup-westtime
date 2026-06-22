@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T03:31:05.106Z",
+  "generatedAt": "2026-06-22T18:00:19.273Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1593,10 +1593,10 @@
       "localDay": "Mon, Jun 22",
       "homeTeam": "Argentina",
       "awayTeam": "Austria",
-      "city": "Dallas",
+      "city": "Arlington",
       "stadium": "AT&T Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "1–0",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
