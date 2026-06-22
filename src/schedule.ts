@@ -35,6 +35,26 @@ export interface SchedulePayload {
   source: string;
   sourceUrl: string;
   matches: Match[];
+  sourceHealth?: SourceHealth;
+}
+
+export interface SourceHealthAlert {
+  code: string;
+  severity: "low" | "medium" | "high" | string;
+  matchId: number;
+  match: string;
+  message: string;
+  primaryValue: string | number | null;
+  secondaryValue: string | number | null;
+}
+
+export interface SourceHealth {
+  generatedAt: string;
+  status: "ok" | "notice" | "warning" | string;
+  sources: string[];
+  checkedMatches: number;
+  alertCount: number;
+  alerts: SourceHealthAlert[];
 }
 
 export interface DayBucket {

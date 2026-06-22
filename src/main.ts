@@ -311,6 +311,43 @@ function renderFreshness(payload: SchedulePayload): string {
   `;
 }
 
+function renderSourceHealth(payload: SchedulePayload): string {
+  const health = payload.sourceHealth;
+  if (!health) return "";
+  const isWarning = health.status === "warning" || health.alerts.some((alert) => alert.severity === "high");
+  const visibleAlerts = health.alerts.slice(0, 4);
+
+  return `
+    <section class="source-health ${isWarning ? "warning" : "ok"}">
+      <div class="section-title row">
+        <div>
+          <p>数据源健康</p>
+          <h2>${isWarning ? "Cross-source alerts" : "Cross-source check passed"}</h2>
+        </div>
+        <span class="count">${escapeHtml(health.checkedMatches)} matches checked</span>
+      </div>
+      <p class="source-health-summary">${escapeHtml(health.sources.join(" + "))} · ${escapeHtml(health.alertCount)} alerts</p>
+      ${
+        visibleAlerts.length
+          ? `<div class="source-alerts">
+              ${visibleAlerts
+                .map(
+                  (alert) => `
+                <article>
+                  <span>${escapeHtml(alert.code)} · ${escapeHtml(alert.match)}</span>
+                  <strong>${escapeHtml(alert.primaryValue)} vs ${escapeHtml(alert.secondaryValue)}</strong>
+                  <p>${escapeHtml(alert.message)}</p>
+                </article>
+              `,
+                )
+                .join("")}
+            </div>`
+          : ""
+      }
+    </section>
+  `;
+}
+
 function renderCalendarCta(): string {
   return `
     <section class="calendar-cta">
@@ -411,6 +448,7 @@ function render(payload: SchedulePayload): void {
     </section>
 
     ${renderFreshness(payload)}
+    ${renderSourceHealth(payload)}
     ${renderFavoriteFilter(teamOptions, selectedTeam, payload.matches)}
     ${renderCalendarCta()}
     ${renderToday(todayMatches, today)}

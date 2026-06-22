@@ -134,7 +134,8 @@ h1 {
 .stats,
 .calendar-cta,
 .score-notice,
-.freshness {
+.freshness,
+.source-health {
   border: 1px solid rgba(15, 23, 42, 0.08);
   background: rgba(255, 255, 255, 0.92);
   box-shadow: 0 14px 34px rgba(15, 23, 42, 0.07);
@@ -223,6 +224,55 @@ h1 {
 
 .freshness.warning span {
   color: #991b1b;
+}
+
+.source-health {
+  margin-bottom: 18px;
+  padding: 16px 18px;
+  border-radius: 8px;
+  color: #334155;
+}
+
+.source-health.warning {
+  border-color: rgba(185, 28, 28, 0.24);
+  background: #fef2f2;
+  color: #7f1d1d;
+}
+
+.source-health.ok {
+  border-color: rgba(22, 101, 52, 0.2);
+  background: #f0fdf4;
+}
+
+.source-health-summary {
+  margin: 2px 0 12px;
+  color: #64748b;
+}
+
+.source-alerts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px;
+}
+
+.source-alerts article {
+  padding: 10px 12px;
+  border: 1px solid rgba(127, 29, 29, 0.18);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.source-alerts span,
+.source-alerts p {
+  display: block;
+  margin: 0;
+  color: #64748b;
+  font-size: 13px;
+}
+
+.source-alerts strong {
+  display: block;
+  margin: 4px 0;
 }
 
 .calendar-cta {
@@ -616,6 +666,7 @@ footer {
 #app.always-on-active .subtitle,
 #app.always-on-active .calendar-cta,
 #app.always-on-active .freshness,
+#app.always-on-active .source-health,
 #app.always-on-active .favorite-filter {
   display: none;
 }
@@ -690,6 +741,7 @@ footer {
   }
 
   .freshness,
+  .source-health,
   .calendar-cta,
   .favorite-filter {
     align-items: flex-start;
