@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T18:00:19.273Z",
+  "generatedAt": "2026-06-22T19:30:28.673Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1595,9 +1595,22 @@
       "awayTeam": "Austria",
       "city": "Arlington",
       "stadium": "AT&T Stadium",
-      "status": "Live",
-      "result": "1–0",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "2–0",
+      "goalEvents": [
+        {
+          "minute": "38'",
+          "team": "Argentina",
+          "player": "Lionel Messi",
+          "playerZh": "莱昂内尔·梅西"
+        },
+        {
+          "minute": "90'+5'",
+          "team": "Argentina",
+          "player": "Lionel Messi",
+          "playerZh": "莱昂内尔·梅西"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
