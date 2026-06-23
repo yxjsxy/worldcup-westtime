@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T01:31:01.126Z",
+  "generatedAt": "2026-06-23T02:31:21.297Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1667,9 +1667,40 @@
       "awayTeam": "Senegal",
       "city": "East Rutherford",
       "stadium": "MetLife Stadium",
-      "status": "Live",
-      "result": "3–1",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "3–2",
+      "goalEvents": [
+        {
+          "minute": "43'",
+          "team": "Norway",
+          "player": "Marcus Pedersen",
+          "playerZh": "马库斯·佩德森"
+        },
+        {
+          "minute": "48'",
+          "team": "Norway",
+          "player": "Erling Haaland",
+          "playerZh": "埃尔林·哈兰德"
+        },
+        {
+          "minute": "53'",
+          "team": "Senegal",
+          "player": "Ismaïla Sarr",
+          "playerZh": "伊斯梅拉·萨尔"
+        },
+        {
+          "minute": "58'",
+          "team": "Norway",
+          "player": "Erling Haaland",
+          "playerZh": "埃尔林·哈兰德"
+        },
+        {
+          "minute": "90'+3'",
+          "team": "Senegal",
+          "player": "Ismaïla Sarr",
+          "playerZh": "伊斯梅拉·萨尔"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -1685,7 +1716,7 @@
       "localDay": "Mon, Jun 22",
       "homeTeam": "Jordan",
       "awayTeam": "Algeria",
-      "city": "San Francisco Bay Area",
+      "city": "Santa Clara",
       "stadium": "Levi's Stadium",
       "status": "To be played",
       "result": null,

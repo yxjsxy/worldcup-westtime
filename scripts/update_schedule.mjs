@@ -132,6 +132,8 @@ const playerNameZh = new Map([
   ["Ousmane Dembélé", "奥斯曼·登贝莱"],
   ["Bradley Barcola", "布拉德利·巴尔科拉"],
   ["Ibrahim Mbaye", "易卜拉欣·姆巴耶"],
+  ["Marcus Pedersen", "马库斯·佩德森"],
+  ["Ismaïla Sarr", "伊斯梅拉·萨尔"],
   ["Lamine Yamal", "拉明·亚马尔"],
   ["Mikel Oyarzabal", "米克尔·奥亚萨瓦尔"],
   ["Hassan Al Tambakti", "哈桑·坦巴克蒂"],
