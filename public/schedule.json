@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T19:00:16.073Z",
+  "generatedAt": "2026-06-23T19:31:29.341Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1757,9 +1757,41 @@
       "awayTeam": "Uzbekistan",
       "city": "Houston",
       "stadium": "NRG Stadium",
-      "status": "Live",
-      "result": "4–0",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "5–0",
+      "goalEvents": [
+        {
+          "minute": "6'",
+          "team": "Portugal",
+          "player": "Cristiano Ronaldo",
+          "playerZh": "克里斯蒂亚诺·罗纳尔多"
+        },
+        {
+          "minute": "17'",
+          "team": "Portugal",
+          "player": "Nuno Mendes",
+          "playerZh": "努诺·门德斯"
+        },
+        {
+          "minute": "39'",
+          "team": "Portugal",
+          "player": "Cristiano Ronaldo",
+          "playerZh": "克里斯蒂亚诺·罗纳尔多"
+        },
+        {
+          "minute": "60'",
+          "team": "Portugal",
+          "player": "Abduvokhid Nematov",
+          "playerZh": "阿卜杜沃希德·内马托夫",
+          "note": "乌龙"
+        },
+        {
+          "minute": "87'",
+          "team": "Portugal",
+          "player": "Rafael Leão",
+          "playerZh": "拉斐尔·莱奥"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
