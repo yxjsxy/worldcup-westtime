@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T22:30:23.564Z",
+  "generatedAt": "2026-06-23T00:30:35.047Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1628,8 +1628,8 @@
       "awayTeam": "Iraq",
       "city": "Philadelphia",
       "stadium": "Lincoln Financial Field",
-      "status": "To be played",
-      "result": "1–0",
+      "status": "Live",
+      "result": "2–0",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
@@ -1646,10 +1646,10 @@
       "localDay": "Mon, Jun 22",
       "homeTeam": "Norway",
       "awayTeam": "Senegal",
-      "city": "New York New Jersey",
+      "city": "East Rutherford",
       "stadium": "MetLife Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–0",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
