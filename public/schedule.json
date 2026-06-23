@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T03:30:16.154Z",
+  "generatedAt": "2026-06-23T04:30:20.624Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1719,7 +1719,7 @@
       "city": "Santa Clara",
       "stadium": "Levi's Stadium",
       "status": "Live",
-      "result": "0–0",
+      "result": "1–0",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
