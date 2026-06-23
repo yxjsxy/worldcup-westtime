@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T05:00:20.243Z",
+  "generatedAt": "2026-06-23T05:31:04.953Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1718,9 +1718,28 @@
       "awayTeam": "Algeria",
       "city": "Santa Clara",
       "stadium": "Levi's Stadium",
-      "status": "Live",
-      "result": "1–1",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "1–2",
+      "goalEvents": [
+        {
+          "minute": "36'",
+          "team": "Jordan",
+          "player": "Nizar Al Rashdan",
+          "playerZh": "尼扎尔·拉什丹"
+        },
+        {
+          "minute": "69'",
+          "team": "Algeria",
+          "player": "Nadhir Benbouali",
+          "playerZh": "纳迪尔·本布阿利"
+        },
+        {
+          "minute": "82'",
+          "team": "Algeria",
+          "player": "Amine Gouiri",
+          "playerZh": "阿明·古伊里"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
