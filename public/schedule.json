@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T01:00:20.626Z",
+  "generatedAt": "2026-06-23T01:31:01.126Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1628,9 +1628,28 @@
       "awayTeam": "Iraq",
       "city": "Philadelphia",
       "stadium": "Lincoln Financial Field",
-      "status": "Live",
+      "status": "Played",
       "result": "3–0",
-      "goalEvents": [],
+      "goalEvents": [
+        {
+          "minute": "14'",
+          "team": "France",
+          "player": "Kylian Mbappé",
+          "playerZh": "基利安·姆巴佩"
+        },
+        {
+          "minute": "54'",
+          "team": "France",
+          "player": "Kylian Mbappé",
+          "playerZh": "基利安·姆巴佩"
+        },
+        {
+          "minute": "66'",
+          "team": "France",
+          "player": "Ousmane Dembélé",
+          "playerZh": "奥斯曼·登贝莱"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -1649,7 +1668,7 @@
       "city": "East Rutherford",
       "stadium": "MetLife Stadium",
       "status": "Live",
-      "result": "1–0",
+      "result": "3–1",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
