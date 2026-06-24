@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T23:00:15.452Z",
+  "generatedAt": "2026-06-24T23:30:21.687Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1969,7 +1969,7 @@
       "city": "Atlanta",
       "stadium": "Mercedes-Benz Stadium",
       "status": "Live",
-      "result": "1–1",
+      "result": "2–2",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
@@ -1989,7 +1989,7 @@
       "city": "Miami Gardens",
       "stadium": "Hard Rock Stadium",
       "status": "Live",
-      "result": "0–1",
+      "result": "0–2",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
