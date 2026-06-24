@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T04:00:18.257Z",
+  "generatedAt": "2026-06-24T04:30:22.704Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1856,9 +1856,16 @@
       "awayTeam": "DR Congo",
       "city": "Guadalajara",
       "stadium": "Estadio Akron",
-      "status": "Live",
+      "status": "Played",
       "result": "1–0",
-      "goalEvents": [],
+      "goalEvents": [
+        {
+          "minute": "76'",
+          "team": "Colombia",
+          "player": "Daniel Muñoz",
+          "playerZh": "丹尼尔·穆尼奥斯"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
