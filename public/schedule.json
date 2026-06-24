@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T21:00:18.699Z",
+  "generatedAt": "2026-06-24T21:31:14.762Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1883,9 +1883,28 @@
       "awayTeam": "Canada",
       "city": "Vancouver",
       "stadium": "BC Place",
-      "status": "Live",
+      "status": "Played",
       "result": "2–1",
-      "goalEvents": [],
+      "goalEvents": [
+        {
+          "minute": "46'",
+          "team": "Switzerland",
+          "player": "Rubén Vargas",
+          "playerZh": "鲁本·巴尔加斯"
+        },
+        {
+          "minute": "57'",
+          "team": "Switzerland",
+          "player": "Johan Manzambi",
+          "playerZh": "约翰·曼赞比"
+        },
+        {
+          "minute": "76'",
+          "team": "Canada",
+          "player": "Promise David",
+          "playerZh": "普罗米斯·戴维"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -1903,9 +1922,35 @@
       "awayTeam": "Qatar",
       "city": "Seattle",
       "stadium": "Lumen Field",
-      "status": "Live",
+      "status": "Played",
       "result": "3–1",
-      "goalEvents": [],
+      "goalEvents": [
+        {
+          "minute": "29'",
+          "team": "Bosnia and Herzegovina",
+          "player": "Kerim Alajbegovic",
+          "playerZh": "凯里姆·阿拉伊贝戈维奇"
+        },
+        {
+          "minute": "34'",
+          "team": "Bosnia & Herzegovina",
+          "player": "Mahmoud Abunada",
+          "playerZh": "马哈茂德·阿布纳达",
+          "note": "乌龙"
+        },
+        {
+          "minute": "42'",
+          "team": "Qatar",
+          "player": "Hassan Al Haydos",
+          "playerZh": "哈桑·海多斯"
+        },
+        {
+          "minute": "80'",
+          "team": "Bosnia and Herzegovina",
+          "player": "Ermin Mahmic",
+          "playerZh": "埃尔明·马赫米奇"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -1941,7 +1986,7 @@
       "localDay": "Wed, Jun 24",
       "homeTeam": "Scotland",
       "awayTeam": "Brazil",
-      "city": "Miami",
+      "city": "Miami Gardens",
       "stadium": "Hard Rock Stadium",
       "status": "To be played",
       "result": null,
