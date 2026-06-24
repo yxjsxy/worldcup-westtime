@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T04:30:22.704Z",
+  "generatedAt": "2026-06-24T19:30:14.822Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1883,8 +1883,8 @@
       "awayTeam": "Canada",
       "city": "Vancouver",
       "stadium": "BC Place",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–0",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
@@ -1903,8 +1903,8 @@
       "awayTeam": "Qatar",
       "city": "Seattle",
       "stadium": "Lumen Field",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–0",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
