@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T02:30:16.174Z",
+  "generatedAt": "2026-06-24T04:00:18.257Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1857,7 +1857,7 @@
       "city": "Guadalajara",
       "stadium": "Estadio Akron",
       "status": "Live",
-      "result": "0–0",
+      "result": "1–0",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
