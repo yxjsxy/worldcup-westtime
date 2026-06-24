@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T20:00:18.224Z",
+  "generatedAt": "2026-06-24T20:30:30.866Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1884,7 +1884,7 @@
       "city": "Vancouver",
       "stadium": "BC Place",
       "status": "Live",
-      "result": "0–0",
+      "result": "2–0",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
