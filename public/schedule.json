@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T00:30:21.873Z",
+  "generatedAt": "2026-06-24T01:30:57.774Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1829,9 +1829,16 @@
       "awayTeam": "Croatia",
       "city": "Toronto",
       "stadium": "BMO Field",
-      "status": "Live",
+      "status": "Played",
       "result": "0–1",
-      "goalEvents": [],
+      "goalEvents": [
+        {
+          "minute": "54'",
+          "team": "Croatia",
+          "player": "Ante Budimir",
+          "playerZh": "安特·布迪米尔"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
