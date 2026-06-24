@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T21:31:14.762Z",
+  "generatedAt": "2026-06-24T22:30:24.291Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1968,8 +1968,8 @@
       "awayTeam": "Haiti",
       "city": "Atlanta",
       "stadium": "Mercedes-Benz Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–1",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
@@ -1988,8 +1988,8 @@
       "awayTeam": "Brazil",
       "city": "Miami Gardens",
       "stadium": "Hard Rock Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–2",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
