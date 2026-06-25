@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T03:00:32.520Z",
+  "generatedAt": "2026-06-25T03:31:35.289Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -2065,9 +2065,16 @@
       "awayTeam": "South Korea",
       "city": "Monterrey",
       "stadium": "Estadio BBVA",
-      "status": "Live",
+      "status": "Played",
       "result": "1–0",
-      "goalEvents": [],
+      "goalEvents": [
+        {
+          "minute": "63'",
+          "team": "South Africa",
+          "player": "Thapelo Maseko",
+          "playerZh": "塔佩洛·马塞科"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -2085,9 +2092,28 @@
       "awayTeam": "Mexico",
       "city": "Mexico City",
       "stadium": "Estadio Azteca",
-      "status": "Live",
-      "result": "0–2",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "0–3",
+      "goalEvents": [
+        {
+          "minute": "55'",
+          "team": "Mexico",
+          "player": "Mateo Chávez",
+          "playerZh": "马特奥·查韦斯"
+        },
+        {
+          "minute": "61'",
+          "team": "Mexico",
+          "player": "Julián Quiñones",
+          "playerZh": "胡利安·基尼奥内斯"
+        },
+        {
+          "minute": "90'+4'",
+          "team": "Mexico",
+          "player": "Álvaro Fidalgo",
+          "playerZh": "阿尔瓦罗·菲达尔戈"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },

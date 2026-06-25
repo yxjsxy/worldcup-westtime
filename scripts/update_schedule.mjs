@@ -68,6 +68,9 @@ const teamAliases = new Map([
 const playerNameZh = new Map([
   ["Julián Quiñones", "胡利安·基尼奥内斯"],
   ["Raúl Jiménez", "劳尔·希门尼斯"],
+  ["Thapelo Maseko", "塔佩洛·马塞科"],
+  ["Mateo Chávez", "马特奥·查韦斯"],
+  ["Álvaro Fidalgo", "阿尔瓦罗·菲达尔戈"],
   ["Cristiano Ronaldo", "克里斯蒂亚诺·罗纳尔多"],
   ["Nuno Mendes", "努诺·门德斯"],
   ["Abduvokhid Nematov", "阿卜杜沃希德·内马托夫"],
