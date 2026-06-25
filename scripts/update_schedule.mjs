@@ -115,9 +115,11 @@ const playerNameZh = new Map([
   ["Nico Schlotterbeck", "尼科·施洛特贝克"],
   ["Kai Havertz", "凯·哈弗茨"],
   ["Jamal Musiala", "贾马尔·穆西亚拉"],
+  ["Leroy Sané", "勒鲁瓦·萨内"],
   ["Nathaniel Brown", "纳撒尼尔·布朗"],
   ["Deniz Undav", "德尼兹·翁达夫"],
   ["Franck Kessie", "弗兰克·凯西"],
+  ["Nicolas Pépé", "尼古拉·佩佩"],
   ["Amad Diallo", "阿马德·迪亚洛"],
   ["Yasin Ayari", "亚辛·阿亚里"],
   ["Alexander Isak", "亚历山大·伊萨克"],
@@ -184,6 +186,8 @@ const playerNameZh = new Map([
   ["Nizar Al Rashdan", "尼扎尔·拉什丹"],
   ["Nadhir Benbouali", "纳迪尔·本布阿利"],
   ["Amine Gouiri", "阿明·古伊里"],
+  ["Nilson Angulo", "尼尔松·安古洛"],
+  ["Gonzalo Plata", "贡萨洛·普拉塔"],
 ]);
 
 const knownGoalEvents = new Map([

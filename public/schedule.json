@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T22:00:16.292Z",
+  "generatedAt": "2026-06-25T22:31:28.769Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -2131,9 +2131,22 @@
       "awayTeam": "Ivory Coast",
       "city": "Philadelphia",
       "stadium": "Lincoln Financial Field",
-      "status": "Live",
+      "status": "Played",
       "result": "0–2",
-      "goalEvents": [],
+      "goalEvents": [
+        {
+          "minute": "7'",
+          "team": "Ivory Coast",
+          "player": "Nicolas Pépé",
+          "playerZh": "尼古拉·佩佩"
+        },
+        {
+          "minute": "64'",
+          "team": "Ivory Coast",
+          "player": "Nicolas Pépé",
+          "playerZh": "尼古拉·佩佩"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -2151,9 +2164,28 @@
       "awayTeam": "Germany",
       "city": "East Rutherford",
       "stadium": "MetLife Stadium",
-      "status": "Live",
+      "status": "Played",
       "result": "2–1",
-      "goalEvents": [],
+      "goalEvents": [
+        {
+          "minute": "2'",
+          "team": "Germany",
+          "player": "Leroy Sané",
+          "playerZh": "勒鲁瓦·萨内"
+        },
+        {
+          "minute": "9'",
+          "team": "Ecuador",
+          "player": "Nilson Angulo",
+          "playerZh": "尼尔松·安古洛"
+        },
+        {
+          "minute": "77'",
+          "team": "Ecuador",
+          "player": "Gonzalo Plata",
+          "playerZh": "贡萨洛·普拉塔"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
