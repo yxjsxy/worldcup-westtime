@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T22:31:28.769Z",
+  "generatedAt": "2026-06-25T23:30:29.938Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -2203,8 +2203,8 @@
       "awayTeam": "Netherlands",
       "city": "Kansas City",
       "stadium": "Arrowhead Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–2",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
@@ -2223,8 +2223,8 @@
       "awayTeam": "Sweden",
       "city": "Dallas",
       "stadium": "AT&T Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–0",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
