@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T00:00:24.031Z",
+  "generatedAt": "2026-06-25T01:03:44.758Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -1968,9 +1968,47 @@
       "awayTeam": "Haiti",
       "city": "Atlanta",
       "stadium": "Mercedes-Benz Stadium",
-      "status": "Live",
-      "result": "3–2",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "4–2",
+      "goalEvents": [
+        {
+          "minute": "10'",
+          "team": "Haiti",
+          "player": "Yassine Bounou",
+          "playerZh": "亚辛·布努",
+          "note": "乌龙"
+        },
+        {
+          "minute": "39'",
+          "team": "Morocco",
+          "player": "Achraf Hakimi",
+          "playerZh": "阿什拉夫·哈基米"
+        },
+        {
+          "minute": "43'",
+          "team": "Haiti",
+          "player": "Wilson Isidor",
+          "playerZh": "威尔逊·伊西多尔"
+        },
+        {
+          "minute": "45'+1'",
+          "team": "Morocco",
+          "player": "Ismael Saibari",
+          "playerZh": "伊斯梅尔·赛巴里"
+        },
+        {
+          "minute": "78'",
+          "team": "Morocco",
+          "player": "Soufiane Rahimi",
+          "playerZh": "苏菲安·拉希米"
+        },
+        {
+          "minute": "89'",
+          "team": "Morocco",
+          "player": "Gessime Yassine",
+          "playerZh": "杰西姆·亚辛"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -1988,9 +2026,28 @@
       "awayTeam": "Brazil",
       "city": "Miami Gardens",
       "stadium": "Hard Rock Stadium",
-      "status": "Live",
+      "status": "Played",
       "result": "0–3",
-      "goalEvents": [],
+      "goalEvents": [
+        {
+          "minute": "7'",
+          "team": "Brazil",
+          "player": "Vinícius Júnior",
+          "playerZh": "维尼修斯·儒尼奥尔"
+        },
+        {
+          "minute": "45'+3'",
+          "team": "Brazil",
+          "player": "Vinícius Júnior",
+          "playerZh": "维尼修斯·儒尼奥尔"
+        },
+        {
+          "minute": "60'",
+          "team": "Brazil",
+          "player": "Matheus Cunha",
+          "playerZh": "马特乌斯·库尼亚"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -2008,8 +2065,8 @@
       "awayTeam": "South Korea",
       "city": "Monterrey",
       "stadium": "Estadio BBVA",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–0",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
@@ -2028,8 +2085,8 @@
       "awayTeam": "Mexico",
       "city": "Mexico City",
       "stadium": "Estadio Azteca",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–0",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
