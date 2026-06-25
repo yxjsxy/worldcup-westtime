@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T20:30:24.255Z",
+  "generatedAt": "2026-06-25T22:00:16.292Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -2132,7 +2132,7 @@
       "city": "Philadelphia",
       "stadium": "Lincoln Financial Field",
       "status": "Live",
-      "result": "0–1",
+      "result": "0–2",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
@@ -2152,7 +2152,7 @@
       "city": "East Rutherford",
       "stadium": "MetLife Stadium",
       "status": "Live",
-      "result": "1–1",
+      "result": "2–1",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
