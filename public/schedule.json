@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T00:30:31.778Z",
+  "generatedAt": "2026-06-26T01:32:08.977Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -2203,9 +2203,35 @@
       "awayTeam": "Netherlands",
       "city": "Kansas City",
       "stadium": "Arrowhead Stadium",
-      "status": "Live",
+      "status": "Played",
       "result": "1–3",
-      "goalEvents": [],
+      "goalEvents": [
+        {
+          "minute": "3'",
+          "team": "Netherlands",
+          "player": "Ellyes Skhiri",
+          "playerZh": "埃利耶斯·斯希里",
+          "note": "乌龙"
+        },
+        {
+          "minute": "7'",
+          "team": "Netherlands",
+          "player": "Brian Brobbey",
+          "playerZh": "布赖恩·布罗贝"
+        },
+        {
+          "minute": "54'",
+          "team": "Tunisia",
+          "player": "Hazem Mastouri",
+          "playerZh": "哈泽姆·马斯图里"
+        },
+        {
+          "minute": "62'",
+          "team": "Netherlands",
+          "player": "Jan Paul van Hecke",
+          "playerZh": "扬·保罗·范赫克"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -2223,9 +2249,22 @@
       "awayTeam": "Sweden",
       "city": "Dallas",
       "stadium": "AT&T Stadium",
-      "status": "Live",
+      "status": "Played",
       "result": "1–1",
-      "goalEvents": [],
+      "goalEvents": [
+        {
+          "minute": "56'",
+          "team": "Japan",
+          "player": "Daizen Maeda",
+          "playerZh": "前田大然"
+        },
+        {
+          "minute": "62'",
+          "team": "Sweden",
+          "player": "Anthony Elanga",
+          "playerZh": "安东尼·埃兰加"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
