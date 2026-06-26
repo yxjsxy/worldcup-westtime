@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T03:30:19.910Z",
+  "generatedAt": "2026-06-26T04:31:20.205Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -2282,7 +2282,7 @@
       "awayTeam": "Australia",
       "city": "San Francisco Bay Area",
       "stadium": "Levi's Stadium",
-      "status": "Live",
+      "status": "Played",
       "result": "0–0",
       "goalEvents": [],
       "isKnockout": false,
@@ -2302,9 +2302,40 @@
       "awayTeam": "United States",
       "city": "Los Angeles",
       "stadium": "SoFi Stadium",
-      "status": "Live",
-      "result": "2–2",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "3–2",
+      "goalEvents": [
+        {
+          "minute": "3'",
+          "team": "United States",
+          "player": "Auston Trusty",
+          "playerZh": "奥斯顿·特拉斯蒂"
+        },
+        {
+          "minute": "10'",
+          "team": "Türkiye",
+          "player": "Arda Güler",
+          "playerZh": "阿尔达·居莱尔"
+        },
+        {
+          "minute": "31'",
+          "team": "Türkiye",
+          "player": "Baris Alper Yilmaz",
+          "playerZh": "巴里什·阿尔佩尔·伊尔马兹"
+        },
+        {
+          "minute": "49'",
+          "team": "United States",
+          "player": "Sebastian Berhalter",
+          "playerZh": "塞巴斯蒂安·贝尔哈特"
+        },
+        {
+          "minute": "90'+8'",
+          "team": "Türkiye",
+          "player": "Kaan Ayhan",
+          "playerZh": "卡恩·艾汗"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
