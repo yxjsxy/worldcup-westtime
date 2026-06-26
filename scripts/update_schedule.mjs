@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { copyFile, mkdir, stat, writeFile } from "node:fs/promises";
+import { copyFile, mkdir, readFile, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -346,6 +346,10 @@ function deriveStage(match) {
   const label = `${match.homeTeam || ""} ${match.awayTeam || ""}`;
   const knockout = label.match(/\((Round of 32|Round of 16|Quarter-finals|Semi-finals|3rd Place Final|Final) #?\d*\)/);
   if (knockout) return knockout[1];
+  if (match.matchday === 32) return "Round of 32";
+  if (match.matchday === 16) return "Round of 16";
+  if (match.matchday === 8) return "Quarter-finals";
+  if (match.matchday === 4) return "Semi-finals";
   if (typeof match.matchday === "number") return `Group stage · Matchday ${match.matchday}`;
   return "Knockout";
 }
@@ -528,14 +532,100 @@ function validatePayload(payload) {
   }
 }
 
+async function readExistingPayload() {
+  try {
+    return JSON.parse(await readFile(outFile, "utf8"));
+  } catch {
+    return null;
+  }
+}
+
+function buildSourceHealth(upstreamMatches, fallbackMatches, fallbackIds) {
+  const alerts = [];
+  if (fallbackMatches > 0) {
+    alerts.push({
+      code: "upstream_match_shortfall",
+      severity: "high",
+      matchId: 0,
+      match: "World Cup 2026 schedule export",
+      message: `Primary source returned ${upstreamMatches} matches; preserved ${fallbackMatches} missing fixtures from the previous verified snapshot.`,
+      primaryValue: upstreamMatches,
+      secondaryValue: 104,
+      fallbackIds,
+    });
+  }
+
+  return {
+    generatedAt: new Date().toISOString(),
+    status: alerts.length > 0 ? "warning" : "ok",
+    sources: fallbackMatches > 0 ? ["matchesio", "previous verified schedule"] : ["matchesio"],
+    checkedMatches: upstreamMatches,
+    upstreamMatches,
+    fallbackMatches,
+    alertCount: alerts.length,
+    alerts,
+  };
+}
+
+function fillMissingVenues(matches, previousPayload) {
+  const previousById = new Map((previousPayload?.matches || []).map((match) => [match.id, match]));
+  const knockoutMatches = matches.filter((match) => match.isKnockout).sort((a, b) => Date.parse(a.utcStart) - Date.parse(b.utcStart));
+
+  for (const match of matches) {
+    const previous = previousById.get(match.id);
+    if (previous?.city && !match.city) match.city = previous.city;
+    if (previous?.stadium && !match.stadium) match.stadium = previous.stadium;
+  }
+
+  knockoutMatches.forEach((match, index) => {
+    const fallback = knockoutVenueFallbacks[index];
+    if (!fallback) return;
+    if (!match.city) match.city = fallback[0];
+    if (!match.stadium) match.stadium = fallback[1];
+  });
+}
+
+function mergeWithPreviousSnapshot(payload, previousPayload) {
+  const upstreamMatches = payload.matches.length;
+  if (upstreamMatches >= 104) {
+    fillMissingVenues(payload.matches, previousPayload);
+    return {
+      ...payload,
+      sourceHealth: buildSourceHealth(upstreamMatches, 0, []),
+    };
+  }
+
+  const previousMatches = Array.isArray(previousPayload?.matches) ? previousPayload.matches : [];
+  const matchesById = new Map(payload.matches.map((match) => [match.id, match]));
+  const upstreamStartTimes = new Set(payload.matches.map((match) => match.utcStart));
+  const fallbackMatches = previousMatches.filter((match) => !matchesById.has(match.id) && !upstreamStartTimes.has(match.utcStart));
+
+  for (const match of fallbackMatches) {
+    matchesById.set(match.id, match);
+  }
+
+  const matches = [...matchesById.values()].sort((a, b) => Date.parse(a.utcStart) - Date.parse(b.utcStart));
+  const fallbackIds = fallbackMatches.map((match) => match.id).sort((a, b) => a - b);
+  fillMissingVenues(matches, previousPayload);
+
+  return {
+    ...payload,
+    matches,
+    sourceHealth: buildSourceHealth(upstreamMatches, fallbackMatches.length, fallbackIds),
+  };
+}
+
 async function main() {
   const raw = await fetchSource();
-  const payload = await normalize(raw);
+  const previousPayload = await readExistingPayload();
+  const payload = mergeWithPreviousSnapshot(await normalize(raw), previousPayload);
   validatePayload(payload);
 
   if (dryRun) {
     const today = payload.matches.filter((match) => match.localDate === "2026-06-12");
-    console.log(`dry-run ok: ${payload.matches.length} matches, ${today.length} matches on 2026-06-12 PT`);
+    const health = payload.sourceHealth;
+    const fallbackSummary = health?.fallbackMatches ? `, ${health.fallbackMatches} fallback matches from previous snapshot` : "";
+    console.log(`dry-run ok: ${payload.matches.length} matches, ${today.length} matches on 2026-06-12 PT${fallbackSummary}`);
     return;
   }
 
