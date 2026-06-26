@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T01:32:08.977Z",
+  "generatedAt": "2026-06-26T02:30:25.137Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -2282,8 +2282,8 @@
       "awayTeam": "Australia",
       "city": "San Francisco Bay Area",
       "stadium": "Levi's Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–0",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
@@ -2302,8 +2302,8 @@
       "awayTeam": "United States",
       "city": "Los Angeles",
       "stadium": "SoFi Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "1–1",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
