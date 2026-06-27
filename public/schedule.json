@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T02:31:27.564Z",
+  "generatedAt": "2026-06-27T03:30:20.410Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -2502,8 +2502,8 @@
       "awayTeam": "Iran",
       "city": "Seattle",
       "stadium": "Lumen Field",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "1–1",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
@@ -2522,8 +2522,8 @@
       "awayTeam": "Belgium",
       "city": "Vancouver",
       "stadium": "BC Place",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–0",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
@@ -3290,7 +3290,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-06-27T02:31:27.566Z",
+    "generatedAt": "2026-06-27T03:30:20.412Z",
     "status": "warning",
     "sources": [
       "matchesio",
