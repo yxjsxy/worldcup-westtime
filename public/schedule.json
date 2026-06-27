@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T01:00:25.966Z",
+  "generatedAt": "2026-06-27T02:31:27.564Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -2455,7 +2455,7 @@
       "awayTeam": "Saudi Arabia",
       "city": "Houston",
       "stadium": "NRG Stadium",
-      "status": "Live",
+      "status": "Played",
       "result": "0–0",
       "goalEvents": [],
       "isKnockout": false,
@@ -2475,9 +2475,16 @@
       "awayTeam": "Spain",
       "city": "Zapopan",
       "stadium": "Estadio Akron",
-      "status": "Live",
+      "status": "Played",
       "result": "0–1",
-      "goalEvents": [],
+      "goalEvents": [
+        {
+          "minute": "42'",
+          "team": "Spain",
+          "player": "Álex Baena",
+          "playerZh": "阿莱克斯·巴埃纳"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -3283,7 +3290,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-06-27T01:00:25.967Z",
+    "generatedAt": "2026-06-27T02:31:27.566Z",
     "status": "warning",
     "sources": [
       "matchesio",
