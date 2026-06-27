@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T05:31:35.990Z",
+  "generatedAt": "2026-06-27T21:30:24.723Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -2592,8 +2592,8 @@
       "awayTeam": "Ghana",
       "city": "Philadelphia",
       "stadium": "Lincoln Financial Field",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–0",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
@@ -2610,10 +2610,10 @@
       "localDay": "Sat, Jun 27",
       "homeTeam": "Panama",
       "awayTeam": "England",
-      "city": "New York New Jersey",
+      "city": "East Rutherford",
       "stadium": "MetLife Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–0",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
@@ -3340,7 +3340,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-06-27T05:31:35.991Z",
+    "generatedAt": "2026-06-27T21:30:24.724Z",
     "status": "warning",
     "sources": [
       "matchesio",
