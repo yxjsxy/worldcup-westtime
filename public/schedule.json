@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T23:00:16.955Z",
+  "generatedAt": "2026-06-27T23:31:14.433Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -2592,9 +2592,28 @@
       "awayTeam": "Ghana",
       "city": "Philadelphia",
       "stadium": "Lincoln Financial Field",
-      "status": "Live",
-      "result": "1–1",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "2–1",
+      "goalEvents": [
+        {
+          "minute": "31'",
+          "team": "Croatia",
+          "player": "Petar Sucic",
+          "playerZh": "佩塔尔·苏契奇"
+        },
+        {
+          "minute": "73'",
+          "team": "Ghana",
+          "player": "Derrick Luckassen",
+          "playerZh": "德里克·卢卡森"
+        },
+        {
+          "minute": "83'",
+          "team": "Croatia",
+          "player": "Nikola Vlasic",
+          "playerZh": "尼古拉·弗拉希奇"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -2612,9 +2631,22 @@
       "awayTeam": "England",
       "city": "East Rutherford",
       "stadium": "MetLife Stadium",
-      "status": "Live",
+      "status": "Played",
       "result": "0–2",
-      "goalEvents": [],
+      "goalEvents": [
+        {
+          "minute": "62'",
+          "team": "England",
+          "player": "Jude Bellingham",
+          "playerZh": "裘德·贝林厄姆"
+        },
+        {
+          "minute": "67'",
+          "team": "England",
+          "player": "Harry Kane",
+          "playerZh": "哈里·凯恩"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -3340,7 +3372,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-06-27T23:00:16.956Z",
+    "generatedAt": "2026-06-27T23:31:14.434Z",
     "status": "warning",
     "sources": [
       "matchesio",
