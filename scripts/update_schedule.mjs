@@ -198,6 +198,11 @@ const playerNameZh = new Map([
   ["Amine Gouiri", "阿明·古伊里"],
   ["Nilson Angulo", "尼尔松·安古洛"],
   ["Gonzalo Plata", "贡萨洛·普拉塔"],
+  ["Thelo Aasgaard", "泰洛·奥斯高"],
+  ["Désiré Doué", "德西雷·杜埃"],
+  ["Habib Diarra", "哈比卜·迪亚拉"],
+  ["Pape Gueye", "帕普·盖耶"],
+  ["Iliman Ndiaye", "伊利曼·恩迪亚耶"],
 ]);
 
 const knownGoalEvents = new Map([

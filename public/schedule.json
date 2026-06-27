@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T04:30:32.546Z",
+  "generatedAt": "2026-06-27T05:01:26.563Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -2372,7 +2372,7 @@
           "minute": "21'",
           "team": "Norway",
           "player": "Thelo Aasgaard",
-          "playerZh": "Thelo Aasgaard"
+          "playerZh": "泰洛·奥斯高"
         },
         {
           "minute": "32'",
@@ -2384,7 +2384,7 @@
           "minute": "90'+4'",
           "team": "France",
           "player": "Désiré Doué",
-          "playerZh": "Désiré Doué"
+          "playerZh": "德西雷·杜埃"
         }
       ],
       "isKnockout": false,
@@ -2411,7 +2411,7 @@
           "minute": "4'",
           "team": "Senegal",
           "player": "Habib Diarra",
-          "playerZh": "Habib Diarra"
+          "playerZh": "哈比卜·迪亚拉"
         },
         {
           "minute": "56'",
@@ -2423,19 +2423,19 @@
           "minute": "59'",
           "team": "Senegal",
           "player": "Pape Gueye",
-          "playerZh": "Pape Gueye"
+          "playerZh": "帕普·盖耶"
         },
         {
           "minute": "71'",
           "team": "Senegal",
           "player": "Pape Gueye",
-          "playerZh": "Pape Gueye"
+          "playerZh": "帕普·盖耶"
         },
         {
           "minute": "82'",
           "team": "Senegal",
           "player": "Iliman Ndiaye",
-          "playerZh": "Iliman Ndiaye"
+          "playerZh": "伊利曼·恩迪亚耶"
         }
       ],
       "isKnockout": false,
@@ -2523,7 +2523,7 @@
       "city": "Vancouver",
       "stadium": "BC Place",
       "status": "Live",
-      "result": "0–2",
+      "result": "0–3",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
@@ -3290,7 +3290,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-06-27T04:30:32.547Z",
+    "generatedAt": "2026-06-27T05:01:26.564Z",
     "status": "warning",
     "sources": [
       "matchesio",
