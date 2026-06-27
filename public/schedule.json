@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T22:09:51.984Z",
+  "generatedAt": "2026-06-27T00:30:17.757Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -2455,8 +2455,8 @@
       "awayTeam": "Saudi Arabia",
       "city": "Houston",
       "stadium": "NRG Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–0",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
@@ -2475,8 +2475,8 @@
       "awayTeam": "Spain",
       "city": "Zapopan",
       "stadium": "Estadio Akron",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–0",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
@@ -3283,7 +3283,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-06-26T22:09:51.985Z",
+    "generatedAt": "2026-06-27T00:30:17.758Z",
     "status": "warning",
     "sources": [
       "matchesio",
