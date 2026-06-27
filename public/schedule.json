@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T22:30:17.351Z",
+  "generatedAt": "2026-06-27T23:00:16.955Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -2593,7 +2593,7 @@
       "city": "Philadelphia",
       "stadium": "Lincoln Financial Field",
       "status": "Live",
-      "result": "1–0",
+      "result": "1–1",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
@@ -2613,7 +2613,7 @@
       "city": "East Rutherford",
       "stadium": "MetLife Stadium",
       "status": "Live",
-      "result": "0–1",
+      "result": "0–2",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
@@ -2630,7 +2630,7 @@
       "localDay": "Sat, Jun 27",
       "homeTeam": "Colombia",
       "awayTeam": "Portugal",
-      "city": "Miami",
+      "city": "Miami Gardens",
       "stadium": "Hard Rock Stadium",
       "status": "To be played",
       "result": null,
@@ -3340,7 +3340,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-06-27T22:30:17.353Z",
+    "generatedAt": "2026-06-27T23:00:16.956Z",
     "status": "warning",
     "sources": [
       "matchesio",
