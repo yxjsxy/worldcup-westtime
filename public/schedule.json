@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T05:01:26.563Z",
+  "generatedAt": "2026-06-27T05:31:35.990Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -2502,9 +2502,22 @@
       "awayTeam": "Iran",
       "city": "Seattle",
       "stadium": "Lumen Field",
-      "status": "Live",
+      "status": "Played",
       "result": "1–1",
-      "goalEvents": [],
+      "goalEvents": [
+        {
+          "minute": "5'",
+          "team": "Egypt",
+          "player": "Mahmoud Saber",
+          "playerZh": "马哈茂德·萨贝尔"
+        },
+        {
+          "minute": "14'",
+          "team": "Iran",
+          "player": "Ramin Rezaeian",
+          "playerZh": "拉明·雷扎伊安"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -2522,9 +2535,46 @@
       "awayTeam": "Belgium",
       "city": "Vancouver",
       "stadium": "BC Place",
-      "status": "Live",
-      "result": "0–3",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "1–5",
+      "goalEvents": [
+        {
+          "minute": "28'",
+          "team": "Belgium",
+          "player": "Leandro Trossard",
+          "playerZh": "莱安德罗·特罗萨德"
+        },
+        {
+          "minute": "50'",
+          "team": "Belgium",
+          "player": "Leandro Trossard",
+          "playerZh": "莱安德罗·特罗萨德"
+        },
+        {
+          "minute": "66'",
+          "team": "Belgium",
+          "player": "Kevin De Bruyne",
+          "playerZh": "凯文·德布劳内"
+        },
+        {
+          "minute": "84'",
+          "team": "New Zealand",
+          "player": "Elijah Just",
+          "playerZh": "伊莱贾·贾斯特"
+        },
+        {
+          "minute": "86'",
+          "team": "Belgium",
+          "player": "Romelu Lukaku",
+          "playerZh": "罗梅卢·卢卡库"
+        },
+        {
+          "minute": "90'+4'",
+          "team": "Belgium",
+          "player": "Alexis Saelemaekers",
+          "playerZh": "亚历克西斯·萨勒马克尔斯"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -3290,7 +3340,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-06-27T05:01:26.564Z",
+    "generatedAt": "2026-06-27T05:31:35.991Z",
     "status": "warning",
     "sources": [
       "matchesio",
