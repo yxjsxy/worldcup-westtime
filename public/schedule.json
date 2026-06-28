@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T01:30:18.927Z",
+  "generatedAt": "2026-06-28T02:01:05.013Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -2664,7 +2664,7 @@
       "awayTeam": "Portugal",
       "city": "Miami Gardens",
       "stadium": "Hard Rock Stadium",
-      "status": "Live",
+      "status": "Played",
       "result": "0–0",
       "goalEvents": [],
       "isKnockout": false,
@@ -2684,9 +2684,35 @@
       "awayTeam": "Uzbekistan",
       "city": "Atlanta",
       "stadium": "Mercedes-Benz Stadium",
-      "status": "Live",
-      "result": "2–1",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "3–1",
+      "goalEvents": [
+        {
+          "minute": "10'",
+          "team": "Uzbekistan",
+          "player": "Eldor Shomurodov",
+          "playerZh": "埃尔多尔·绍穆罗多夫"
+        },
+        {
+          "minute": "68'",
+          "team": "DR Congo",
+          "player": "Yoane Wissa",
+          "playerZh": "约安·维萨",
+          "note": "点球"
+        },
+        {
+          "minute": "78'",
+          "team": "DR Congo",
+          "player": "Fiston Mayele",
+          "playerZh": "菲斯顿·马耶莱"
+        },
+        {
+          "minute": "90'+1'",
+          "team": "DR Congo",
+          "player": "Yoane Wissa",
+          "playerZh": "约安·维萨"
+        }
+      ],
       "isKnockout": false,
       "isPlaceholder": false
     },
@@ -3372,7 +3398,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-06-28T01:30:18.928Z",
+    "generatedAt": "2026-06-28T02:01:05.014Z",
     "status": "warning",
     "sources": [
       "matchesio",
