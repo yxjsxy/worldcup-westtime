@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T19:30:17.304Z",
+  "generatedAt": "2026-06-28T21:31:02.764Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -2833,9 +2833,16 @@
       "awayTeam": "Canada",
       "city": "Inglewood",
       "stadium": "SoFi Stadium",
-      "status": "Live",
-      "result": "0–0",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "0–1",
+      "goalEvents": [
+        {
+          "minute": "90'+2'",
+          "team": "Canada",
+          "player": "Stephen Eustaquio",
+          "playerZh": "斯蒂芬·欧斯塔基奥"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     },
@@ -3461,7 +3468,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-06-28T19:30:17.306Z",
+    "generatedAt": "2026-06-28T21:31:02.765Z",
     "status": "warning",
     "sources": [
       "matchesio",
