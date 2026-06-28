@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T02:30:18.605Z",
+  "generatedAt": "2026-06-28T03:00:27.047Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -2731,7 +2731,7 @@
       "city": "Kansas City",
       "stadium": "Arrowhead Stadium",
       "status": "Live",
-      "result": "0–0",
+      "result": "0–1",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
@@ -2751,7 +2751,7 @@
       "city": "Arlington",
       "stadium": "AT&T Stadium",
       "status": "Live",
-      "result": "0–1",
+      "result": "0–2",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
@@ -3398,7 +3398,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-06-28T02:30:18.607Z",
+    "generatedAt": "2026-06-28T03:00:27.048Z",
     "status": "warning",
     "sources": [
       "matchesio",
