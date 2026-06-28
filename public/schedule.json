@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T23:31:14.433Z",
+  "generatedAt": "2026-06-28T00:00:17.234Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -2664,8 +2664,8 @@
       "awayTeam": "Portugal",
       "city": "Miami Gardens",
       "stadium": "Hard Rock Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–0",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
@@ -2684,8 +2684,8 @@
       "awayTeam": "Uzbekistan",
       "city": "Atlanta",
       "stadium": "Mercedes-Benz Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–1",
       "goalEvents": [],
       "isKnockout": false,
       "isPlaceholder": false
@@ -3372,7 +3372,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-06-27T23:31:14.434Z",
+    "generatedAt": "2026-06-28T00:00:17.235Z",
     "status": "warning",
     "sources": [
       "matchesio",
