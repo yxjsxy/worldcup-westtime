@@ -372,6 +372,22 @@ function isPlaceholder(match) {
   return /\bTBD\b/i.test(`${match.homeTeam || ""} ${match.awayTeam || ""}`);
 }
 
+function concreteTeamCount(match) {
+  return [match.homeTeam, match.awayTeam].filter((team) => team && !/\bTBD\b/i.test(team)).length;
+}
+
+function choosePreferredDuplicateMatch(current, candidate) {
+  if (current.isPlaceholder !== candidate.isPlaceholder) {
+    return current.isPlaceholder ? candidate : current;
+  }
+  const currentConcreteTeams = concreteTeamCount(current);
+  const candidateConcreteTeams = concreteTeamCount(candidate);
+  if (currentConcreteTeams !== candidateConcreteTeams) {
+    return candidateConcreteTeams > currentConcreteTeams ? candidate : current;
+  }
+  return candidate.id > current.id ? candidate : current;
+}
+
 function normalizeResult(result) {
   if (!result) return null;
   return String(result).replace("-", "–");
@@ -507,9 +523,17 @@ async function normalize(rawMatches) {
     };
   });
 
-  matches.sort((a, b) => Date.parse(a.utcStart) - Date.parse(b.utcStart));
-  let knockoutVenueIndex = 0;
+  const matchesByKickoff = new Map();
   for (const match of matches) {
+    const duplicateKey = match.isKnockout ? `${match.utcStart}|${match.stage}` : `match:${match.id}`;
+    const current = matchesByKickoff.get(duplicateKey);
+    matchesByKickoff.set(duplicateKey, current ? choosePreferredDuplicateMatch(current, match) : match);
+  }
+
+  const dedupedMatches = [...matchesByKickoff.values()];
+  dedupedMatches.sort((a, b) => Date.parse(a.utcStart) - Date.parse(b.utcStart));
+  let knockoutVenueIndex = 0;
+  for (const match of dedupedMatches) {
     if (!match.isKnockout) continue;
     const fallback = knockoutVenueFallbacks[knockoutVenueIndex];
     if (fallback && (!match.city || !match.stadium)) {
@@ -518,14 +542,14 @@ async function normalize(rawMatches) {
     knockoutVenueIndex += 1;
   }
 
-  await enrichGoalEvents(matches);
+  await enrichGoalEvents(dedupedMatches);
 
   return {
     generatedAt: new Date().toISOString(),
     timezone,
     source: "matchesio World Cup 2026 JSON export",
     sourceUrl,
-    matches,
+    matches: dedupedMatches,
   };
 }
 
