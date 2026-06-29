@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T22:00:27.960Z",
+  "generatedAt": "2026-06-29T22:30:29.461Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -2900,7 +2900,7 @@
       "city": "Boston",
       "stadium": "Gillette Stadium",
       "status": "Live",
-      "result": "0–1",
+      "result": "1–1",
       "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": false
@@ -3487,7 +3487,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-06-29T22:00:27.961Z",
+    "generatedAt": "2026-06-29T22:30:29.462Z",
     "status": "ok",
     "sources": [
       "matchesio"
