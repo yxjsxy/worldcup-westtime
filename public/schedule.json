@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T19:31:30.071Z",
+  "generatedAt": "2026-06-29T21:00:22.389Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -2899,8 +2899,8 @@
       "awayTeam": "Paraguay",
       "city": "Boston",
       "stadium": "Gillette Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–0",
       "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": false
@@ -3487,7 +3487,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-06-29T19:31:30.071Z",
+    "generatedAt": "2026-06-29T21:00:22.390Z",
     "status": "ok",
     "sources": [
       "matchesio"
