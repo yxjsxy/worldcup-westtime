@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T18:00:18.283Z",
+  "generatedAt": "2026-06-29T18:30:24.011Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -2861,7 +2861,7 @@
       "city": "Houston",
       "stadium": "NRG Stadium",
       "status": "Live",
-      "result": "0–1",
+      "result": "1–1",
       "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": false
@@ -3468,7 +3468,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-06-29T18:00:18.283Z",
+    "generatedAt": "2026-06-29T18:30:24.011Z",
     "status": "ok",
     "sources": [
       "matchesio"
