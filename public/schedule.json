@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T18:30:24.011Z",
+  "generatedAt": "2026-06-29T19:31:30.071Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -2860,9 +2860,28 @@
       "awayTeam": "Japan",
       "city": "Houston",
       "stadium": "NRG Stadium",
-      "status": "Live",
-      "result": "1–1",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "2–1",
+      "goalEvents": [
+        {
+          "minute": "29'",
+          "team": "Japan",
+          "player": "Kaishu Sano",
+          "playerZh": "佐野海舟"
+        },
+        {
+          "minute": "56'",
+          "team": "Brazil",
+          "player": "Casemiro",
+          "playerZh": "卡塞米罗"
+        },
+        {
+          "minute": "90'+5'",
+          "team": "Brazil",
+          "player": "Gabriel Martinelli",
+          "playerZh": "加布里埃尔·马丁内利"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     },
@@ -3468,7 +3487,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-06-29T18:30:24.011Z",
+    "generatedAt": "2026-06-29T19:31:30.071Z",
     "status": "ok",
     "sources": [
       "matchesio"

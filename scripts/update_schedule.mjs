@@ -221,6 +221,9 @@ const playerNameZh = new Map([
   ["Kevin De Bruyne", "凯文·德布劳内"],
   ["Romelu Lukaku", "罗梅卢·卢卡库"],
   ["Alexis Saelemaekers", "亚历克西斯·萨勒马克尔斯"],
+  ["Kaishu Sano", "佐野海舟"],
+  ["Casemiro", "卡塞米罗"],
+  ["Gabriel Martinelli", "加布里埃尔·马丁内利"],
 ]);
 
 const knownGoalEvents = new Map([
