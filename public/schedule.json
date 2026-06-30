@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T21:30:16.763Z",
+  "generatedAt": "2026-06-30T22:30:18.057Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3005,7 +3005,7 @@
       "city": "New-York",
       "stadium": "MetLife Stadium",
       "status": "Live",
-      "result": "0–0",
+      "result": "2–0",
       "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": false
@@ -3532,7 +3532,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-06-30T21:30:16.764Z",
+    "generatedAt": "2026-06-30T22:30:18.058Z",
     "status": "ok",
     "sources": [
       "matchesio"
