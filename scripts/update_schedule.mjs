@@ -122,6 +122,7 @@ const playerNameZh = new Map([
   ["Felix Nmecha", "菲利克斯·恩梅查"],
   ["Livano Comenencia", "利瓦诺·科梅嫩西亚"],
   ["Nico Schlotterbeck", "尼科·施洛特贝克"],
+  ["Julio Enciso", "胡利奥·恩西索"],
   ["Kai Havertz", "凯·哈弗茨"],
   ["Jamal Musiala", "贾马尔·穆西亚拉"],
   ["Leroy Sané", "勒鲁瓦·萨内"],

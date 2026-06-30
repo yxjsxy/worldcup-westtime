@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T23:30:17.902Z",
+  "generatedAt": "2026-06-30T00:01:02.111Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -2899,9 +2899,22 @@
       "awayTeam": "Paraguay",
       "city": "Boston",
       "stadium": "Gillette Stadium",
-      "status": "To be played",
-      "result": "1–1 (pens 2-3)",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "1–1 (pens 3-4)",
+      "goalEvents": [
+        {
+          "minute": "42'",
+          "team": "Paraguay",
+          "player": "Julio Enciso",
+          "playerZh": "胡利奥·恩西索"
+        },
+        {
+          "minute": "54'",
+          "team": "Germany",
+          "player": "Kai Havertz",
+          "playerZh": "凯·哈弗茨"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     },
@@ -3487,7 +3500,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-06-29T23:30:17.902Z",
+    "generatedAt": "2026-06-30T00:01:02.112Z",
     "status": "ok",
     "sources": [
       "matchesio"
