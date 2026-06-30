@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T19:31:17.159Z",
+  "generatedAt": "2026-06-30T21:30:16.763Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3004,8 +3004,8 @@
       "awayTeam": "Sweden",
       "city": "New-York",
       "stadium": "MetLife Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–0",
       "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": false
@@ -3532,7 +3532,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-06-30T19:31:17.160Z",
+    "generatedAt": "2026-06-30T21:30:16.764Z",
     "status": "ok",
     "sources": [
       "matchesio"
