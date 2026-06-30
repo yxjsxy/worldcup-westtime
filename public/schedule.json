@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T19:00:20.258Z",
+  "generatedAt": "2026-06-30T19:31:17.159Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -2965,9 +2965,28 @@
       "awayTeam": "Norway",
       "city": "Dallas",
       "stadium": "AT&T Stadium",
-      "status": "Live",
-      "result": "1–1",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "1–2",
+      "goalEvents": [
+        {
+          "minute": "39'",
+          "team": "Norway",
+          "player": "Antonio Nusa",
+          "playerZh": "安东尼奥·努萨"
+        },
+        {
+          "minute": "74'",
+          "team": "Ivory Coast",
+          "player": "Amad Diallo",
+          "playerZh": "阿马德·迪亚洛"
+        },
+        {
+          "minute": "86'",
+          "team": "Norway",
+          "player": "Erling Haaland",
+          "playerZh": "埃尔林·哈兰德"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     },
@@ -3513,7 +3532,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-06-30T19:00:20.258Z",
+    "generatedAt": "2026-06-30T19:31:17.160Z",
     "status": "ok",
     "sources": [
       "matchesio"
