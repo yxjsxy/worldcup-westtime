@@ -144,6 +144,7 @@ const playerNameZh = new Map([
   ["Hazem Mastouri", "哈泽姆·马斯图里"],
   ["Jan Paul van Hecke", "扬·保罗·范赫克"],
   ["Cody Gakpo", "科迪·加克波"],
+  ["Issa Diop", "伊萨·迪奥普"],
   ["Anthony Elanga", "安东尼·埃兰加"],
   ["Crysencio Summerville", "克里森西奥·萨默维尔"],
   ["Daichi Kamada", "镰田大地"],

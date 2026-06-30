@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T03:30:22.031Z",
+  "generatedAt": "2026-06-30T04:31:11.170Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -2932,9 +2932,22 @@
       "awayTeam": "Morocco",
       "city": "Monterrey",
       "stadium": "Estadio BBVA",
-      "status": "Live",
-      "result": "1–1",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "1–1 (pens 2-3)",
+      "goalEvents": [
+        {
+          "minute": "72'",
+          "team": "Netherlands",
+          "player": "Cody Gakpo",
+          "playerZh": "科迪·加克波"
+        },
+        {
+          "minute": "90'+1'",
+          "team": "Morocco",
+          "player": "Issa Diop",
+          "playerZh": "伊萨·迪奥普"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     },
@@ -3500,7 +3513,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-06-30T03:30:22.032Z",
+    "generatedAt": "2026-06-30T04:31:11.171Z",
     "status": "ok",
     "sources": [
       "matchesio"
