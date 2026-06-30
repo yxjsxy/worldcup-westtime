@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T23:00:27.107Z",
+  "generatedAt": "2026-06-30T23:30:23.490Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3004,9 +3004,28 @@
       "awayTeam": "Sweden",
       "city": "New-York",
       "stadium": "MetLife Stadium",
-      "status": "Live",
+      "status": "Played",
       "result": "3–0",
-      "goalEvents": [],
+      "goalEvents": [
+        {
+          "minute": "45'",
+          "team": "France",
+          "player": "Kylian Mbappé",
+          "playerZh": "基利安·姆巴佩"
+        },
+        {
+          "minute": "53'",
+          "team": "France",
+          "player": "Bradley Barcola",
+          "playerZh": "布拉德利·巴尔科拉"
+        },
+        {
+          "minute": "74'",
+          "team": "France",
+          "player": "Kylian Mbappé",
+          "playerZh": "基利安·姆巴佩"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     },
@@ -3532,7 +3551,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-06-30T23:00:27.108Z",
+    "generatedAt": "2026-06-30T23:30:23.491Z",
     "status": "ok",
     "sources": [
       "matchesio"
