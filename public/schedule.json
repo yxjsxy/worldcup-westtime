@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T18:30:22.338Z",
+  "generatedAt": "2026-06-30T19:00:20.258Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -2966,7 +2966,7 @@
       "city": "Dallas",
       "stadium": "AT&T Stadium",
       "status": "Live",
-      "result": "0–1",
+      "result": "1–1",
       "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": false
@@ -3513,7 +3513,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-06-30T18:30:22.339Z",
+    "generatedAt": "2026-06-30T19:00:20.258Z",
     "status": "ok",
     "sources": [
       "matchesio"
