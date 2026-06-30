@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T04:31:11.170Z",
+  "generatedAt": "2026-06-30T18:30:22.338Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -2965,8 +2965,8 @@
       "awayTeam": "Norway",
       "city": "Dallas",
       "stadium": "AT&T Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–1",
       "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": false
@@ -3513,7 +3513,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-06-30T04:31:11.171Z",
+    "generatedAt": "2026-06-30T18:30:22.339Z",
     "status": "ok",
     "sources": [
       "matchesio"
