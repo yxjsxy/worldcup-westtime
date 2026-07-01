@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T22:30:26.299Z",
+  "generatedAt": "2026-07-01T23:31:22.860Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3115,9 +3115,41 @@
       "awayTeam": "Senegal",
       "city": "Seattle",
       "stadium": "Lumen Field",
-      "status": "Live",
-      "result": "2–2",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "3–2",
+      "goalEvents": [
+        {
+          "minute": "25'",
+          "team": "Senegal",
+          "player": "Habib Diarra",
+          "playerZh": "哈比卜·迪亚拉"
+        },
+        {
+          "minute": "51'",
+          "team": "Senegal",
+          "player": "Ismaïla Sarr",
+          "playerZh": "伊斯梅拉·萨尔"
+        },
+        {
+          "minute": "86'",
+          "team": "Belgium",
+          "player": "Romelu Lukaku",
+          "playerZh": "罗梅卢·卢卡库"
+        },
+        {
+          "minute": "89'",
+          "team": "Belgium",
+          "player": "Youri Tielemans",
+          "playerZh": "尤里·蒂莱曼斯"
+        },
+        {
+          "minute": "120'+5'",
+          "team": "Belgium",
+          "player": "Youri Tielemans",
+          "playerZh": "尤里·蒂莱曼斯",
+          "note": "点球"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     },
@@ -3583,7 +3615,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-01T22:30:26.300Z",
+    "generatedAt": "2026-07-01T23:31:22.861Z",
     "status": "warning",
     "sources": [
       "matchesio",
