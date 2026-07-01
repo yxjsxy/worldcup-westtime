@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T03:01:01.638Z",
+  "generatedAt": "2026-07-01T04:31:05.786Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3043,9 +3043,22 @@
       "awayTeam": "Ecuador",
       "city": "Mexico City",
       "stadium": "Estadio Banorte",
-      "status": "Live",
+      "status": "Played",
       "result": "2–0",
-      "goalEvents": [],
+      "goalEvents": [
+        {
+          "minute": "22'",
+          "team": "Mexico",
+          "player": "Julián Quiñones",
+          "playerZh": "胡利安·基尼奥内斯"
+        },
+        {
+          "minute": "31'",
+          "team": "Mexico",
+          "player": "Raúl Jiménez",
+          "playerZh": "劳尔·希门尼斯"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     },
@@ -3551,7 +3564,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-01T03:01:01.639Z",
+    "generatedAt": "2026-07-01T04:31:05.787Z",
     "status": "warning",
     "sources": [
       "matchesio",
