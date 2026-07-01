@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T18:32:52.309Z",
+  "generatedAt": "2026-07-01T20:30:17.877Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3115,8 +3115,8 @@
       "awayTeam": "Senegal",
       "city": "Seattle",
       "stadium": "Lumen Field",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–0",
       "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": false
@@ -3583,7 +3583,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-01T18:32:52.310Z",
+    "generatedAt": "2026-07-01T20:30:17.878Z",
     "status": "warning",
     "sources": [
       "matchesio",
