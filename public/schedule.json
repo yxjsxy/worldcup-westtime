@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T04:31:05.786Z",
+  "generatedAt": "2026-07-01T18:01:27.687Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3076,8 +3076,8 @@
       "awayTeam": "DR Congo",
       "city": "Atlanta",
       "stadium": "Mercedes-Benz Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "1–1",
       "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": false
@@ -3564,7 +3564,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-01T04:31:05.787Z",
+    "generatedAt": "2026-07-01T18:01:27.688Z",
     "status": "warning",
     "sources": [
       "matchesio",
