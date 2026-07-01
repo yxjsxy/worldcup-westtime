@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T00:30:27.532Z",
+  "generatedAt": "2026-07-01T01:30:25.404Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3043,7 +3043,7 @@
       "awayTeam": "Ecuador",
       "city": "Mexico City",
       "stadium": "Estadio Banorte",
-      "status": "To be played",
+      "status": "Postponed",
       "result": null,
       "goalEvents": [],
       "isKnockout": true,
@@ -3551,7 +3551,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-01T00:30:27.534Z",
+    "generatedAt": "2026-07-01T01:30:25.405Z",
     "status": "warning",
     "sources": [
       "matchesio",
