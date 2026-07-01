@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T18:01:27.687Z",
+  "generatedAt": "2026-07-01T18:32:52.309Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3076,9 +3076,28 @@
       "awayTeam": "DR Congo",
       "city": "Atlanta",
       "stadium": "Mercedes-Benz Stadium",
-      "status": "Live",
-      "result": "1–1",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "2–1",
+      "goalEvents": [
+        {
+          "minute": "7'",
+          "team": "DR Congo",
+          "player": "Brian Cipenga",
+          "playerZh": "布赖恩·奇彭加"
+        },
+        {
+          "minute": "75'",
+          "team": "England",
+          "player": "Harry Kane",
+          "playerZh": "哈里·凯恩"
+        },
+        {
+          "minute": "86'",
+          "team": "England",
+          "player": "Harry Kane",
+          "playerZh": "哈里·凯恩"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     },
@@ -3564,7 +3583,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-01T18:01:27.688Z",
+    "generatedAt": "2026-07-01T18:32:52.310Z",
     "status": "warning",
     "sources": [
       "matchesio",

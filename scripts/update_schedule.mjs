@@ -141,6 +141,7 @@ const playerNameZh = new Map([
   ["Virgil van Dijk", "维吉尔·范戴克"],
   ["Keito Nakamura", "中村敬斗"],
   ["Ellyes Skhiri", "埃利耶斯·斯希里"],
+  ["Brian Cipenga", "布赖恩·奇彭加"],
   ["Brian Brobbey", "布赖恩·布罗贝"],
   ["Hazem Mastouri", "哈泽姆·马斯图里"],
   ["Jan Paul van Hecke", "扬·保罗·范赫克"],
