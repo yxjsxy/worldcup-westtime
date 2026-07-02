@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T01:30:30.342Z",
+  "generatedAt": "2026-07-02T02:31:54.057Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3119,7 +3119,7 @@
       "result": "3–2",
       "goalEvents": [
         {
-          "minute": "25'",
+          "minute": "24'",
           "team": "Senegal",
           "player": "Habib Diarra",
           "playerZh": "哈比卜·迪亚拉"
@@ -3167,9 +3167,22 @@
       "awayTeam": "Bosnia & Herzegovina",
       "city": "San-Francisco",
       "stadium": "Levi's Stadium",
-      "status": "Live",
-      "result": "1–0",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "2–0",
+      "goalEvents": [
+        {
+          "minute": "45'",
+          "team": "United States",
+          "player": "Folarin Balogun",
+          "playerZh": "弗拉林·巴洛贡"
+        },
+        {
+          "minute": "82'",
+          "team": "United States",
+          "player": "Malik Tillman",
+          "playerZh": "马利克·蒂尔曼"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     },
@@ -3615,7 +3628,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-02T01:30:30.343Z",
+    "generatedAt": "2026-07-02T02:31:54.058Z",
     "status": "ok",
     "sources": [
       "matchesio"
