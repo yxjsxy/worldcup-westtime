@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T21:00:21.388Z",
+  "generatedAt": "2026-07-02T21:31:01.228Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3200,9 +3200,28 @@
       "awayTeam": "Austria",
       "city": "Inglewood",
       "stadium": "SoFi Stadium",
-      "status": "Live",
-      "result": "2–0",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "3–0",
+      "goalEvents": [
+        {
+          "minute": "36'",
+          "team": "Spain",
+          "player": "Mikel Oyarzabal",
+          "playerZh": "米克尔·奥亚萨瓦尔"
+        },
+        {
+          "minute": "66'",
+          "team": "Spain",
+          "player": "Pedro Porro",
+          "playerZh": "佩德罗·波罗"
+        },
+        {
+          "minute": "89'",
+          "team": "Spain",
+          "player": "Mikel Oyarzabal",
+          "playerZh": "米克尔·奥亚萨瓦尔"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     },
@@ -3628,7 +3647,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-02T21:00:21.389Z",
+    "generatedAt": "2026-07-02T21:31:01.228Z",
     "status": "warning",
     "sources": [
       "matchesio",

@@ -172,6 +172,7 @@ const playerNameZh = new Map([
   ["Ismaïla Sarr", "伊斯梅拉·萨尔"],
   ["Lamine Yamal", "拉明·亚马尔"],
   ["Mikel Oyarzabal", "米克尔·奥亚萨瓦尔"],
+  ["Pedro Porro", "佩德罗·波罗"],
   ["Hassan Al Tambakti", "哈桑·坦巴克蒂"],
   ["Jonathan David", "乔纳森·戴维"],
   ["Nathan Saliba", "纳森·萨利巴"],
