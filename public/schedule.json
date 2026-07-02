@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T00:30:18.399Z",
+  "generatedAt": "2026-07-02T01:30:30.342Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3168,7 +3168,7 @@
       "city": "San-Francisco",
       "stadium": "Levi's Stadium",
       "status": "Live",
-      "result": "0–0",
+      "result": "1–0",
       "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": false
@@ -3615,7 +3615,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-02T00:30:18.400Z",
+    "generatedAt": "2026-07-02T01:30:30.343Z",
     "status": "ok",
     "sources": [
       "matchesio"
