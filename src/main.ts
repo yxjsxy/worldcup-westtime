@@ -17,10 +17,15 @@ import {
 const app = document.querySelector<HTMLDivElement>("#app");
 const favoriteTeamStorageKey = "worldcup-westtime.favoriteTeam";
 const alwaysOnStorageKey = "worldcup-westtime.alwaysOn";
+const pushEnabledStorageKey = "worldcup-westtime.pushEnabled";
+const remindedMatchStorageKey = "worldcup-westtime.lastReminderMatch";
+const reminderLeadMs = 30 * 60 * 1000;
+const maxReminderWindowMs = 24 * 60 * 60 * 1000;
 const deployLabel = `Deployed in ${
   import.meta.env.VITE_DEPLOYED_AT ||
   "pending Vercel deploy"
 }`;
+let reminderTimer: number | undefined;
 
 function escapeHtml(value: string | number | null | undefined): string {
   return String(value ?? "")
@@ -69,6 +74,30 @@ function toggleAlwaysOnMode(enabled: boolean): void {
   } catch {
     // Ignore storage failures; the current render still reflects the choice.
   }
+}
+
+function getPushReminderEnabled(): boolean {
+  try {
+    return window.localStorage.getItem(pushEnabledStorageKey) === "true";
+  } catch {
+    return false;
+  }
+}
+
+function setPushReminderEnabled(enabled: boolean): void {
+  try {
+    window.localStorage.setItem(pushEnabledStorageKey, String(enabled));
+  } catch {
+    // Ignore storage failures; permission state still updates in this session.
+  }
+}
+
+function getNotificationSupportLabel(): string {
+  if (!("Notification" in window)) return "This browser does not support notifications";
+  if (!("serviceWorker" in navigator)) return "Service worker unavailable";
+  if (Notification.permission === "denied") return "Notifications blocked in browser";
+  if (getPushReminderEnabled() && Notification.permission === "granted") return "提醒已开启：开赛前 30 分钟通知";
+  return "开赛前 30 分钟发浏览器提醒";
 }
 
 function getTeamOptions(matches: Match[]): string[] {
@@ -360,6 +389,25 @@ function renderCalendarCta(): string {
   `;
 }
 
+function renderPushReminderCta(nextMatch: Match | null): string {
+  const enabled = getPushReminderEnabled() && "Notification" in window && Notification.permission === "granted";
+  const buttonLabel = enabled ? "关闭提醒" : "开启提醒";
+  const matchLabel = nextMatch
+    ? `${nextMatch.localDate} ${nextMatch.localTime} PT · ${getMatchTitle(nextMatch)}`
+    : "No upcoming match";
+
+  return `
+    <section class="push-cta ${enabled ? "enabled" : ""}">
+      <div>
+        <strong>浏览器推送提醒</strong>
+        <span>${escapeHtml(getNotificationSupportLabel())}</span>
+        <small>${escapeHtml(matchLabel)}</small>
+      </div>
+      <button id="push-reminder-toggle" type="button" ${nextMatch ? "" : "disabled"}>${buttonLabel}</button>
+    </section>
+  `;
+}
+
 function renderFavoriteFilter(teams: string[], selectedTeam: string, matches: Match[]): string {
   const filteredCount = filterMatchesByTeam(matches, selectedTeam).length;
   const helperText = selectedTeam
@@ -451,6 +499,7 @@ function render(payload: SchedulePayload): void {
     ${renderSourceHealth(payload)}
     ${renderFavoriteFilter(teamOptions, selectedTeam, payload.matches)}
     ${renderCalendarCta()}
+    ${renderPushReminderCta(nextMatch)}
     ${renderToday(todayMatches, today)}
     ${renderScoreStatusNotice(recentResults)}
     ${renderResults(recentResults)}
@@ -473,6 +522,86 @@ function render(payload: SchedulePayload): void {
     toggleAlwaysOnMode(!getAlwaysOnMode());
     render(payload);
   });
+  app.querySelector<HTMLButtonElement>("#push-reminder-toggle")?.addEventListener("click", async () => {
+    await togglePushReminders(!getPushReminderEnabled(), nextMatch);
+    render(payload);
+  });
+
+  scheduleNextBrowserReminder(nextMatch);
+}
+
+async function registerReminderWorker(): Promise<ServiceWorkerRegistration | null> {
+  if (!("serviceWorker" in navigator)) return null;
+  try {
+    return await navigator.serviceWorker.register("/reminder-sw.js");
+  } catch {
+    return null;
+  }
+}
+
+async function togglePushReminders(enabled: boolean, nextMatch: Match | null): Promise<void> {
+  if (!("Notification" in window) || !nextMatch) return;
+  if (!enabled) {
+    setPushReminderEnabled(false);
+    if (reminderTimer) window.clearTimeout(reminderTimer);
+    return;
+  }
+
+  const permission =
+    Notification.permission === "granted" ? "granted" : await Notification.requestPermission();
+  if (permission !== "granted") {
+    setPushReminderEnabled(false);
+    return;
+  }
+
+  await registerReminderWorker();
+  setPushReminderEnabled(true);
+  scheduleNextBrowserReminder(nextMatch);
+}
+
+function getReminderDelay(match: Match): number | null {
+  const kickoff = new Date(match.utcStart).getTime();
+  const notifyAt = kickoff - reminderLeadMs;
+  const delay = notifyAt - Date.now();
+  if (!Number.isFinite(delay) || delay < 0 || delay > maxReminderWindowMs) return null;
+  return delay;
+}
+
+async function sendBrowserReminder(match: Match): Promise<void> {
+  if (!("Notification" in window) || Notification.permission !== "granted") return;
+  const reminderId = String(match.id);
+  try {
+    if (window.localStorage.getItem(remindedMatchStorageKey) === reminderId) return;
+    window.localStorage.setItem(remindedMatchStorageKey, reminderId);
+  } catch {
+    // Duplicate protection is best effort.
+  }
+
+  const title = "世界杯开赛提醒";
+  const body = `${getMatchTitle(match)} · ${match.localTime} PT · ${getMatchLocation(match)}`;
+  const registration = await registerReminderWorker();
+  if (registration) {
+    await registration.showNotification(title, {
+      body,
+      tag: `worldcup-westtime-${match.id}`,
+      icon: "/vite.svg",
+      badge: "/vite.svg",
+    });
+    return;
+  }
+  new Notification(title, { body, tag: `worldcup-westtime-${match.id}` });
+}
+
+function scheduleNextBrowserReminder(nextMatch: Match | null): void {
+  if (reminderTimer) window.clearTimeout(reminderTimer);
+  if (!nextMatch || !getPushReminderEnabled()) return;
+  if (!("Notification" in window) || Notification.permission !== "granted") return;
+
+  const delay = getReminderDelay(nextMatch);
+  if (delay === null) return;
+  reminderTimer = window.setTimeout(() => {
+    void sendBrowserReminder(nextMatch);
+  }, delay);
 }
 
 function renderError(error: unknown): void {

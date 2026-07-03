@@ -312,6 +312,72 @@ h1 {
   text-decoration: none;
 }
 
+.push-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 18px;
+  padding: 16px 18px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 8px;
+  background: linear-gradient(90deg, #fff, rgba(239, 246, 255, 0.82));
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.07);
+  color: #334155;
+}
+
+.push-cta.enabled {
+  border-color: rgba(22, 101, 52, 0.22);
+  background: linear-gradient(90deg, rgba(240, 253, 244, 0.96), #fff);
+}
+
+.push-cta div {
+  min-width: 0;
+}
+
+.push-cta strong,
+.push-cta span,
+.push-cta small {
+  display: block;
+}
+
+.push-cta span {
+  margin-top: 4px;
+  color: #64748b;
+  line-height: 1.45;
+}
+
+.push-cta small {
+  margin-top: 6px;
+  color: #0f766e;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1.45;
+}
+
+.push-cta button {
+  flex: 0 0 auto;
+  min-height: 42px;
+  padding: 10px 14px;
+  border: 0;
+  border-radius: 8px;
+  background: #1e3a8a;
+  color: #fff;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.push-cta.enabled button {
+  background: #064e3b;
+}
+
+.push-cta button:disabled {
+  cursor: not-allowed;
+  opacity: 0.58;
+}
+
 .favorite-filter {
   display: flex;
   align-items: center;
