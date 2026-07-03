@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T06:30:21.155Z",
+  "generatedAt": "2026-07-03T18:30:17.219Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3312,8 +3312,8 @@
       "awayTeam": "Egypt",
       "city": "Dallas",
       "stadium": "AT&T Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–1",
       "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": false
@@ -3680,7 +3680,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-03T06:30:21.157Z",
+    "generatedAt": "2026-07-03T18:30:17.220Z",
     "status": "warning",
     "sources": [
       "matchesio",
