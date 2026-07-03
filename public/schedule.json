@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T19:30:18.603Z",
+  "generatedAt": "2026-07-03T21:30:28.562Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3312,9 +3312,23 @@
       "awayTeam": "Egypt",
       "city": "Dallas",
       "stadium": "AT&T Stadium",
-      "status": "Live",
-      "result": "1–1",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "1–1 (pens 2-4)",
+      "goalEvents": [
+        {
+          "minute": "13'",
+          "team": "Egypt",
+          "player": "Emam Ashour",
+          "playerZh": "埃马姆·阿舒尔"
+        },
+        {
+          "minute": "55'",
+          "team": "Australia",
+          "player": "Mohamed Hany",
+          "playerZh": "穆罕默德·哈尼",
+          "note": "乌龙"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     },
@@ -3680,7 +3694,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-03T19:30:18.604Z",
+    "generatedAt": "2026-07-03T21:30:28.563Z",
     "status": "warning",
     "sources": [
       "matchesio",
