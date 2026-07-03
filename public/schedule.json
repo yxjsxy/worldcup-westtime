@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T01:00:32.669Z",
+  "generatedAt": "2026-07-03T01:31:11.668Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3239,9 +3239,29 @@
       "awayTeam": "Croatia",
       "city": "Toronto",
       "stadium": "BMO Field",
-      "status": "Live",
-      "result": "1–1",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "2–1",
+      "goalEvents": [
+        {
+          "minute": "53'",
+          "team": "Croatia",
+          "player": "Ivan Perisic",
+          "playerZh": "伊万·佩里希奇"
+        },
+        {
+          "minute": "68'",
+          "team": "Portugal",
+          "player": "Cristiano Ronaldo",
+          "playerZh": "克里斯蒂亚诺·罗纳尔多",
+          "note": "点球"
+        },
+        {
+          "minute": "90'+4'",
+          "team": "Portugal",
+          "player": "Gonçalo Ramos",
+          "playerZh": "贡萨洛·拉莫斯"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     },
@@ -3647,7 +3667,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-03T01:00:32.671Z",
+    "generatedAt": "2026-07-03T01:31:11.669Z",
     "status": "warning",
     "sources": [
       "matchesio",
