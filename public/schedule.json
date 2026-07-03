@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T01:31:11.668Z",
+  "generatedAt": "2026-07-03T03:30:21.678Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3279,8 +3279,8 @@
       "awayTeam": "Algeria",
       "city": "Vancouver",
       "stadium": "BC Place",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "1–0",
       "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": false
@@ -3667,7 +3667,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-03T01:31:11.669Z",
+    "generatedAt": "2026-07-03T03:30:21.679Z",
     "status": "warning",
     "sources": [
       "matchesio",
