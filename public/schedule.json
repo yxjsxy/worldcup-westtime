@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T04:30:25.681Z",
+  "generatedAt": "2026-07-03T05:31:19.439Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3279,9 +3279,22 @@
       "awayTeam": "Algeria",
       "city": "Vancouver",
       "stadium": "BC Place",
-      "status": "Live",
+      "status": "Played",
       "result": "2–0",
-      "goalEvents": [],
+      "goalEvents": [
+        {
+          "minute": "10'",
+          "team": "Switzerland",
+          "player": "Breel Embolo",
+          "playerZh": "布雷尔·恩博洛"
+        },
+        {
+          "minute": "46'",
+          "team": "Switzerland",
+          "player": "Dan Ndoye",
+          "playerZh": "丹·恩多耶"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     },
@@ -3667,7 +3680,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-03T04:30:25.681Z",
+    "generatedAt": "2026-07-03T05:31:19.441Z",
     "status": "warning",
     "sources": [
       "matchesio",
