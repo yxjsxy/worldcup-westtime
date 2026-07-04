@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T19:30:57.346Z",
+  "generatedAt": "2026-07-04T21:30:22.168Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3464,8 +3464,8 @@
       "awayTeam": "France",
       "city": "Philadelphia",
       "stadium": "Lincoln Financial Field",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–0",
       "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": false
@@ -3752,7 +3752,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-04T19:30:57.347Z",
+    "generatedAt": "2026-07-04T21:30:22.168Z",
     "status": "ok",
     "sources": [
       "matchesio"
