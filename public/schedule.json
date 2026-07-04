@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T02:31:16.695Z",
+  "generatedAt": "2026-07-04T04:01:12.196Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3398,9 +3398,16 @@
       "awayTeam": "Ghana",
       "city": "Kansas City",
       "stadium": "Arrowhead Stadium",
-      "status": "Live",
+      "status": "Played",
       "result": "1–0",
-      "goalEvents": [],
+      "goalEvents": [
+        {
+          "minute": "14'",
+          "team": "Colombia",
+          "player": "Jhon Arias",
+          "playerZh": "约翰·阿里亚斯"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     },
@@ -3726,7 +3733,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-04T02:31:16.696Z",
+    "generatedAt": "2026-07-04T04:01:12.197Z",
     "status": "warning",
     "sources": [
       "matchesio",

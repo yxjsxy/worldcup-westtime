@@ -87,6 +87,7 @@ const playerNameZh = new Map([
   ["Cyle Larin", "塞尔·拉林"],
   ["Stephen Eustaquio", "斯蒂芬·欧斯塔基奥"],
   ["Damián Bobadilla", "达米安·博瓦迪利亚"],
+  ["Jhon Arias", "约翰·阿里亚斯"],
   ["Folarin Balogun", "弗拉林·巴洛贡"],
   ["Malik Tillman", "马利克·蒂尔曼"],
   ["Auston Trusty", "奥斯顿·特拉斯蒂"],
