@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T01:31:07.625Z",
+  "generatedAt": "2026-07-04T02:00:29.782Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3354,6 +3354,31 @@
           "team": "Argentina",
           "player": "Lionel Messi",
           "playerZh": "莱昂内尔·梅西"
+        },
+        {
+          "minute": "59'",
+          "team": "Cabo Verde",
+          "player": "Deroy Duarte",
+          "playerZh": "德罗伊·杜阿尔特"
+        },
+        {
+          "minute": "92'",
+          "team": "Argentina",
+          "player": "Lisandro Martínez",
+          "playerZh": "利桑德罗·马丁内斯"
+        },
+        {
+          "minute": "103'",
+          "team": "Cabo Verde",
+          "player": "Sidny Cabral",
+          "playerZh": "西德尼·卡布拉尔"
+        },
+        {
+          "minute": "111'",
+          "team": "Argentina",
+          "player": "Diney Borges",
+          "playerZh": "迪内·博尔热斯",
+          "note": "乌龙"
         }
       ],
       "isKnockout": true,
@@ -3373,8 +3398,8 @@
       "awayTeam": "Ghana",
       "city": "Kansas City",
       "stadium": "Arrowhead Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–0",
       "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": false
@@ -3701,7 +3726,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-04T01:31:07.625Z",
+    "generatedAt": "2026-07-04T02:00:29.784Z",
     "status": "warning",
     "sources": [
       "matchesio",
