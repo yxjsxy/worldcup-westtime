@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T18:30:22.777Z",
+  "generatedAt": "2026-07-04T19:30:57.346Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3425,9 +3425,28 @@
       "awayTeam": "Morocco",
       "city": "Houston",
       "stadium": "NRG Stadium",
-      "status": "Live",
-      "result": "0–1",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "0–3",
+      "goalEvents": [
+        {
+          "minute": "50'",
+          "team": "Morocco",
+          "player": "Azzedine Ounahi",
+          "playerZh": "阿泽丁·乌纳希"
+        },
+        {
+          "minute": "82'",
+          "team": "Morocco",
+          "player": "Azzedine Ounahi",
+          "playerZh": "阿泽丁·乌纳希"
+        },
+        {
+          "minute": "90'+8'",
+          "team": "Morocco",
+          "player": "Soufiane Rahimi",
+          "playerZh": "苏菲安·拉希米"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     },
@@ -3733,7 +3752,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-04T18:30:22.778Z",
+    "generatedAt": "2026-07-04T19:30:57.347Z",
     "status": "ok",
     "sources": [
       "matchesio"

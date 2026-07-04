@@ -106,6 +106,7 @@ const playerNameZh = new Map([
   ["Achraf Hakimi", "阿什拉夫·哈基米"],
   ["Wilson Isidor", "威尔逊·伊西多尔"],
   ["Ismael Saibari", "伊斯梅尔·赛巴里"],
+  ["Azzedine Ounahi", "阿泽丁·乌纳希"],
   ["Soufiane Rahimi", "苏菲安·拉希米"],
   ["Gessime Yassine", "杰西姆·亚辛"],
   ["Matheus Cunha", "马特乌斯·库尼亚"],
