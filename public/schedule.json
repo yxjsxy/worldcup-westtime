@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T01:00:17.606Z",
+  "generatedAt": "2026-07-04T01:31:07.625Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3346,9 +3346,16 @@
       "awayTeam": "Cape Verde",
       "city": "Miami",
       "stadium": "Hard Rock Stadium",
-      "status": "Live",
+      "status": "Played",
       "result": "3–2",
-      "goalEvents": [],
+      "goalEvents": [
+        {
+          "minute": "29'",
+          "team": "Argentina",
+          "player": "Lionel Messi",
+          "playerZh": "莱昂内尔·梅西"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     },
@@ -3694,7 +3701,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-04T01:00:17.607Z",
+    "generatedAt": "2026-07-04T01:31:07.625Z",
     "status": "warning",
     "sources": [
       "matchesio",
