@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T23:00:25.943Z",
+  "generatedAt": "2026-07-04T23:30:22.058Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3464,9 +3464,17 @@
       "awayTeam": "France",
       "city": "Philadelphia",
       "stadium": "Lincoln Financial Field",
-      "status": "Live",
+      "status": "Played",
       "result": "0–1",
-      "goalEvents": [],
+      "goalEvents": [
+        {
+          "minute": "70'",
+          "team": "France",
+          "player": "Kylian Mbappé",
+          "playerZh": "基利安·姆巴佩",
+          "note": "点球"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     },
@@ -3752,7 +3760,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-04T23:00:25.944Z",
+    "generatedAt": "2026-07-04T23:30:22.059Z",
     "status": "ok",
     "sources": [
       "matchesio"
