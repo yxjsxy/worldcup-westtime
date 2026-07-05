@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T23:30:22.058Z",
+  "generatedAt": "2026-07-05T18:00:18.505Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3599,24 +3599,24 @@
       "isPlaceholder": false
     },
     {
-      "id": 160066,
+      "id": 186004,
       "competition": "World Cup",
       "season": "2026",
       "matchday": null,
-      "stage": "Quarter-finals",
+      "stage": "Knockout",
       "utcStart": "2026-07-09T20:00:00.000Z",
       "localDate": "2026-07-09",
       "localTime": "13:00",
       "localDay": "Thu, Jul 9",
-      "homeTeam": "TBD Home (Quarter-finals #1)",
-      "awayTeam": "TBD Away (Quarter-finals #1)",
+      "homeTeam": "France",
+      "awayTeam": "Morocco",
       "city": "Boston",
       "stadium": "Gillette Stadium",
       "status": "To be played",
       "result": null,
       "goalEvents": [],
       "isKnockout": true,
-      "isPlaceholder": true
+      "isPlaceholder": false
     },
     {
       "id": 160067,
@@ -3760,7 +3760,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-04T23:30:22.059Z",
+    "generatedAt": "2026-07-05T18:00:18.505Z",
     "status": "ok",
     "sources": [
       "matchesio"
