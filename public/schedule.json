@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T22:00:20.776Z",
+  "generatedAt": "2026-07-05T22:31:14.334Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3492,9 +3492,29 @@
       "awayTeam": "Norway",
       "city": "East Rutherford",
       "stadium": "MetLife Stadium",
-      "status": "Live",
-      "result": "0–1",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "1–2",
+      "goalEvents": [
+        {
+          "minute": "79'",
+          "team": "Norway",
+          "player": "Erling Haaland",
+          "playerZh": "埃尔林·哈兰德"
+        },
+        {
+          "minute": "90'",
+          "team": "Norway",
+          "player": "Erling Haaland",
+          "playerZh": "埃尔林·哈兰德"
+        },
+        {
+          "minute": "90'+10'",
+          "team": "Brazil",
+          "player": "Neymar",
+          "playerZh": "内马尔",
+          "note": "点球"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     },
@@ -3760,7 +3780,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-05T22:00:20.777Z",
+    "generatedAt": "2026-07-05T22:31:14.335Z",
     "status": "ok",
     "sources": [
       "matchesio"

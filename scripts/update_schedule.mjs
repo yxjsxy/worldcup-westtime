@@ -110,6 +110,7 @@ const playerNameZh = new Map([
   ["Soufiane Rahimi", "苏菲安·拉希米"],
   ["Gessime Yassine", "杰西姆·亚辛"],
   ["Matheus Cunha", "马特乌斯·库尼亚"],
+  ["Neymar", "内马尔"],
   ["Vinícius Júnior", "维尼修斯·儒尼奥尔"],
   ["Breel Embolo", "布雷尔·恩博洛"],
   ["Dan Ndoye", "丹·恩多耶"],
