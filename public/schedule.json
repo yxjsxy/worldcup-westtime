@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T20:30:36.378Z",
+  "generatedAt": "2026-07-05T22:00:20.776Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3493,7 +3493,7 @@
       "city": "East Rutherford",
       "stadium": "MetLife Stadium",
       "status": "Live",
-      "result": "0–0",
+      "result": "0–1",
       "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": false
@@ -3760,7 +3760,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-05T20:30:36.379Z",
+    "generatedAt": "2026-07-05T22:00:20.777Z",
     "status": "ok",
     "sources": [
       "matchesio"
