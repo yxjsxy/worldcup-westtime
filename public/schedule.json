@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T18:00:18.505Z",
+  "generatedAt": "2026-07-05T20:30:36.378Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3492,8 +3492,8 @@
       "awayTeam": "Norway",
       "city": "East Rutherford",
       "stadium": "MetLife Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–0",
       "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": false
@@ -3760,7 +3760,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-05T18:00:18.505Z",
+    "generatedAt": "2026-07-05T20:30:36.379Z",
     "status": "ok",
     "sources": [
       "matchesio"
