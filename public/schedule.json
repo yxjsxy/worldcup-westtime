@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T00:30:24.642Z",
+  "generatedAt": "2026-07-06T01:30:19.808Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3524,16 +3524,16 @@
       "season": "2026",
       "matchday": 16,
       "stage": "Round of 16",
-      "utcStart": "2026-07-06T00:00:00.000Z",
+      "utcStart": "2026-07-06T01:00:00.000Z",
       "localDate": "2026-07-05",
-      "localTime": "17:00",
+      "localTime": "18:00",
       "localDay": "Sun, Jul 5",
       "homeTeam": "Mexico",
       "awayTeam": "England",
       "city": "Mexico City",
       "stadium": "Estadio Azteca",
-      "status": "Postponed",
-      "result": null,
+      "status": "Live",
+      "result": "0–0",
       "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": false
@@ -3780,7 +3780,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-06T00:30:24.643Z",
+    "generatedAt": "2026-07-06T01:30:19.808Z",
     "status": "ok",
     "sources": [
       "matchesio"
