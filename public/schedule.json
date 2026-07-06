@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T22:31:14.334Z",
+  "generatedAt": "2026-07-06T00:30:24.642Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3531,8 +3531,8 @@
       "homeTeam": "Mexico",
       "awayTeam": "England",
       "city": "Mexico City",
-      "stadium": "Estadio Banorte",
-      "status": "To be played",
+      "stadium": "Estadio Azteca",
+      "status": "Postponed",
       "result": null,
       "goalEvents": [],
       "isKnockout": true,
@@ -3780,7 +3780,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-05T22:31:14.335Z",
+    "generatedAt": "2026-07-06T00:30:24.643Z",
     "status": "ok",
     "sources": [
       "matchesio"
