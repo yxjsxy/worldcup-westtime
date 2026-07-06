@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T19:30:23.286Z",
+  "generatedAt": "2026-07-06T21:31:24.726Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3585,9 +3585,16 @@
       "awayTeam": "Spain",
       "city": "Dallas",
       "stadium": "AT&T Stadium",
-      "status": "Live",
-      "result": "0–0",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "0–1",
+      "goalEvents": [
+        {
+          "minute": "90'+1'",
+          "team": "Spain",
+          "player": "Mikel Merino",
+          "playerZh": "米克尔·梅里诺"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     },
@@ -3813,7 +3820,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-06T19:30:23.287Z",
+    "generatedAt": "2026-07-06T21:31:24.727Z",
     "status": "ok",
     "sources": [
       "matchesio"
