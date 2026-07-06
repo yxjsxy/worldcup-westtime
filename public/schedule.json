@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T03:00:23.551Z",
+  "generatedAt": "2026-07-06T03:30:23.976Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3532,9 +3532,42 @@
       "awayTeam": "England",
       "city": "Mexico City",
       "stadium": "Estadio Azteca",
-      "status": "Live",
+      "status": "Played",
       "result": "2–3",
-      "goalEvents": [],
+      "goalEvents": [
+        {
+          "minute": "36'",
+          "team": "England",
+          "player": "Jude Bellingham",
+          "playerZh": "裘德·贝林厄姆"
+        },
+        {
+          "minute": "38'",
+          "team": "England",
+          "player": "Jude Bellingham",
+          "playerZh": "裘德·贝林厄姆"
+        },
+        {
+          "minute": "42'",
+          "team": "Mexico",
+          "player": "Julián Quiñones",
+          "playerZh": "胡利安·基尼奥内斯"
+        },
+        {
+          "minute": "60'",
+          "team": "England",
+          "player": "Harry Kane",
+          "playerZh": "哈里·凯恩",
+          "note": "点球"
+        },
+        {
+          "minute": "69'",
+          "team": "Mexico",
+          "player": "Raúl Jiménez",
+          "playerZh": "劳尔·希门尼斯",
+          "note": "点球"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     },
@@ -3780,7 +3813,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-06T03:00:23.551Z",
+    "generatedAt": "2026-07-06T03:30:23.977Z",
     "status": "ok",
     "sources": [
       "matchesio"
