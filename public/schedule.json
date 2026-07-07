@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T18:00:20.084Z",
+  "generatedAt": "2026-07-07T18:31:23.211Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3663,9 +3663,40 @@
       "awayTeam": "Egypt",
       "city": "Atlanta",
       "stadium": "Mercedes-Benz Stadium",
-      "status": "Live",
-      "result": "1–2",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "3–2",
+      "goalEvents": [
+        {
+          "minute": "15'",
+          "team": "Egypt",
+          "player": "Yasser Ibrahim",
+          "playerZh": "亚西尔·易卜拉欣"
+        },
+        {
+          "minute": "67'",
+          "team": "Egypt",
+          "player": "Mostafa Zico",
+          "playerZh": "穆斯塔法·齐科"
+        },
+        {
+          "minute": "79'",
+          "team": "Argentina",
+          "player": "Cristian Romero",
+          "playerZh": "克里斯蒂安·罗梅罗"
+        },
+        {
+          "minute": "83'",
+          "team": "Argentina",
+          "player": "Lionel Messi",
+          "playerZh": "莱昂内尔·梅西"
+        },
+        {
+          "minute": "90'+2'",
+          "team": "Argentina",
+          "player": "Enzo Fernández",
+          "playerZh": "恩佐·费尔南德斯"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     },
@@ -3851,7 +3882,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-07T18:00:20.085Z",
+    "generatedAt": "2026-07-07T18:31:23.212Z",
     "status": "ok",
     "sources": [
       "matchesio"
