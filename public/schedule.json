@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T23:00:25.005Z",
+  "generatedAt": "2026-07-07T23:30:21.493Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3714,8 +3714,8 @@
       "awayTeam": "Colombia",
       "city": "Vancouver",
       "stadium": "BC Place",
-      "status": "To be played",
-      "result": "0–0 (pens 0-1)",
+      "status": "Played",
+      "result": "0–0 (pens 4-3)",
       "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": false
@@ -3882,7 +3882,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-07T23:00:25.006Z",
+    "generatedAt": "2026-07-07T23:30:21.494Z",
     "status": "ok",
     "sources": [
       "matchesio"
