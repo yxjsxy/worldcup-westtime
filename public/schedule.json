@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T21:31:24.726Z",
+  "generatedAt": "2026-07-07T00:30:18.988Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3612,8 +3612,8 @@
       "awayTeam": "Belgium",
       "city": "Seattle",
       "stadium": "Lumen Field",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–1",
       "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": false
@@ -3820,7 +3820,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-06T21:31:24.727Z",
+    "generatedAt": "2026-07-07T00:30:18.989Z",
     "status": "ok",
     "sources": [
       "matchesio"
