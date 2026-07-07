@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T01:00:27.293Z",
+  "generatedAt": "2026-07-07T02:31:22.743Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3612,9 +3612,40 @@
       "awayTeam": "Belgium",
       "city": "Seattle",
       "stadium": "Lumen Field",
-      "status": "Live",
-      "result": "1–2",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "1–4",
+      "goalEvents": [
+        {
+          "minute": "9'",
+          "team": "Belgium",
+          "player": "Charles De Ketelaere",
+          "playerZh": "夏尔·德凯特拉雷"
+        },
+        {
+          "minute": "31'",
+          "team": "United States",
+          "player": "Malik Tillman",
+          "playerZh": "马利克·蒂尔曼"
+        },
+        {
+          "minute": "33'",
+          "team": "Belgium",
+          "player": "Charles De Ketelaere",
+          "playerZh": "夏尔·德凯特拉雷"
+        },
+        {
+          "minute": "57'",
+          "team": "Belgium",
+          "player": "Hans Vanaken",
+          "playerZh": "汉斯·瓦纳肯"
+        },
+        {
+          "minute": "90'+3'",
+          "team": "Belgium",
+          "player": "Romelu Lukaku",
+          "playerZh": "罗梅卢·卢卡库"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     },
@@ -3820,7 +3851,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-07T01:00:27.294Z",
+    "generatedAt": "2026-07-07T02:31:22.744Z",
     "status": "ok",
     "sources": [
       "matchesio"

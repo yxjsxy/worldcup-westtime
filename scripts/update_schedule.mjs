@@ -235,6 +235,8 @@ const playerNameZh = new Map([
   ["Iliman Ndiaye", "伊利曼·恩迪亚耶"],
   ["Mahmoud Saber", "马哈茂德·萨贝尔"],
   ["Leandro Trossard", "莱安德罗·特罗萨德"],
+  ["Charles De Ketelaere", "夏尔·德凯特拉雷"],
+  ["Hans Vanaken", "汉斯·瓦纳肯"],
   ["Kevin De Bruyne", "凯文·德布劳内"],
   ["Romelu Lukaku", "罗梅卢·卢卡库"],
   ["Youri Tielemans", "尤里·蒂莱曼斯"],
