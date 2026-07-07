@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T02:31:22.743Z",
+  "generatedAt": "2026-07-07T18:00:20.084Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3663,8 +3663,8 @@
       "awayTeam": "Egypt",
       "city": "Atlanta",
       "stadium": "Mercedes-Benz Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "1–2",
       "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": false
@@ -3710,24 +3710,24 @@
       "isPlaceholder": false
     },
     {
-      "id": 160067,
+      "id": 186016,
       "competition": "World Cup",
       "season": "2026",
       "matchday": null,
-      "stage": "Quarter-finals",
+      "stage": "Knockout",
       "utcStart": "2026-07-10T19:00:00.000Z",
       "localDate": "2026-07-10",
       "localTime": "12:00",
       "localDay": "Fri, Jul 10",
-      "homeTeam": "TBD Home (Quarter-finals #2)",
-      "awayTeam": "TBD Away (Quarter-finals #2)",
+      "homeTeam": "Spain",
+      "awayTeam": "Belgium",
       "city": "Los Angeles",
       "stadium": "SoFi Stadium",
       "status": "To be played",
       "result": null,
       "goalEvents": [],
       "isKnockout": true,
-      "isPlaceholder": true
+      "isPlaceholder": false
     },
     {
       "id": 186015,
@@ -3851,7 +3851,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-07T02:31:22.744Z",
+    "generatedAt": "2026-07-07T18:00:20.085Z",
     "status": "ok",
     "sources": [
       "matchesio"
