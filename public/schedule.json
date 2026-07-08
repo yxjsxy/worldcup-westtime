@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T23:30:21.493Z",
+  "generatedAt": "2026-07-08T18:01:18.411Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3725,7 +3725,7 @@
       "competition": "World Cup",
       "season": "2026",
       "matchday": null,
-      "stage": "Knockout",
+      "stage": "Quarter-finals",
       "utcStart": "2026-07-09T20:00:00.000Z",
       "localDate": "2026-07-09",
       "localTime": "13:00",
@@ -3745,7 +3745,7 @@
       "competition": "World Cup",
       "season": "2026",
       "matchday": null,
-      "stage": "Knockout",
+      "stage": "Quarter-finals",
       "utcStart": "2026-07-10T19:00:00.000Z",
       "localDate": "2026-07-10",
       "localTime": "12:00",
@@ -3765,7 +3765,7 @@
       "competition": "World Cup",
       "season": "2026",
       "matchday": null,
-      "stage": "Knockout",
+      "stage": "Quarter-finals",
       "utcStart": "2026-07-11T21:00:00.000Z",
       "localDate": "2026-07-11",
       "localTime": "14:00",
@@ -3781,7 +3781,7 @@
       "isPlaceholder": false
     },
     {
-      "id": 160069,
+      "id": 186017,
       "competition": "World Cup",
       "season": "2026",
       "matchday": null,
@@ -3790,15 +3790,15 @@
       "localDate": "2026-07-11",
       "localTime": "18:00",
       "localDay": "Sat, Jul 11",
-      "homeTeam": "TBD Home (Quarter-finals #4)",
-      "awayTeam": "TBD Away (Quarter-finals #4)",
+      "homeTeam": "Argentina",
+      "awayTeam": "Switzerland",
       "city": "Kansas City",
       "stadium": "Arrowhead Stadium",
       "status": "To be played",
       "result": null,
       "goalEvents": [],
       "isKnockout": true,
-      "isPlaceholder": true
+      "isPlaceholder": false
     },
     {
       "id": 160070,
@@ -3882,7 +3882,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-07T23:30:21.494Z",
+    "generatedAt": "2026-07-08T18:01:18.412Z",
     "status": "ok",
     "sources": [
       "matchesio"

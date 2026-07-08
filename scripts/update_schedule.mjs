@@ -401,6 +401,10 @@ function deriveStage(match) {
   if (match.matchday === 8) return "Quarter-finals";
   if (match.matchday === 4) return "Semi-finals";
   if (typeof match.matchday === "number") return `Group stage · Matchday ${match.matchday}`;
+  if (match.date >= "2026-07-09" && match.date <= "2026-07-12") return "Quarter-finals";
+  if (match.date >= "2026-07-14" && match.date <= "2026-07-15") return "Semi-finals";
+  if (match.date === "2026-07-18") return "3rd Place Final";
+  if (match.date === "2026-07-19") return "Final";
   return "Knockout";
 }
 
