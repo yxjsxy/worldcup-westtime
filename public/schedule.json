@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T18:01:18.411Z",
+  "generatedAt": "2026-07-09T20:30:23.705Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3734,8 +3734,8 @@
       "awayTeam": "Morocco",
       "city": "Boston",
       "stadium": "Gillette Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–0",
       "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": false
@@ -3882,7 +3882,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-08T18:01:18.412Z",
+    "generatedAt": "2026-07-09T20:30:23.706Z",
     "status": "ok",
     "sources": [
       "matchesio"
