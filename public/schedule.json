@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T22:00:20.289Z",
+  "generatedAt": "2026-07-09T22:30:14.936Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3734,9 +3734,22 @@
       "awayTeam": "Morocco",
       "city": "Boston",
       "stadium": "Gillette Stadium",
-      "status": "Live",
+      "status": "Played",
       "result": "2–0",
-      "goalEvents": [],
+      "goalEvents": [
+        {
+          "minute": "60'",
+          "team": "France",
+          "player": "Kylian Mbappé",
+          "playerZh": "基利安·姆巴佩"
+        },
+        {
+          "minute": "66'",
+          "team": "France",
+          "player": "Ousmane Dembélé",
+          "playerZh": "奥斯曼·登贝莱"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     },
@@ -3882,7 +3895,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-09T22:00:20.289Z",
+    "generatedAt": "2026-07-09T22:30:14.937Z",
     "status": "ok",
     "sources": [
       "matchesio"
