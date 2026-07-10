@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T18:00:29.612Z",
+  "generatedAt": "2026-07-10T19:30:32.220Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3767,8 +3767,8 @@
       "awayTeam": "Belgium",
       "city": "Los Angeles",
       "stadium": "SoFi Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–0",
       "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": false
@@ -3895,7 +3895,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-10T18:00:29.613Z",
+    "generatedAt": "2026-07-10T19:30:32.220Z",
     "status": "ok",
     "sources": [
       "matchesio"
