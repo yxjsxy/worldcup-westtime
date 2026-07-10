@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T22:30:14.936Z",
+  "generatedAt": "2026-07-10T18:00:29.612Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3823,7 +3823,7 @@
       "localDate": "2026-07-14",
       "localTime": "12:00",
       "localDay": "Tue, Jul 14",
-      "homeTeam": "TBD Home (Semi-finals #1)",
+      "homeTeam": "France",
       "awayTeam": "TBD Away (Semi-finals #1)",
       "city": "Dallas",
       "stadium": "AT&T Stadium",
@@ -3895,7 +3895,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-09T22:30:14.937Z",
+    "generatedAt": "2026-07-10T18:00:29.613Z",
     "status": "ok",
     "sources": [
       "matchesio"
