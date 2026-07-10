@@ -72,6 +72,7 @@ const playerNameZh = new Map([
   ["Mateo Chávez", "马特奥·查韦斯"],
   ["Álvaro Fidalgo", "阿尔瓦罗·菲达尔戈"],
   ["Álex Baena", "阿莱克斯·巴埃纳"],
+  ["Fabián Ruiz", "法比安·鲁伊斯"],
   ["Cristiano Ronaldo", "克里斯蒂亚诺·罗纳尔多"],
   ["Nuno Mendes", "努诺·门德斯"],
   ["Abduvokhid Nematov", "阿卜杜沃希德·内马托夫"],

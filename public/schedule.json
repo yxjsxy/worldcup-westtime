@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T20:30:25.127Z",
+  "generatedAt": "2026-07-10T21:31:19.768Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3767,9 +3767,28 @@
       "awayTeam": "Belgium",
       "city": "Los Angeles",
       "stadium": "SoFi Stadium",
-      "status": "Live",
-      "result": "1–1",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "2–1",
+      "goalEvents": [
+        {
+          "minute": "30'",
+          "team": "Spain",
+          "player": "Fabián Ruiz",
+          "playerZh": "法比安·鲁伊斯"
+        },
+        {
+          "minute": "41'",
+          "team": "Belgium",
+          "player": "Charles De Ketelaere",
+          "playerZh": "夏尔·德凯特拉雷"
+        },
+        {
+          "minute": "88'",
+          "team": "Spain",
+          "player": "Mikel Merino",
+          "playerZh": "米克尔·梅里诺"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     },
@@ -3895,7 +3914,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-10T20:30:25.128Z",
+    "generatedAt": "2026-07-10T21:31:19.769Z",
     "status": "ok",
     "sources": [
       "matchesio"
