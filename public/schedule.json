@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T21:30:21.025Z",
+  "generatedAt": "2026-07-11T22:00:15.663Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3807,7 +3807,7 @@
       "city": "Miami",
       "stadium": "Hard Rock Stadium",
       "status": "Live",
-      "result": "0–0",
+      "result": "1–0",
       "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": false
@@ -3914,7 +3914,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-11T21:30:21.026Z",
+    "generatedAt": "2026-07-11T22:00:15.664Z",
     "status": "ok",
     "sources": [
       "matchesio"
