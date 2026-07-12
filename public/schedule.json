@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T01:30:22.907Z",
+  "generatedAt": "2026-07-12T03:00:32.995Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3846,7 +3846,7 @@
       "city": "Kansas City",
       "stadium": "Arrowhead Stadium",
       "status": "Live",
-      "result": "1–0",
+      "result": "1–1",
       "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": false
@@ -3933,7 +3933,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-12T01:30:22.908Z",
+    "generatedAt": "2026-07-12T03:00:32.996Z",
     "status": "ok",
     "sources": [
       "matchesio"
