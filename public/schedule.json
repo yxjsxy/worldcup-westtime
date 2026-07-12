@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T03:00:32.995Z",
+  "generatedAt": "2026-07-12T04:31:25.338Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3845,9 +3845,34 @@
       "awayTeam": "Switzerland",
       "city": "Kansas City",
       "stadium": "Arrowhead Stadium",
-      "status": "Live",
-      "result": "1–1",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "3–1",
+      "goalEvents": [
+        {
+          "minute": "10'",
+          "team": "Argentina",
+          "player": "Alexis Mac Allister",
+          "playerZh": "亚历克西斯·麦卡利斯特"
+        },
+        {
+          "minute": "67'",
+          "team": "Switzerland",
+          "player": "Dan Ndoye",
+          "playerZh": "丹·恩多耶"
+        },
+        {
+          "minute": "112'",
+          "team": "Argentina",
+          "player": "Julián Alvarez",
+          "playerZh": "胡利安·阿尔瓦雷斯"
+        },
+        {
+          "minute": "120'+1'",
+          "team": "Argentina",
+          "player": "Lautaro Martínez",
+          "playerZh": "劳塔罗·马丁内斯"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     },
@@ -3933,7 +3958,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-12T03:00:32.996Z",
+    "generatedAt": "2026-07-12T04:31:25.339Z",
     "status": "ok",
     "sources": [
       "matchesio"
