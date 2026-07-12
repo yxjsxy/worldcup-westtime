@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T04:31:25.338Z",
+  "generatedAt": "2026-07-12T18:00:20.784Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3897,7 +3897,7 @@
       "isPlaceholder": false
     },
     {
-      "id": 160071,
+      "id": 186093,
       "competition": "World Cup",
       "season": "2026",
       "matchday": null,
@@ -3906,15 +3906,15 @@
       "localDate": "2026-07-15",
       "localTime": "12:00",
       "localDay": "Wed, Jul 15",
-      "homeTeam": "TBD Home (Semi-finals #2)",
-      "awayTeam": "TBD Away (Semi-finals #2)",
+      "homeTeam": "England",
+      "awayTeam": "Argentina",
       "city": "Atlanta",
       "stadium": "Mercedes-Benz Stadium",
       "status": "To be played",
       "result": null,
       "goalEvents": [],
       "isKnockout": true,
-      "isPlaceholder": true
+      "isPlaceholder": false
     },
     {
       "id": 160072,
@@ -3958,7 +3958,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-12T04:31:25.339Z",
+    "generatedAt": "2026-07-12T18:00:20.785Z",
     "status": "ok",
     "sources": [
       "matchesio"
