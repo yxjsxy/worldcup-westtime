@@ -211,6 +211,7 @@ const playerNameZh = new Map([
   ["Petar Musa", "佩塔尔·穆萨"],
   ["Petar Sucic", "佩塔尔·苏契奇"],
   ["Ivan Perisic", "伊万·佩里希奇"],
+  ["Andreas Schjelderup", "安德烈亚斯·谢尔德鲁普"],
   ["Gonçalo Ramos", "贡萨洛·拉莫斯"],
   ["Derrick Luckassen", "德里克·卢卡森"],
   ["Nikola Vlasic", "尼古拉·弗拉希奇"],

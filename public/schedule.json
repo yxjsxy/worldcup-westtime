@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T23:30:19.138Z",
+  "generatedAt": "2026-07-12T00:31:05.975Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3806,9 +3806,28 @@
       "awayTeam": "England",
       "city": "Miami",
       "stadium": "Hard Rock Stadium",
-      "status": "Live",
+      "status": "Played",
       "result": "1–2",
-      "goalEvents": [],
+      "goalEvents": [
+        {
+          "minute": "36'",
+          "team": "Norway",
+          "player": "Andreas Schjelderup",
+          "playerZh": "安德烈亚斯·谢尔德鲁普"
+        },
+        {
+          "minute": "45'+2'",
+          "team": "England",
+          "player": "Jude Bellingham",
+          "playerZh": "裘德·贝林厄姆"
+        },
+        {
+          "minute": "93'",
+          "team": "England",
+          "player": "Jude Bellingham",
+          "playerZh": "裘德·贝林厄姆"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     },
@@ -3914,7 +3933,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-11T23:30:19.139Z",
+    "generatedAt": "2026-07-12T00:31:05.976Z",
     "status": "ok",
     "sources": [
       "matchesio"
