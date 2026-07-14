@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T20:30:31.431Z",
+  "generatedAt": "2026-07-14T21:30:21.316Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3890,9 +3890,23 @@
       "awayTeam": "Spain",
       "city": "Arlington",
       "stadium": "Dallas Stadium",
-      "status": "Live",
-      "result": "0–3",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "0–2",
+      "goalEvents": [
+        {
+          "minute": "22'",
+          "team": "Spain",
+          "player": "Mikel Oyarzabal",
+          "playerZh": "米克尔·奥亚萨瓦尔",
+          "note": "点球"
+        },
+        {
+          "minute": "58'",
+          "team": "Spain",
+          "player": "Pedro Porro",
+          "playerZh": "佩德罗·波罗"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     },
@@ -3958,7 +3972,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-14T20:30:31.432Z",
+    "generatedAt": "2026-07-14T21:30:21.317Z",
     "status": "ok",
     "sources": [
       "matchesio"
