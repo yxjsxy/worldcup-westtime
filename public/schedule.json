@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T18:00:20.784Z",
+  "generatedAt": "2026-07-14T19:30:28.213Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3890,8 +3890,8 @@
       "awayTeam": "Spain",
       "city": "Dallas",
       "stadium": "AT&T Stadium",
-      "status": "To be played",
-      "result": null,
+      "status": "Live",
+      "result": "0–1",
       "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": false
@@ -3958,7 +3958,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-12T18:00:20.785Z",
+    "generatedAt": "2026-07-14T19:30:28.213Z",
     "status": "ok",
     "sources": [
       "matchesio"
