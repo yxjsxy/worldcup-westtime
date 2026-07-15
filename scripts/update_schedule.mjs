@@ -208,6 +208,7 @@ const playerNameZh = new Map([
   ["Yazan Al Arab", "亚赞·阿拉伯"],
   ["Marko Arnautovic", "马尔科·阿瑙托维奇"],
   ["Harry Kane", "哈里·凯恩"],
+  ["Anthony Gordon", "安东尼·戈登"],
   ["Ante Budimir", "安特·布迪米尔"],
   ["Martin Baturina", "马丁·巴图里纳"],
   ["Petar Musa", "佩塔尔·穆萨"],

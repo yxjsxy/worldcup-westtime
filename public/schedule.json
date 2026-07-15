@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T20:30:22.245Z",
+  "generatedAt": "2026-07-15T21:31:18.596Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3924,9 +3924,28 @@
       "awayTeam": "Argentina",
       "city": "Atlanta",
       "stadium": "Mercedes-Benz Stadium",
-      "status": "Live",
-      "result": "1–0",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "1–2",
+      "goalEvents": [
+        {
+          "minute": "55'",
+          "team": "England",
+          "player": "Anthony Gordon",
+          "playerZh": "安东尼·戈登"
+        },
+        {
+          "minute": "85'",
+          "team": "Argentina",
+          "player": "Enzo Fernández",
+          "playerZh": "恩佐·费尔南德斯"
+        },
+        {
+          "minute": "90'+2'",
+          "team": "Argentina",
+          "player": "Lautaro Martínez",
+          "playerZh": "劳塔罗·马丁内斯"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     },
@@ -3972,7 +3991,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-15T20:30:22.246Z",
+    "generatedAt": "2026-07-15T21:31:18.597Z",
     "status": "ok",
     "sources": [
       "matchesio"
