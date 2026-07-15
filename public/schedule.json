@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T21:30:21.316Z",
+  "generatedAt": "2026-07-15T18:00:22.390Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3940,7 +3940,7 @@
       "localDate": "2026-07-18",
       "localTime": "14:00",
       "localDay": "Sat, Jul 18",
-      "homeTeam": "TBD Home (3rd Place Final #1)",
+      "homeTeam": "France",
       "awayTeam": "TBD Away (3rd Place Final #1)",
       "city": "Miami",
       "stadium": "Hard Rock Stadium",
@@ -3960,7 +3960,7 @@
       "localDate": "2026-07-19",
       "localTime": "12:00",
       "localDay": "Sun, Jul 19",
-      "homeTeam": "TBD Home (Final #1)",
+      "homeTeam": "Spain",
       "awayTeam": "TBD Away (Final #1)",
       "city": "New York New Jersey",
       "stadium": "MetLife Stadium",
@@ -3972,7 +3972,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-14T21:30:21.317Z",
+    "generatedAt": "2026-07-15T18:00:22.390Z",
     "status": "ok",
     "sources": [
       "matchesio"
