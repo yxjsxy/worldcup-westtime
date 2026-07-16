@@ -401,15 +401,15 @@ function deriveStage(match) {
   const label = `${match.homeTeam || ""} ${match.awayTeam || ""}`;
   const knockout = label.match(/\((Round of 32|Round of 16|Quarter-finals|Semi-finals|3rd Place Final|Final) #?\d*\)/);
   if (knockout) return knockout[1];
+  if (match.date >= "2026-07-09" && match.date <= "2026-07-12") return "Quarter-finals";
+  if (match.date >= "2026-07-14" && match.date <= "2026-07-15") return "Semi-finals";
+  if (match.date === "2026-07-18") return "3rd Place Final";
+  if (match.date === "2026-07-19") return "Final";
   if (match.matchday === 32) return "Round of 32";
   if (match.matchday === 16) return "Round of 16";
   if (match.matchday === 8) return "Quarter-finals";
   if (match.matchday === 4) return "Semi-finals";
   if (typeof match.matchday === "number") return `Group stage · Matchday ${match.matchday}`;
-  if (match.date >= "2026-07-09" && match.date <= "2026-07-12") return "Quarter-finals";
-  if (match.date >= "2026-07-14" && match.date <= "2026-07-15") return "Semi-finals";
-  if (match.date === "2026-07-18") return "3rd Place Final";
-  if (match.date === "2026-07-19") return "Final";
   return "Knockout";
 }
 

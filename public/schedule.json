@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T21:31:18.596Z",
+  "generatedAt": "2026-07-16T05:01:47.939Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3950,27 +3950,27 @@
       "isPlaceholder": false
     },
     {
-      "id": 160072,
+      "id": 199073,
       "competition": "World Cup",
       "season": "2026",
-      "matchday": null,
+      "matchday": 3,
       "stage": "3rd Place Final",
       "utcStart": "2026-07-18T21:00:00.000Z",
       "localDate": "2026-07-18",
       "localTime": "14:00",
       "localDay": "Sat, Jul 18",
       "homeTeam": "France",
-      "awayTeam": "TBD Away (3rd Place Final #1)",
+      "awayTeam": "England",
       "city": "Miami",
       "stadium": "Hard Rock Stadium",
       "status": "To be played",
       "result": null,
       "goalEvents": [],
       "isKnockout": true,
-      "isPlaceholder": true
+      "isPlaceholder": false
     },
     {
-      "id": 160073,
+      "id": 199074,
       "competition": "World Cup",
       "season": "2026",
       "matchday": null,
@@ -3980,18 +3980,18 @@
       "localTime": "12:00",
       "localDay": "Sun, Jul 19",
       "homeTeam": "Spain",
-      "awayTeam": "TBD Away (Final #1)",
+      "awayTeam": "Argentina",
       "city": "New York New Jersey",
       "stadium": "MetLife Stadium",
       "status": "To be played",
       "result": null,
       "goalEvents": [],
       "isKnockout": true,
-      "isPlaceholder": true
+      "isPlaceholder": false
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-15T21:31:18.597Z",
+    "generatedAt": "2026-07-16T05:01:47.939Z",
     "status": "ok",
     "sources": [
       "matchesio"
