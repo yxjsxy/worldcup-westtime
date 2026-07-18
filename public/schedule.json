@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T05:01:47.939Z",
+  "generatedAt": "2026-07-18T21:30:19.756Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3962,9 +3962,9 @@
       "homeTeam": "France",
       "awayTeam": "England",
       "city": "Miami",
-      "stadium": "Hard Rock Stadium",
-      "status": "To be played",
-      "result": null,
+      "stadium": "Hard Rock Stadium, Miami Garden",
+      "status": "Live",
+      "result": "0–2",
       "goalEvents": [],
       "isKnockout": true,
       "isPlaceholder": false
@@ -3991,7 +3991,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-16T05:01:47.939Z",
+    "generatedAt": "2026-07-18T21:30:19.757Z",
     "status": "ok",
     "sources": [
       "matchesio"
