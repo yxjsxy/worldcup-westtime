@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T19:30:27.631Z",
+  "generatedAt": "2026-07-19T22:31:10.859Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -4045,15 +4045,22 @@
       "awayTeam": "Argentina",
       "city": "East Rutherford",
       "stadium": "MetLife Stadium",
-      "status": "Live",
-      "result": "0–0",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "1–0",
+      "goalEvents": [
+        {
+          "minute": "106'",
+          "team": "Spain",
+          "player": "Ferran Torres",
+          "playerZh": "费兰·托雷斯"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-19T19:30:27.631Z",
+    "generatedAt": "2026-07-19T22:31:10.859Z",
     "status": "ok",
     "sources": [
       "matchesio"
