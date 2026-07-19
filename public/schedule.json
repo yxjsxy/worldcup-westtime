@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T22:30:28.776Z",
+  "generatedAt": "2026-07-19T00:31:28.853Z",
   "timezone": "America/Los_Angeles",
   "source": "matchesio World Cup 2026 JSON export",
   "sourceUrl": "https://www.matchesio.com/competition/world-cup/export/json/",
@@ -3963,9 +3963,71 @@
       "awayTeam": "England",
       "city": "Miami",
       "stadium": "Hard Rock Stadium, Miami Garden",
-      "status": "Live",
-      "result": "0–4",
-      "goalEvents": [],
+      "status": "Played",
+      "result": "4–6",
+      "goalEvents": [
+        {
+          "minute": "3'",
+          "team": "England",
+          "player": "Declan Rice",
+          "playerZh": "德克兰·赖斯"
+        },
+        {
+          "minute": "18'",
+          "team": "England",
+          "player": "Ezri Konsa",
+          "playerZh": "埃兹里·孔萨"
+        },
+        {
+          "minute": "37'",
+          "team": "England",
+          "player": "Bukayo Saka",
+          "playerZh": "布卡约·萨卡"
+        },
+        {
+          "minute": "45'+1'",
+          "team": "England",
+          "player": "Bukayo Saka",
+          "playerZh": "布卡约·萨卡"
+        },
+        {
+          "minute": "48'",
+          "team": "France",
+          "player": "Kylian Mbappé",
+          "playerZh": "基利安·姆巴佩"
+        },
+        {
+          "minute": "54'",
+          "team": "France",
+          "player": "Bradley Barcola",
+          "playerZh": "布拉德利·巴尔科拉"
+        },
+        {
+          "minute": "66'",
+          "team": "France",
+          "player": "Kylian Mbappé",
+          "playerZh": "基利安·姆巴佩"
+        },
+        {
+          "minute": "87'",
+          "team": "England",
+          "player": "Bukayo Saka",
+          "playerZh": "布卡约·萨卡",
+          "note": "点球"
+        },
+        {
+          "minute": "90'+6'",
+          "team": "France",
+          "player": "Ousmane Dembélé",
+          "playerZh": "奥斯曼·登贝莱"
+        },
+        {
+          "minute": "90'+8'",
+          "team": "England",
+          "player": "Jude Bellingham",
+          "playerZh": "裘德·贝林厄姆"
+        }
+      ],
       "isKnockout": true,
       "isPlaceholder": false
     },
@@ -3991,7 +4053,7 @@
     }
   ],
   "sourceHealth": {
-    "generatedAt": "2026-07-18T22:30:28.777Z",
+    "generatedAt": "2026-07-19T00:31:28.854Z",
     "status": "ok",
     "sources": [
       "matchesio"
